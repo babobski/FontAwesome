@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+
+<prefwindow id="FontAwsome-prefs"
+     title="FontAwsome Preferences"
+	 xmlns:html="http://www.w3.org/1999/xhtml"
+     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	
+	<prefpane id="FontAwsome-pane" label="FontAwsome Preferences">
+		<preferences>
+			<preference id="pref_typeInsert" name="extensions.FontAwsome.typeInsert" type="string"/>
+		</preferences>
+	  
+		<label value="How to insert the font awsome icon."/>
+		<menulist id="insert" preference="pref_typeInsert">
+			<menupopup>
+				<menuitem value="auto" label="Auto: insert depending on file, on css,sass,scss,less files the escaped value is inserted."/>
+				<menuitem value="full" label="Full: Insert tag with class"/>
+				<menuitem value="class" label="Class: Insert only the class name"/>
+				<menuitem value="css" label="CSS: Insert escaped css value"/>
+			</menupopup>
+		</menulist>
+	</prefpane>
+
+</prefwindow>
