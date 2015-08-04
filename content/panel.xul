@@ -45,19 +45,25 @@
 
 <page xmlns:html="http://www.w3.org/1999/xhtml" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 	<html:script type="application/x-javascript" src="chrome://FontAwsome/content/overlay.js" />
-	<vbox id="FontAwsome-first-tabpanel-vbox" flex="1" align="left" class="toolbar-box">
-		<vbox align="left" id="FontAwsome-tabpanel-vbox">
-			<button class="addCDN" label="Add CDN" onclick="addCDN()"/>
-			<button class="openSettings" label="Setttings" onclick="openSettings();"/>
-			<spacer flex="1"></spacer>
-			<radiogroup id="selectedOption" onclick="changeOption();">
-				<radio value="auto" label="Auto" />
-				<radio value="full" label="Full tag" />
-				<radio value="class" label="Only class" />
-				<radio value="css" label="css escaped value" />
-			</radiogroup>
-		</vbox>
-
+	<vbox id="FontAwsome-first-tabpanel-vbox" align="left" class="toolbar-box">
+		<grid flex="1">
+			<columns>
+				<column flex="2"/>
+				<column flex="1"/>
+			</columns>
+			<rows>
+				<row>
+					<button class="addCDN" label="Add CDN" onclick="insertCDN()"/><button class="addCDN" label="insert font family" onclick="insertFF()"/>
+				</row>
+				<row>
+					<button class="openSettings" label="Setttings" onclick="openSettings();"/>
+				</row>
+			</rows>
+		</grid>
+	</vbox>
+	
+	<vbox id="FontAwsome-second-tabpanel-vbox" flex="1" align="left" class="toolbar-box">
+		
 		<html:div class="font-fa">
 			<html:h2 class="page-header">66 New Icons4.4</html:h2>
 			<html:i class="fa fa-500px" tooltip="fa-500px" onclick="FontAwsome_insert('fa-500px', '26e');"></html:i>
