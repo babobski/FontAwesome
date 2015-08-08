@@ -1,4 +1,4 @@
-content FontAwsome content/
-overlay chrome://komodo/content/komodo.xul chrome://FontAwsome/content/overlay.xul
+content FontAwesome content/
+overlay chrome://komodo/content/komodo.xul chrome://FontAwesome/content/overlay.xul
 #overlay chrome://komodo/content/pref/pref-html.xul chrome://FontAwsome/content/pref-overlay.xul
-skin FontAwsome classic/1.0 skin/
+skin FontAwesome classic/1.0 skin/

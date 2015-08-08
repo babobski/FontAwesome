@@ -3,16 +3,16 @@
      xmlns:em="http://www.mozilla.org/2004/em-rdf#">
     <Description about="urn:mozilla:install-manifest">
 		<em:unpack>true</em:unpack>
-        <em:id>FontAwsome@babobski.com</em:id>
-        <em:name>FontAwsome</em:name>
+        <em:id>FontAwesome@babobski.com</em:id>
+        <em:name>FontAwesome</em:name>
         <em:version>1.0</em:version>
         <em:description>a FontAwsome side panel</em:description>
         <em:creator>Bob de Haas</em:creator>
-		<em:iconURL>chrome://FontAwsome/content/FontAwsome-icon.png</em:iconURL>
+		<em:iconURL>chrome://FontAwesome/content/FontAwesome-icon.png</em:iconURL>
         <em:homepageURL></em:homepageURL>
         <em:type>2</em:type> <!-- type=extension -->
 
-		<em:optionsURL>chrome://FontAwsome/content/pref-overlay.xul</em:optionsURL>
+		<em:optionsURL>chrome://FontAwesome/content/pref-overlay.xul</em:optionsURL>
 
         <em:targetApplication>
             <Description>

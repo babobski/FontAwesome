@@ -1,8 +1,8 @@
-.FontAwsome-clear {
+.FontAwesome-clear {
 	clear: both;
 }
 
-.FontAwsome-box_title {
+.FontAwesome-box_title {
 	display: block;
 	padding-bottom: 5px;
 	font-weight: bold;
@@ -10,7 +10,7 @@
 }
 
 .font-fa,
-#FontAwsome-first-tabpanel-vbox {
+#FontAwesome-first-tabpanel-vbox {
 	padding: 10px;
 }
 
@@ -24,8 +24,8 @@
 	margin-top: -10px;
 }
 
-#FontAwsome-second-tabpanel-vbox .font-fa button,
-#FontAwsome-second-tabpanel-vbox .font-fa button:hover {
+#FontAwesome-second-tabpanel-vbox .font-fa button,
+#FontAwesome-second-tabpanel-vbox .font-fa button:hover {
 	background: none;
 	background-image: none !important;
 	border: 1px solid rgba(0, 0, 0, 0.4) !important;
@@ -42,7 +42,7 @@
 	cursor: pointer;
 }
 
-#FontAwsome-second-tabpanel-vbox .font-fa button:hover {
+#FontAwesome-second-tabpanel-vbox .font-fa button:hover {
 	background: rgba(0, 0, 0, 0.4) !important;
 	color: white;
 	border: 1px solid rgba(0, 0, 0, 0.4);
@@ -62,7 +62,7 @@
 	cursor: pointer;
 }
 
-#FontAwsome-second-tabpanel-vbox {
+#FontAwesome-second-tabpanel-vbox {
 	overflow: auto;
 }
 

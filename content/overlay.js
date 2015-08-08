@@ -2,22 +2,22 @@
  * Namespaces
  */
 if (typeof(extensions) === 'undefined') extensions = {};
-if (typeof(extensions.FontAwsome) === 'undefined') extensions.FontAwsome = {
+if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 	version: '2.5.0'
 };
 
 (function() {
 	var self = this,
 		prefs = Components.classes["@mozilla.org/preferences-service;1"]
-		.getService(Components.interfaces.nsIPrefService).getBranch("extensions.FontAwsome.");
+		.getService(Components.interfaces.nsIPrefService).getBranch("extensions.FontAwesome.");
 
-	if (!('FontAwsome' in ko)) ko.extensions = {};
-	var myExt = "FontAwsome@babobski.com";
+	if (!('FontAwesome' in ko)) ko.extensions = {};
+	var myExt = "FontAwesome@babobski.com";
 	if (!(myExt in ko.extensions)) ko.extensions[myExt] = {};
 	if (!('myapp' in ko.extensions[myExt])) ko.extensions[myExt].myapp = {};
-	var FontAwsomeData = ko.extensions[myExt].myapp;
+	var FontAwesomeData = ko.extensions[myExt].myapp;
 
-	FontAwsome_insert = function(icon, unicode) {
+	FontAwesome_insert = function(icon, unicode) {
 		var typeInsert = prefs.getCharPref('typeInsert');
 		var entity = '';
 
@@ -72,7 +72,7 @@ if (typeof(extensions.FontAwsome) === 'undefined') extensions.FontAwsome = {
 
 	openSettings = function() {
 		var features = "chrome,titlebar,toolbar,centerscreen,modal";
-		window.openDialog('chrome://FontAwsome/content/pref-overlay.xul', "FontAwsome", features);
+		window.openDialog('chrome://FontAwesome/content/pref-overlay.xul', "FontAwesome", features);
 	}
 
 	insertCDN = function() {
@@ -100,4 +100,4 @@ if (typeof(extensions.FontAwsome) === 'undefined') extensions.FontAwsome = {
 	}
 
 
-}).apply(extensions.FontAwsome);
+}).apply(extensions.FontAwesome);

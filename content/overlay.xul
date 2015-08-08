@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" ?>
-<overlay id="FontAwsome" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
-	<script type="application/x-javascript" src="chrome://FontAwsome/content/overlay.js" />
+<overlay id="FontAwesome" xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	<script type="application/x-javascript" src="chrome://FontAwesome/content/overlay.js" />
 
 
 	<ko-pane id="workspace_right_area">
-    <browser type="ko-widget" id="FontAwsomeViewbox" label="Font Awsome"
+    <browser type="ko-widget" id="FontAwesomeViewbox" label="Font Awesome"
              position="10" insertbefore="codebrowserviewbox"
              tab_oncommand=""
              tab_onfocus=""
-	         src="chrome://FontAwsome/content/panel.xul"/>
+	         src="chrome://FontAwesome/content/panel.xul"/>
   </ko-pane>
 </overlay>
