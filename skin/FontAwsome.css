@@ -20,26 +20,47 @@
 	font-family: 'Ariel', 'Helvetica', sans-serif;
 }
 
-.font-fa i {
-	height: 24px;
-	width: 24px;
-	border: 1px solid rgba(0, 0, 0, 0.4);
-	display: inline-block;
-	text-align: center;
-	padding: 3px;
-	margin: 1px;
-	font-size: 15px;
-	line-height: 24px;
-	transition: all 200ms ease;
+.font-fa h2.first {
+	margin-top: 0;
 }
 
-.font-fa i:hover {
-	background: rgba(0, 0, 0, 0.4);
-	color: white;
-	border: 1px solid rgba(0, 0, 0, 0.4);
+#FontAwsome-second-tabpanel-vbox .font-fa button,
+#FontAwsome-second-tabpanel-vbox .font-fa button:hover {
+	background: none;
+	background-image: none !important;
+	border: 1px solid rgba(0, 0, 0, 0.4) !important;
+	border-radius: 0;
+	padding: 0 !important;
+	margin: 1px !important;
+	min-width: 0;
+	min-height: 0;
+	height: 30px !important;
+	width: 30px !important;
+	display: inline-block !important;
+	box-shadow: none;
+	-moz-appearance: none;
 	cursor: pointer;
 }
 
+#FontAwsome-second-tabpanel-vbox .font-fa button:hover {
+	background: rgba(0, 0, 0, 0.4) !important;
+	color: white;
+	border: 1px solid rgba(0, 0, 0, 0.4);
+}
+
+.font-fa a {
+	display: inline-block;
+}
+
+.font-fa i {
+	display: inline-block;
+	text-align: center;
+	margin: 0px;
+	font-size: 15px;
+	line-height: 26px;
+	transition: all 200ms ease;
+	cursor: pointer;
+}
 
 #FontAwsome-second-tabpanel-vbox {
 	overflow: auto;
