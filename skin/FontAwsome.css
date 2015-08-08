@@ -20,8 +20,8 @@
 	font-family: 'Ariel', 'Helvetica', sans-serif;
 }
 
-.font-fa h2.first {
-	margin-top: 0;
+.font-fa h2:first-of-type {
+	margin-top: -10px;
 }
 
 #FontAwsome-second-tabpanel-vbox .font-fa button,

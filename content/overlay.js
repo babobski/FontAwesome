@@ -27,6 +27,7 @@ if (typeof(extensions.FontAwsome) === 'undefined') extensions.FontAwsome = {
 			var scimoz = ko.views.manager.currentView.scimoz;
 			scimoz.insertText(scimoz.currentPos, entity);
 			scimoz.gotoPos(scimoz.currentPos + entity.length);
+			ko.views.manager.currentView.setFocus();
 		} catch (ex) {
 			alert(ex);
 		}
@@ -80,6 +81,7 @@ if (typeof(extensions.FontAwsome) === 'undefined') extensions.FontAwsome = {
 			var scimoz = ko.views.manager.currentView.scimoz;
 			scimoz.insertText(scimoz.currentPos, CDN);
 			scimoz.gotoPos(scimoz.currentPos + CDN.length);
+			ko.views.manager.currentView.setFocus();
 		} catch (ex) {
 			alert(ex);
 		}
@@ -91,6 +93,7 @@ if (typeof(extensions.FontAwsome) === 'undefined') extensions.FontAwsome = {
 			var scimoz = ko.views.manager.currentView.scimoz;
 			scimoz.insertText(scimoz.currentPos, FF);
 			scimoz.gotoPos(scimoz.currentPos + FF.length);
+			ko.views.manager.currentView.setFocus();
 		} catch (ex) {
 			alert(ex);
 		}
