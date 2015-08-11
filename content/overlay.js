@@ -25,6 +25,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 
 		try {
 			var scimoz = ko.views.manager.currentView.scimoz;
+			scimoz.replaceSel('');
 			scimoz.insertText(scimoz.currentPos, entity);
 			scimoz.gotoPos(scimoz.currentPos + entity.length);
 			ko.views.manager.currentView.setFocus();
