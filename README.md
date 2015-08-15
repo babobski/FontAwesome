@@ -16,5 +16,5 @@ This will insert the tag <code>&lt;i class="fa fa-icon"&gt;&lt;/i&gt;</code>
 <b>Class: Insert only the class name</b>  
 This will only insert the class <code>fa fa-icon</code>
 
-<b>CSS: Insert escaped css value</b>
+<b>CSS: Insert escaped css value</b>  
 This will insert the escaped css value <code>\f25b</code>
