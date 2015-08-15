@@ -80,6 +80,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 		try {
 			var CDN = '//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css';
 			var scimoz = ko.views.manager.currentView.scimoz;
+			scimoz.replaceSel('');
 			scimoz.insertText(scimoz.currentPos, CDN);
 			scimoz.gotoPos(scimoz.currentPos + CDN.length);
 			ko.views.manager.currentView.setFocus();
@@ -92,6 +93,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 		try {
 			var FF = 'font-family: \'FontAwesome\';';
 			var scimoz = ko.views.manager.currentView.scimoz;
+			scimoz.replaceSel('');
 			scimoz.insertText(scimoz.currentPos, FF);
 			scimoz.gotoPos(scimoz.currentPos + FF.length);
 			ko.views.manager.currentView.setFocus();
