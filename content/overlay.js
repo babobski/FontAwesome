@@ -30,7 +30,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			scimoz.gotoPos(scimoz.currentPos + entity.length);
 			ko.views.manager.currentView.setFocus();
 		} catch (ex) {
-			alert(ex);
+			alert('No file selected');
 		}
 
 	}
@@ -85,7 +85,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			scimoz.gotoPos(scimoz.currentPos + CDN.length);
 			ko.views.manager.currentView.setFocus();
 		} catch (ex) {
-			alert(ex);
+			alert('No file selected');
 		}
 	}
 	
@@ -98,7 +98,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			scimoz.gotoPos(scimoz.currentPos + FF.length);
 			ko.views.manager.currentView.setFocus();
 		} catch (ex) {
-			alert(ex);
+			alert('No file selected');
 		}
 	}
 

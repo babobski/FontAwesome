@@ -3,7 +3,26 @@ This addon adds a Font Awesome right-sidebar to Komodo edit/ide you can easily a
 Just click on the icon of your choice and the icon will be inserted.
 
 ## screenshot
+<table border="0" style="width:100%;">
+<tr>
+<td>
+<strong>1. Add cdn</strong>  
+This will insert the cdn  
+<code>//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css</code>
+<br><br>
+<strong>2. Insert font family</strong>  
+<code>font-family: 'FontAwsome';</code>
+<br><br>
+<strong>3. Settings</strong>  
+This will open the settings dialog,  
+the settings are described below
+</td>
+<td align="right">
 ![screenshot](screenshot.png)
+</td>
+</tr>
+</table>
+
 
 ## Settings
 <b>Auto: insert depending on file, on css,sass,scss,less files the escaped value is inserted.</b>  

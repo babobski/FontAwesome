@@ -65,7 +65,7 @@
 	<vbox id="FontAwesome-second-tabpanel-vbox" flex="1" align="left" class="toolbar-box">
 
 		<html:div class="font-fa">
-			            <html:h2 class="page-header">66 New Icons4.4</html:h2>
+			            <html:h2 class="page-header">66 New Icons in 4.4</html:h2>
             <button onclick="FontAwesome_insert('fa-500px', '26e');" tooltiptext="fa fa-500px" id="fa-500px">
                 <html:i class="fa fa-500px"></html:i>
             </button>
@@ -2638,7 +2638,7 @@
                 <html:i class="fa fa-youtube-play"></html:i>
             </button>
             <button onclick="FontAwesome_insert('fa-youtube-square', '166');" tooltiptext="fa fa-youtube-square" id="fa-youtube-square">
-                <html:i class="fa fa-youtube-square"></html:i><i class="fa fa-black-tie"></i>
+                <html:i class="fa fa-youtube-square"></html:i>
             </button>
             <html:p>
                 All brand icons are trademarks of their respective owners.<html:br />
