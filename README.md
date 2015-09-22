@@ -17,7 +17,7 @@ the settings are described below
 
 
 
-## Settings
+### Settings
 <b>Auto: insert depending on file, on css,sass,scss,less files the escaped value is inserted.</b>  
 This function will insert the html fontAwesome tag except when editing style-files (css, scss, sass, less) then the escaped value will be inserted.  
 So you can use the fontAwsome icons in <code>:before</code> and <code>:after</code> (examples can be found <a href="https://css-tricks.com/five-use-cases-for-icon-fonts/" target="_blank">here</a>).
