@@ -18,6 +18,9 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 	var FontAwesomeData = ko.extensions[myExt].myapp;
 
 	FontAwesome_insert = function(icon, unicode) {
+		if (ko.views.manager.currentView == undefined) {
+			return;
+		}
 		var typeInsert = prefs.getCharPref('typeInsert');
 		var entity = '';
 
@@ -77,6 +80,10 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 	}
 
 	insertCDN = function() {
+		if (ko.views.manager.currentView == undefined) {
+			return;
+		}
+		
 		try {
 			var CDN = '//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css';
 			var scimoz = ko.views.manager.currentView.scimoz;
@@ -90,6 +97,10 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 	}
 	
 	insertFF = function() {
+		if (ko.views.manager.currentView == undefined) {
+			return;
+		}
+		
 		try {
 			var FF = 'font-family: \'FontAwesome\';';
 			var scimoz = ko.views.manager.currentView.scimoz;
