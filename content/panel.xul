@@ -1232,8 +1232,8 @@
 			<button onclick="FontAwesome_insert('fa-trash', '26e');" tooltiptext="fa fa-trash" id="fa-trash">
 				<html:span class="fa fa-trash"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('trash-o', '26e');" tooltiptext="fa trash-o" id="trash-o">
-				<html:span class="fa trash-o"></html:span>
+			<button onclick="FontAwesome_insert('trash-o', '26e');" tooltiptext="fa fa-trash-o" id="trash-o">
+				<html:span class="fa fa-trash-o"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-tree', '26e');" tooltiptext="fa fa-tree" id="fa-tree">
 				<html:span class="fa fa-tree"></html:span>
