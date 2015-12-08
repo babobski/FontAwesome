@@ -8,6 +8,7 @@
              position="10" insertbefore="codebrowserviewbox"
              tab_oncommand=""
              tab_onfocus=""
+			 icon="koicon://ko-svg/chrome/icomoon/skin/key-A.svg"
 	         src="chrome://FontAwesome/content/panel.xul"/>
   </ko-pane>
 </overlay>

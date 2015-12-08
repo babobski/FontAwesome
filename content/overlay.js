@@ -73,6 +73,11 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 
 		return result;
 	}
+	
+	autoCompleteInsert = function(completion){
+		var icon = 'fa-' + completion.value;
+		FontAwesome_insert(icon, 'a26');
+	}
 
 	openSettings = function() {
 		var features = "chrome,titlebar,toolbar,centerscreen,modal";
@@ -85,7 +90,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 		}
 		
 		try {
-			var CDN = '//maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css';
+			var CDN = '//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css';
 			var scimoz = ko.views.manager.currentView.scimoz;
 			scimoz.replaceSel('');
 			scimoz.insertText(scimoz.currentPos, CDN);

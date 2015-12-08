@@ -2,3 +2,5 @@ content FontAwesome content/
 overlay chrome://komodo/content/komodo.xul chrome://FontAwesome/content/overlay.xul
 #overlay chrome://komodo/content/pref/pref-html.xul chrome://FontAwsome/content/pref-overlay.xul
 skin FontAwesome classic/1.0 skin/
+component {EBA0BA32-9C30-11E5-95E4-FF541D5D46B0} components/fa_autocomplete.js
+contract @mozilla.org/autocomplete/search;1?name=simple-autocomplete {EBA0BA32-9C30-11E5-95E4-FF541D5D46B0}
