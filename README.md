@@ -14,6 +14,8 @@ This will insert the cdn
 <strong>3. Settings</strong>  
 This will open the settings dialog,  
 the settings are described below
+<strong>4. Search function</strong>
+Here you can search for your font awesome icon (without the fa-)
 
 
 
