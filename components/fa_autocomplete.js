@@ -156,11 +156,11 @@ SimpleAutoCompleteSearch.prototype = {
     // as the source of match data. Any values that match the search string
     // are moved into temporary arrays and passed to the AutoCompleteResult
     if (searchParam.length > 0) {
-      var nativeJSON = Components.classes["@mozilla.org/dom/json;1"].createInstance(Ci.nsIJSON);
-      var searchResults = nativeJSON.decode(searchParam);
+      //var nativeJSON = Components.classes["@mozilla.org/dom/json;1"].createInstance(Ci.nsIJSON);
+     // var searchResults = nativeJSON.decode(searchParam);
       // These 2 lines above are for Thunderbird < v7
       // Since Thunderbird 3, they can be replaced more efficiently by the following line:
-      // var searchResults = JSON.parse(searchParam);
+       var searchResults = JSON.parse(searchParam);
 
       var results = [];
       var comments = [];
