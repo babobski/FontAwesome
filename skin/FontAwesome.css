@@ -38,6 +38,10 @@
 	cursor: pointer;
 }
 
+#FontAwesome-second-tabpanel-vbox .font-fa button.none {
+	display: none !important;
+}
+
 .font-fa a {
 	display: inline-block;
 }
@@ -74,4 +78,14 @@
 
 #FontAwesomeSearch {
 	padding-bottom: 5px;
+}
+
+.font-fa.insearch {
+	padding-top: 110px;
+}
+
+
+.font-fa.insearch h2,
+.font-fa.insearch p {
+	display: none !important;
 }

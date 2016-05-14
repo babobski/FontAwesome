@@ -3,7 +3,7 @@
  */
 if (typeof(extensions) === 'undefined') extensions = {};
 if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
-	version: '1.3'
+	version: '1.4'
 };
 
 (function() {
@@ -32,6 +32,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			scimoz.replaceSel('');
 			scimoz.insertText(scimoz.currentPos, entity);
 			scimoz.gotoPos(scimoz.currentPos + entity.length);
+			clearSearch();
 			ko.views.manager.currentView.setFocus();
 		} catch (ex) {
 			alert('No file selected');
@@ -111,7 +112,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			fa_stop_circle_o: "28e",
 			fa_usb: "287",
 			fa_adjust: "042",
-			fa_anchor: "f13d",
+			fa_anchor: "13d",
 			fa_archive: "187",
 			fa_area_chart: "1fe",
 			fa_arrows: "047",
@@ -163,12 +164,12 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			fa_calendar: "073",
 			fa_calendar_check_o: "274",
 			fa_calendar_minus_o: "272",
-			fa_calendar_o: "f133",
+			fa_calendar_o: "133",
 			fa_calendar_plus_o: "271",
 			fa_calendar_times_o: "273",
 			fa_camera: "030",
 			fa_camera_retro: "083",
-			fa_car: "f1b9",
+			fa_car: "1b9",
 			fa_caret_square_o_down: "150",
 			fa_caret_square_o_left: "191",
 			fa_caret_square_o_right: "152",
@@ -378,6 +379,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			fa_puzzle_piece: "12e",
 			fa_qrcode: "029",
 			fa_question: "128",
+			fa_question_circle: "059",
 			fa_quote_left: "10d",
 			fa_quote_right: "10e",
 			fa_random: "074",
@@ -477,7 +479,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			fa_umbrella: "173",
 			fa_university: "19c",
 			fa_unlock: "09c",
-			fa_unlock_alt: "f13e",
+			fa_unlock_alt: "13e",
 			fa_unsorted: "0dc",
 			fa_upload: "093",
 			fa_user: "287",
@@ -530,7 +532,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			fa_paypal: "1ed",
 			fa_bitcoin: "15a",
 			fa_btc: "15a",
-			fa_cny: "f157",
+			fa_cny: "157",
 			fa_dollar: "155",
 			fa_eur: "153",
 			fa_euro: "153",
@@ -575,7 +577,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			fa_list: "03a",
 			fa_list_alt: "022",
 			fa_list_ol: "0cb",
-			fa_list_ul: "f0ca",
+			fa_list_ul: "0ca",
 			fa_outdent: "03b",
 			fa_paperclip: "0c6",
 			fa_paragraph: "1dd",
@@ -594,7 +596,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			fa_th: "00a",
 			fa_th_large: "009",
 			fa_th_list: "00b",
-			fa_underline: "f0cd",
+			fa_underline: "0cd",
 			fa_undo: "0e2",
 			fa_unlink: "127",
 			fa_angle_double_down: "103",
@@ -648,7 +650,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			fa_step_backward: "048",
 			fa_step_forward: "051",
 			fa_stop: "04d",
-			fa_youtube_play: "f16a",
+			fa_youtube_play: "16a",
 			fa_500px: "26e",
 			fa_adn: "170",
 			fa_amazon: "270",
@@ -696,10 +698,10 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			fa_gittip: "184",
 			fa_google: "1a0",
 			fa_google_plus: "0d5",
-			fa_google_plus_square: "f0d4",
+			fa_google_plus_square: "0d4",
 			fa_gratipay: "184",
 			fa_hacker_news: "1d4",
-			fa_houzz: "f27c",
+			fa_houzz: "27c",
 			fa_html5: "13b",
 			fa_instagram: "16d",
 			fa_internet_explorer: "26b",
@@ -784,6 +786,41 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			fa_medkit: "0fa",
 			fa_stethoscope: "0f1",
 			fa_user_md: "0f0",
+			fa_american_sign_language_interpreting: "2A3",
+			fa_asl_interpreting: "2A3",
+			fa_assistive_listening_systems: "2A2",
+			fa_audio_description: "29E",
+			fa_blind: "29D",
+			fa_braille: "2A1",
+			fa_deaf: "2A4",
+			fa_deafness: "2A4",
+			fa_envira: "299",
+			fa_fa: "2B4",
+			fa_first_order: "2B0",
+			fa_font_awesome: "2B4",
+			fa_gitlab: "296",
+			fa_glide: "2A5",
+			fa_glide_g: "2A6",
+			fa_google_plus_circle: "2B3",
+			fa_google_plus_official: "2B3",
+			fa_hard_of_hearing: "2A4",
+			fa_instagram: "16D",
+			fa_low_vision: "2A8",
+			fa_pied_piper: "2AE",
+			fa_question_circle_o: "29C",
+			fa_sign_language: "2A7",
+			fa_signing: "2A7",
+			fa_snapchat: "2AB",
+			fa_snapchat_ghost: "2AC",
+			fa_snapchat_square: "2AD",
+			fa_themeisle: "2B2",
+			fa_universal_access: "29A",
+			fa_viadeo: "2A9",
+			fa_viadeo_square: "2AA",
+			fa_volume_control_phone: "2A0",
+			fa_wheelchair_alt: "29B",
+			fa_wpbeginner: "297",
+			fa_wpforms: "298",
 		}
 		
 		return matchValues[matchIcon];
@@ -795,7 +832,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 		}
 		
 		try {
-			var CDN = '//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css';
+			var CDN = '//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css';
 			var scimoz = ko.views.manager.currentView.scimoz;
 			scimoz.replaceSel('');
 			scimoz.insertText(scimoz.currentPos, CDN);
@@ -822,6 +859,53 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			alert('No file selected');
 		}
 	}
+	
+	clearSearch = function(){
+		var input = document.getElementById('text1');
+		var font_wrapper = document.getElementById('font_fa');
+		var fa_buttoms = font_wrapper.getElementsByTagName('button');
+		
+		input.value = '';
+		for (var i = 0; i < fa_buttoms.length; i++) {
+			var childClasses = fa_buttoms[i].childNodes[0].classList;
+			if (childClasses.length > 1) {
+				if (fa_buttoms[i].classList.contains('none')) {
+					fa_buttoms[i].classList.remove('none');
+				}
+			}
+		}
+		
+		font_wrapper.classList.remove('insearch');
+	}
+	
+	searchIcon = function(e) {
+			
+			var font_wrapper = document.getElementById('font_fa');
+			var fa_buttoms = font_wrapper.getElementsByTagName('button');
+			var $val = e.target.value;
+			var searchValue = 'fa-' + $val;
+			
+			for (var i = 0; i < fa_buttoms.length; i++) {
+				var childClasses = fa_buttoms[i].childNodes[0].classList;
+				if (childClasses.length > 1) {
+					if (childClasses[1].indexOf(searchValue) !== -1) {
+						if (fa_buttoms[i].classList.contains('none')) {
+							fa_buttoms[i].classList.remove('none');
+						}
+					} else {
+						fa_buttoms[i].classList.add('none');
+					}
+				}
+			}
+			
+			if ($val.length > 0) {
+				if (!font_wrapper.classList.contains('insearch')) {
+					font_wrapper.classList.add('insearch');
+				}
+			} else {
+				font_wrapper.classList.remove('insearch');
+			}
+		}
 
 
 }).apply(extensions.FontAwesome);

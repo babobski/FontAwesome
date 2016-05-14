@@ -64,7 +64,7 @@
 		<label>
 			Search icon
 		</label>
-		<textbox id="text1" type="autocomplete" autocompletesearch="simple-autocomplete" ontextentered="autoCompleteInsert(this);" showcommentcolumn="true"
+		<textbox id="text1" type="autocomplete" autocompletesearch="simple-autocomplete" oninput="searchIcon(event)" onblur="clearSearch()" ontextentered="autoCompleteInsert(this);" showcommentcolumn="true"
          autocompletesearchparam='[{"value":"codiepie","comment":"fa-codiepie"},
          {"value":"credit-card-alt","comment":"fa-credit-card-alt"},
          {"value":"edge","comment":"fa-edge"},
@@ -846,77 +846,164 @@
          {"value":"plus-square","comment":"fa-plus-square"},
          {"value":"stethoscope","comment":"fa-stethoscope"},
          {"value":"user-md","comment":"fa-user-md"},
+		 {"value":"american-sign-language-interpreting","comment":"fa-american-sign-language-interpreting"},
+		 {"value":"asl-interpreting","comment":"fa-asl-interpreting"},
+		 {"value":"assistive-listening-systems","comment":"fa-assistive-listening-systems"},
+		 {"value":"audio-description","comment":"fa-audio-description"},
+		 {"value":"blind","comment":"fa-blind"},
+		 {"value":"deaf","comment":"fa-deaf"},
+		 {"value":"deafness","comment":"fa-deafness"},
+		 {"value":"envira","comment":"fa-envira"},
+		 {"value":"fa","comment":"fa-fa"},
+		 {"value":"first-order","comment":"fa-first-order"},
+		 {"value":"font-awesome","comment":"fa-font-awesome"},
+		 {"value":"gitlab","comment":"fa-gitlab"},
+		 {"value":"glide","comment":"fa-glide"},
+		 {"value":"glide-g","comment":"fa-glide-g"},
+		 {"value":"google-plus-circle","comment":"fa-google-plus-circle"},
+		 {"value":"google-plus-official","comment":"fa-google-plus-official"},
+		 {"value":"hard-of-hearing","comment":"fa-hard-of-hearing"},
+		 {"value":"instagram","comment":"fa-instagram"},
+		 {"value":"low-vision","comment":"fa-low-vision"},
+		 {"value":"pied-piper","comment":"fa-pied-piper"},
+		 {"value":"question-circle-o","comment":"fa-question-circle-o"},
+		 {"value":"sign-language","comment":"fa-sign-language"},
+		 {"value":"signing","comment":"fa-signing"},
+		 {"value":"snapchat","comment":"fa-snapchat"},
+		 {"value":"snapchat-ghost","comment":"fa-snapchat-ghost"},
+		 {"value":"snapchat-square","comment":"fa-snapchat-square"},
+		 {"value":"themeisle","comment":"fa-themeisle"},
+		 {"value":"universal-access","comment":"fa-universal-access"},
+		 {"value":"viadeo","comment":"fa-viadeo"},
+		 {"value":"viadeo-square","comment":"fa-viadeo-square"},
+		 {"value":"volume-control-phone","comment":"fa-volume-control-phone"},
+		 {"value":"wheelchair-alt","comment":"fa-wheelchair-alt"},
+		 {"value":"wpbeginner","comment":"fa-wpbeginner"},
+		 {"value":"wpforms","comment":"fa-wpforms"},
+		 {"value":"yoast","comment":"fa-yoast"},
          {"value":"wheelchair","comment":"fa-wheelchair"}]' />
 	</vbox>
 
 	<vbox id="FontAwesome-second-tabpanel-vbox" flex="1" align="left" class="toolbar-box">
 
-		<html:div class="font-fa">
-			<html:h2 class="page-header">20 New Icons in 4.5</html:h2>
-			<button onclick="FontAwesome_insert('fa-bluetooth');" tooltiptext="fa fa-bluetooth" id="fa-bluetooth">
-				<html:span class="fa fa-bluetooth"></html:span>
+		<html:div class="font-fa" id="font_fa">
+			<html:h2 class="page-header">30 New Icons in 4.6</html:h2>
+			<button onclick="FontAwesome_insert('fa-american-sign-language-interpreting');" tooltiptext="fa fa-american-sign-language-interpreting" id="fa-american-sign-language-interpreting">
+				<html:span class="fa fa-american-sign-language-interpreting"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-bluetooth-b');" tooltiptext="fa fa-bluetooth-b" id="fa-bluetooth-b">
-				<html:span class="fa fa-bluetooth-b"></html:span>
+			<button onclick="FontAwesome_insert('fa-asl-interpreting');" tooltiptext="fa fa-asl-interpreting" id="fa-asl-interpreting">
+				<html:span class="fa fa-asl-interpreting"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-codiepie');" tooltiptext="fa fa-codiepie" id="fa-codiepie">
-				<html:span class="fa fa-codiepie"></html:span>
+			<button onclick="FontAwesome_insert('fa-assistive-listening-systems');" tooltiptext="fa fa-assistive-listening-systems" id="fa-assistive-listening-systems">
+				<html:span class="fa fa-assistive-listening-systems"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-credit-card-alt');" tooltiptext="fa fa-credit-card-alt" id="fa-credit-card-alt">
-				<html:span class="fa fa-credit-card-alt"></html:span>
+			<button onclick="FontAwesome_insert('fa-audio-description');" tooltiptext="fa fa-audio-description" id="fa-audio-description">
+				<html:span class="fa fa-audio-description"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-edge');" tooltiptext="fa fa-edge" id="fa-edge">
-				<html:span class="fa fa-edge"></html:span>
+			<button onclick="FontAwesome_insert('fa-blind');" tooltiptext="fa fa-blind" id="fa-blind">
+				<html:span class="fa fa-blind"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-fort-awesome');" tooltiptext="fa fa-fort-awesome" id="fa-fort-awesome">
-				<html:span class="fa fa-fort-awesome"></html:span>
+			<button onclick="FontAwesome_insert('fa-braille');" tooltiptext="fa fa-braille" id="fa-braille">
+				<html:span class="fa fa-braille"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-hashtag');" tooltiptext="fa fa-hashtag" id="fa-hashtag">
-				<html:span class="fa fa-hashtag"></html:span>
+			<button onclick="FontAwesome_insert('fa-deaf');" tooltiptext="fa fa-deaf" id="fa-deaf">
+				<html:span class="fa fa-deaf"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-mixcloud');" tooltiptext="fa fa-mixcloud" id="fa-mixcloud">
-				<html:span class="fa fa-mixcloud"></html:span>
+			<button onclick="FontAwesome_insert('fa-deafness');" tooltiptext="fa fa-deafness" id="fa-deafness">
+				<html:span class="fa fa-deafness"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-modx');" tooltiptext="fa fa-modx" id="fa-modx">
-				<html:span class="fa fa-modx"></html:span>
+			<button onclick="FontAwesome_insert('fa-envira');" tooltiptext="fa fa-envira" id="fa-envira">
+				<html:span class="fa fa-envira"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-pause-circle');" tooltiptext="fa fa-pause-circle" id="fa-pause-circle">
-				<html:span class="fa fa-pause-circle"></html:span>
+			<button onclick="FontAwesome_insert('fa-fa');" tooltiptext="fa fa-fa" id="fa-fa">
+				<html:span class="fa fa-fa"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-pause-circle-o');" tooltiptext="fa fa-pause-circle-o" id="fa-pause-circle-o">
-				<html:span class="fa fa-pause-circle-o"></html:span>
+			<button onclick="FontAwesome_insert('fa-first-order');" tooltiptext="fa fa-first-order" id="fa-first-order">
+				<html:span class="fa fa-first-order"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-percent');" tooltiptext="fa fa-percent" id="fa-percent">
-				<html:span class="fa fa-percent"></html:span>
+			<button onclick="FontAwesome_insert('fa-font-awesome');" tooltiptext="fa fa-font-awesome" id="fa-font-awesome">
+				<html:span class="fa fa-font-awesome"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-product-hunt');" tooltiptext="fa fa-product-hunt" id="fa-product-hunt">
-				<html:span class="fa fa-product-hunt"></html:span>
+			<button onclick="FontAwesome_insert('fa-gitlab');" tooltiptext="fa fa-gitlab" id="fa-gitlab">
+				<html:span class="fa fa-gitlab"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-reddit-alien');" tooltiptext="fa fa-reddit-alien" id="fa-reddit-alien">
-				<html:span class="fa fa-reddit-alien"></html:span>
+			<button onclick="FontAwesome_insert('fa-glide');" tooltiptext="fa fa-glide" id="fa-glide">
+				<html:span class="fa fa-glide"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-scribd');" tooltiptext="fa fa-scribd" id="fa-scribd">
-				<html:span class="fa fa-scribd"></html:span>
+			<button onclick="FontAwesome_insert('fa-glide-g');" tooltiptext="fa fa-glide-g" id="fa-glide-g">
+				<html:span class="fa fa-glide-g"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-shopping-bag');" tooltiptext="fa fa-shopping-bag" id="fa-shopping-bag">
-				<html:span class="fa fa-shopping-bag"></html:span>
+			<button onclick="FontAwesome_insert('fa-google-plus-circle');" tooltiptext="fa fa-google-plus-circle" id="fa-google-plus-circle">
+				<html:span class="fa fa-google-plus-circle"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-shopping-basket');" tooltiptext="fa fa-shopping-basket" id="fa-shopping-basket">
-				<html:span class="fa fa-shopping-basket"></html:span>
+			<button onclick="FontAwesome_insert('fa-google-plus-official');" tooltiptext="fa fa-google-plus-official" id="fa-google-plus-official">
+				<html:span class="fa fa-google-plus-official"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-stop-circle');" tooltiptext="fa fa-stop-circle" id="fa-stop-circle">
-				<html:span class="fa fa-stop-circle"></html:span>
+			<button onclick="FontAwesome_insert('fa-hard-of-hearing');" tooltiptext="fa fa-hard-of-hearing" id="fa-hard-of-hearing">
+				<html:span class="fa fa-hard-of-hearing"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-stop-circle-o');" tooltiptext="fa fa-stop-circle-o" id="fa-stop-circle-o">
-				<html:span class="fa fa-stop-circle-o"></html:span>
+			<button onclick="FontAwesome_insert('fa-instagram');" tooltiptext="fa fa-instagram" id="fa-instagram">
+				<html:span class="fa fa-instagram"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-usb');" tooltiptext="fa fa-usb" id="fa-usb">
-				<html:span class="fa fa-usb"></html:span>
+			<button onclick="FontAwesome_insert('fa-low-vision');" tooltiptext="fa fa-low-vision" id="fa-low-vision">
+				<html:span class="fa fa-low-vision"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-pied-piper');" tooltiptext="fa fa-pied-piper" id="fa-pied-piper">
+				<html:span class="fa fa-pied-piper"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-question-circle-o');" tooltiptext="fa fa-question-circle-o" id="fa-question-circle-o">
+				<html:span class="fa fa-question-circle-o"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-sign-language');" tooltiptext="fa fa-sign-language" id="fa-sign-language">
+				<html:span class="fa fa-sign-language"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-signing');" tooltiptext="fa fa-signing" id="fa-signing">
+				<html:span class="fa fa-signing"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-snapchat');" tooltiptext="fa fa-snapchat" id="fa-snapchat">
+				<html:span class="fa fa-snapchat"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-snapchat-ghost');" tooltiptext="fa fa-snapchat-ghost" id="fa-snapchat-ghost">
+				<html:span class="fa fa-snapchat-ghost"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-snapchat-square');" tooltiptext="fa fa-snapchat-square" id="fa-snapchat-square">
+				<html:span class="fa fa-snapchat-square"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-themeisle');" tooltiptext="fa fa-themeisle" id="fa-themeisle">
+				<html:span class="fa fa-themeisle"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-universal-access');" tooltiptext="fa fa-universal-access" id="fa-universal-access">
+				<html:span class="fa fa-universal-access"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-viadeo');" tooltiptext="fa fa-viadeo" id="fa-viadeo">
+				<html:span class="fa fa-viadeo"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-viadeo-square');" tooltiptext="fa fa-viadeo-square" id="fa-viadeo-square">
+				<html:span class="fa fa-viadeo-square"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-volume-control-phone');" tooltiptext="fa fa-volume-control-phone" id="fa-volume-control-phone">
+				<html:span class="fa fa-volume-control-phone"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-wheelchair-alt');" tooltiptext="fa fa-wheelchair-alt" id="fa-wheelchair-alt">
+				<html:span class="fa fa-wheelchair-alt"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-wpbeginner');" tooltiptext="fa fa-wpbeginner" id="fa-wpbeginner">
+				<html:span class="fa fa-wpbeginner"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-wpforms');" tooltiptext="fa fa-wpforms" id="fa-wpforms">
+				<html:span class="fa fa-wpforms"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-yoast');" tooltiptext="fa fa-yoast" id="fa-yoast">
+				<html:span class="fa fa-yoast"></html:span>
+			</button>
+		
 			
             <html:h2 class="page-header">Web Application Icons</html:h2>
 			<button onclick="FontAwesome_insert('fa-adjust');" tooltiptext="fa fa-adjust" id="fa-adjust">
 				<html:span class="fa fa-adjust"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-american-sign-language-interpreting');" tooltiptext="fa fa-american-sign-language-interpreting" id="fa-american-sign-language-interpreting">
+				<html:span class="fa fa-american-sign-language-interpreting"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-anchor');" tooltiptext="fa fa-anchor" id="fa-anchor">
 				<html:span class="fa fa-anchor"></html:span>
@@ -936,11 +1023,20 @@
 			<button onclick="FontAwesome_insert('fa-arrows-v');" tooltiptext="fa fa-arrows-v" id="fa-arrows-v">
 				<html:span class="fa fa-arrows-v"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-asl-interpreting');" tooltiptext="fa fa-asl-interpreting" id="fa-asl-interpreting">
+				<html:span class="fa fa-asl-interpreting"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-assistive-listening-systems');" tooltiptext="fa fa-assistive-listening-systems" id="fa-assistive-listening-systems">
+				<html:span class="fa fa-assistive-listening-systems"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-asterisk');" tooltiptext="fa fa-asterisk" id="fa-asterisk">
 				<html:span class="fa fa-asterisk"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-at');" tooltiptext="fa fa-at" id="fa-at">
 				<html:span class="fa fa-at"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-audio-description');" tooltiptext="fa fa-audio-description" id="fa-audio-description">
+				<html:span class="fa fa-audio-description"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-automobile');" tooltiptext="fa fa-automobile" id="fa-automobile">
 				<html:span class="fa fa-automobile"></html:span>
@@ -1023,6 +1119,9 @@
 			<button onclick="FontAwesome_insert('fa-birthday-cake');" tooltiptext="fa fa-birthday-cake" id="fa-birthday-cake">
 				<html:span class="fa fa-birthday-cake"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-blind');" tooltiptext="fa fa-blind" id="fa-blind">
+				<html:span class="fa fa-blind"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-bluetooth');" tooltiptext="fa fa-bluetooth" id="fa-bluetooth">
 				<html:span class="fa fa-bluetooth"></html:span>
 			</button>
@@ -1043,6 +1142,9 @@
 			</button>
 			<button onclick="FontAwesome_insert('fa-bookmark-o');" tooltiptext="fa fa-bookmark-o" id="fa-bookmark-o">
 				<html:span class="fa fa-bookmark-o"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-braille');" tooltiptext="fa fa-braille" id="fa-braille">
+				<html:span class="fa fa-braille"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-briefcase');" tooltiptext="fa fa-briefcase" id="fa-briefcase">
 				<html:span class="fa fa-briefcase"></html:span>
@@ -1235,6 +1337,12 @@
 			</button>
 			<button onclick="FontAwesome_insert('fa-database');" tooltiptext="fa fa-database" id="fa-database">
 				<html:span class="fa fa-database"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-deaf');" tooltiptext="fa fa-deaf" id="fa-deaf">
+				<html:span class="fa fa-deaf"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-deafness');" tooltiptext="fa fa-deafness" id="fa-deafness">
+				<html:span class="fa fa-deafness"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-desktop');" tooltiptext="fa fa-desktop" id="fa-desktop">
 				<html:span class="fa fa-desktop"></html:span>
@@ -1449,6 +1557,9 @@
 			<button onclick="FontAwesome_insert('fa-hand-stop-o');" tooltiptext="fa fa-hand-stop-o" id="fa-hand-stop-o">
 				<html:span class="fa fa-hand-stop-o"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-hard-of-hearing');" tooltiptext="fa fa-hard-of-hearing" id="fa-hard-of-hearing">
+				<html:span class="fa fa-hard-of-hearing"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert(' fa-hashtag');" tooltiptext="fa  fa-hashtag" id=" fa-hashtag">
 				<html:span class="fa fa-hashtag"></html:span>
 			</button>
@@ -1571,6 +1682,9 @@
 			</button>
 			<button onclick="FontAwesome_insert('fa-lock');" tooltiptext="fa fa-lock" id="fa-lock">
 				<html:span class="fa fa-lock"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-low-vision');" tooltiptext="fa fa-low-vision" id="fa-low-vision">
+				<html:span class="fa fa-low-vision"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-magic');" tooltiptext="fa fa-magic" id="fa-magic">
 				<html:span class="fa fa-magic"></html:span>
@@ -1734,8 +1848,11 @@
 			<button onclick="FontAwesome_insert('fa-question');" tooltiptext="fa fa-question" id="fa-question">
 				<html:span class="fa fa-question"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-question');" tooltiptext="fa fa-question" id="fa-question">
-				<html:span class="fa fa-question"></html:span>
+			<button onclick="FontAwesome_insert('fa-question-circle');" tooltiptext="fa fa-question-circle" id="fa-question-circle">
+				<html:span class="fa fa-question-circle"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-question-circle-o');" tooltiptext="fa fa-question-circle-o" id="fa-question-circle-o">
+				<html:span class="fa fa-question-circle-o"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-quote-left');" tooltiptext="fa fa-quote-left" id="fa-quote-left">
 				<html:span class="fa fa-quote-left"></html:span>
@@ -1833,11 +1950,17 @@
 			<button onclick="FontAwesome_insert('fa-sign-in');" tooltiptext="fa fa-sign-in" id="fa-sign-in">
 				<html:span class="fa fa-sign-in"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-sign-language');" tooltiptext="fa fa-sign-language" id="fa-sign-language">
+				<html:span class="fa fa-sign-language"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-sign-out');" tooltiptext="fa fa-sign-out" id="fa-sign-out">
 				<html:span class="fa fa-sign-out"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-signal');" tooltiptext="fa fa-signal" id="fa-signal">
 				<html:span class="fa fa-signal"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-signing');" tooltiptext="fa fa-signing" id="fa-signing">
+				<html:span class="fa fa-signing"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-sitemap');" tooltiptext="fa fa-sitemap" id="fa-sitemap">
 				<html:span class="fa fa-sitemap"></html:span>
@@ -2034,6 +2157,9 @@
 			<button onclick="FontAwesome_insert('fa-umbrella');" tooltiptext="fa fa-umbrella" id="fa-umbrella">
 				<html:span class="fa fa-umbrella"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-universal-access');" tooltiptext="fa fa-universal-access" id="fa-universal-access">
+				<html:span class="fa fa-universal-access"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-university');" tooltiptext="fa fa-university" id="fa-university">
 				<html:span class="fa fa-university"></html:span>
 			</button>
@@ -2067,6 +2193,9 @@
 			<button onclick="FontAwesome_insert('fa-video-camera');" tooltiptext="fa fa-video-camera" id="fa-video-camera">
 				<html:span class="fa fa-video-camera"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-volume-control-phone');" tooltiptext="fa fa-volume-control-phone" id="fa-volume-control-phone">
+				<html:span class="fa fa-volume-control-phone"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-volume-down');" tooltiptext="fa fa-volume-down" id="fa-volume-down">
 				<html:span class="fa fa-volume-down"></html:span>
 			</button>
@@ -2082,13 +2211,74 @@
 			<button onclick="FontAwesome_insert('fa-wheelchair');" tooltiptext="fa fa-wheelchair" id="fa-wheelchair">
 				<html:span class="fa fa-wheelchair"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-wheelchair-alt');" tooltiptext="fa fa-wheelchair-alt" id="fa-wheelchair-alt">
+				<html:span class="fa fa-wheelchair-alt"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-wifi');" tooltiptext="fa fa-wifi" id="fa-wifi">
 				<html:span class="fa fa-wifi"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-wrench');" tooltiptext="fa fa-wrench" id="fa-wrench">
 				<html:span class="fa fa-wrench"></html:span>
 			</button>
-
+			
+			<html:h2 class="page-header">Accessibility Icons</html:h2>
+			<button onclick="FontAwesome_insert('fa-american-sign-language-interpreting');" tooltiptext="fa fa-american-sign-language-interpreting" id="fa-american-sign-language-interpreting">
+				<html:span class="fa fa-american-sign-language-interpreting"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-asl-interpreting');" tooltiptext="fa fa-asl-interpreting" id="fa-asl-interpreting">
+				<html:span class="fa fa-asl-interpreting"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-assistive-listening-systems');" tooltiptext="fa fa-assistive-listening-systems" id="fa-assistive-listening-systems">
+				<html:span class="fa fa-assistive-listening-systems"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-audio-description');" tooltiptext="fa fa-audio-description" id="fa-audio-description">
+				<html:span class="fa fa-audio-description"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-blind');" tooltiptext="fa fa-blind" id="fa-blind">
+				<html:span class="fa fa-blind"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-braille');" tooltiptext="fa fa-braille" id="fa-braille">
+				<html:span class="fa fa-braille"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-cc');" tooltiptext="fa fa-cc" id="fa-cc">
+				<html:span class="fa fa-cc"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-deaf');" tooltiptext="fa fa-deaf" id="fa-deaf">
+				<html:span class="fa fa-deaf"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-deafness');" tooltiptext="fa fa-deafness" id="fa-deafness">
+				<html:span class="fa fa-deafness"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-hard-of-hearing');" tooltiptext="fa fa-hard-of-hearing" id="fa-hard-of-hearing">
+				<html:span class="fa fa-hard-of-hearing"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-low-vision');" tooltiptext="fa fa-low-vision" id="fa-low-vision">
+				<html:span class="fa fa-low-vision"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-question-circle-o');" tooltiptext="fa fa-question-circle-o" id="fa-question-circle-o">
+				<html:span class="fa fa-question-circle-o"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-sign-language');" tooltiptext="fa fa-sign-language" id="fa-sign-language">
+				<html:span class="fa fa-sign-language"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-signing');" tooltiptext="fa fa-signing" id="fa-signing">
+				<html:span class="fa fa-signing"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-tty');" tooltiptext="fa fa-tty" id="fa-tty">
+				<html:span class="fa fa-tty"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-universal-access');" tooltiptext="fa fa-universal-access" id="fa-universal-access">
+				<html:span class="fa fa-universal-access"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-volume-control-phone');" tooltiptext="fa fa-volume-control-phone" id="fa-volume-control-phone">
+				<html:span class="fa fa-volume-control-phone"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-wheelchair');" tooltiptext="fa fa-wheelchair" id="fa-wheelchair">
+				<html:span class="fa fa-wheelchair"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-wheelchair-alt');" tooltiptext="fa fa-wheelchair-alt" id="fa-wheelchair-alt">
+				<html:span class="fa fa-wheelchair-alt"></html:span>
+			</button>
 
 			
             <html:h2 class="page-header">Hand Icons</html:h2>
@@ -2987,8 +3177,14 @@
 			<button onclick="FontAwesome_insert('fa-empire');" tooltiptext="fa fa-empire" id="fa-empire">
 				<html:span class="fa fa-empire"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-envira');" tooltiptext="fa fa-envira" id="fa-envira">
+				<html:span class="fa fa-envira"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-expeditedssl');" tooltiptext="fa fa-expeditedssl" id="fa-expeditedssl">
 				<html:span class="fa fa-expeditedssl"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-fa');" tooltiptext="fa fa-fa" id="fa-fa">
+				<html:span class="fa fa-fa"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-facebook');" tooltiptext="fa fa-facebook" id="fa-facebook">
 				<html:span class="fa fa-facebook"></html:span>
@@ -3005,8 +3201,14 @@
 			<button onclick="FontAwesome_insert('fa-firefox');" tooltiptext="fa fa-firefox" id="fa-firefox">
 				<html:span class="fa fa-firefox"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-first-order');" tooltiptext="fa fa-first-order" id="fa-first-order">
+				<html:span class="fa fa-first-order"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-flickr');" tooltiptext="fa fa-flickr" id="fa-flickr">
 				<html:span class="fa fa-flickr"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-font-awesome');" tooltiptext="fa fa-font-awesome" id="fa-font-awesome">
+				<html:span class="fa fa-font-awesome"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-fonticons');" tooltiptext="fa fa-fonticons" id="fa-fonticons">
 				<html:span class="fa fa-fonticons"></html:span>
@@ -3047,14 +3249,29 @@
 			<button onclick="FontAwesome_insert('fa-github-square');" tooltiptext="fa fa-github-square" id="fa-github-square">
 				<html:span class="fa fa-github-square"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-gitlab');" tooltiptext="fa fa-gitlab" id="fa-gitlab">
+				<html:span class="fa fa-gitlab"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-gittip');" tooltiptext="fa fa-gittip" id="fa-gittip">
 				<html:span class="fa fa-gittip"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-glide');" tooltiptext="fa fa-glide" id="fa-glide">
+				<html:span class="fa fa-glide"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-glide-g');" tooltiptext="fa fa-glide-g" id="fa-glide-g">
+				<html:span class="fa fa-glide-g"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-google');" tooltiptext="fa fa-google" id="fa-google">
 				<html:span class="fa fa-google"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-google-plus');" tooltiptext="fa fa-google-plus" id="fa-google-plus">
 				<html:span class="fa fa-google-plus"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-google-plus-circle');" tooltiptext="fa fa-google-plus-circle" id="fa-google-plus-circle">
+				<html:span class="fa fa-google-plus-circle"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-google-plus-official');" tooltiptext="fa fa-google-plus-official" id="fa-google-plus-official">
+				<html:span class="fa fa-google-plus-official"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-google-plus-square');" tooltiptext="fa fa-google-plus-square" id="fa-google-plus-square">
 				<html:span class="fa fa-google-plus-square"></html:span>
@@ -3073,6 +3290,9 @@
 			</button>
 			<button onclick="FontAwesome_insert('fa-html5');" tooltiptext="fa fa-html5" id="fa-html5">
 				<html:span class="fa fa-html5"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-instagram');" tooltiptext="fa fa-instagram" id="fa-instagram">
+				<html:span class="fa fa-instagram"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-instagram');" tooltiptext="fa fa-instagram" id="fa-instagram">
 				<html:span class="fa fa-instagram"></html:span>
@@ -3218,6 +3438,15 @@
 			<button onclick="FontAwesome_insert('fa-slideshare');" tooltiptext="fa fa-slideshare" id="fa-slideshare">
 				<html:span class="fa fa-slideshare"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-snapchat');" tooltiptext="fa fa-snapchat" id="fa-snapchat">
+				<html:span class="fa fa-snapchat"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-snapchat-ghost');" tooltiptext="fa fa-snapchat-ghost" id="fa-snapchat-ghost">
+				<html:span class="fa fa-snapchat-ghost"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-snapchat-square');" tooltiptext="fa fa-snapchat-square" id="fa-snapchat-square">
+				<html:span class="fa fa-snapchat-square"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-soundcloud');" tooltiptext="fa fa-soundcloud" id="fa-soundcloud">
 				<html:span class="fa fa-soundcloud"></html:span>
 			</button>
@@ -3245,6 +3474,9 @@
 			<button onclick="FontAwesome_insert('fa-tencent-weibo');" tooltiptext="fa fa-tencent-weibo" id="fa-tencent-weibo">
 				<html:span class="fa fa-tencent-weibo"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-themeisle');" tooltiptext="fa fa-themeisle" id="fa-themeisle">
+				<html:span class="fa fa-themeisle"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-trello');" tooltiptext="fa fa-trello" id="fa-trello">
 				<html:span class="fa fa-trello"></html:span>
 			</button>
@@ -3271,6 +3503,12 @@
 			</button>
 			<button onclick="FontAwesome_insert('fa-viacoin');" tooltiptext="fa fa-viacoin" id="fa-viacoin">
 				<html:span class="fa fa-viacoin"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-viadeo');" tooltiptext="fa fa-viadeo" id="fa-viadeo">
+				<html:span class="fa fa-viadeo"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-viadeo-square');" tooltiptext="fa fa-viadeo-square" id="fa-viadeo-square">
+				<html:span class="fa fa-viadeo-square"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-vimeo');" tooltiptext="fa fa-vimeo" id="fa-vimeo">
 				<html:span class="fa fa-vimeo"></html:span>
@@ -3305,6 +3543,12 @@
 			<button onclick="FontAwesome_insert('fa-wordpress');" tooltiptext="fa fa-wordpress" id="fa-wordpress">
 				<html:span class="fa fa-wordpress"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-wpbeginner');" tooltiptext="fa fa-wpbeginner" id="fa-wpbeginner">
+				<html:span class="fa fa-wpbeginner"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-wpforms');" tooltiptext="fa fa-wpforms" id="fa-wpforms">
+				<html:span class="fa fa-wpforms"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-xing');" tooltiptext="fa fa-xing" id="fa-xing">
 				<html:span class="fa fa-xing"></html:span>
 			</button>
@@ -3328,6 +3572,9 @@
 			</button>
 			<button onclick="FontAwesome_insert('fa-yelp');" tooltiptext="fa fa-yelp" id="fa-yelp">
 				<html:span class="fa fa-yelp"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-yoast');" tooltiptext="fa fa-yoast" id="fa-yoast">
+				<html:span class="fa fa-yoast"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-youtube');" tooltiptext="fa fa-youtube" id="fa-youtube">
 				<html:span class="fa fa-youtube"></html:span>
