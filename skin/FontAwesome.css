@@ -77,15 +77,28 @@
 }
 
 #FontAwesomeSearch {
-	padding-bottom: 5px;
+	padding: 0 10px 5px;
 }
 
 .font-fa.insearch {
-	padding-top: 110px;
+	padding-top: 120px;
 }
 
 
 .font-fa.insearch h2,
 .font-fa.insearch p {
 	display: none !important;
+}
+
+prefwindow,
+prefwindow:root {
+  -moz-binding: url("chrome://global/content/bindings/preferences.xml#prefwindow");
+}
+.pref-window:not(dialog):not(#prefWindow):not(#prefProjectsWindow) > vbox,
+.pref-window:not(dialog):not(#prefWindow):not(#prefProjectsWindow) > hbox,
+.pref-window:not(dialog):not(#prefWindow):not(#prefProjectsWindow) > box {
+  padding: 10px;
+}
+prefwindow > prefpane {
+  padding: 10px;
 }

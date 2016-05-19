@@ -75,8 +75,8 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 
 		return result;
 	}
-	
-	autoCompleteInsert = function(completion){
+
+	autoCompleteInsert = function(completion) {
 		var icon = 'fa-' + completion.value;
 		var unicode = getUnicodeFromIcon(icon);
 		FontAwesome_insert(icon, unicode);
@@ -86,9 +86,9 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 		var features = "chrome,titlebar,toolbar,centerscreen,modal";
 		window.openDialog('chrome://FontAwesome/content/pref-overlay.xul', "FontAwesome", features);
 	}
-	
-	getUnicodeFromIcon = function(icon){
-		
+
+	getUnicodeFromIcon = function(icon) {
+
 		var matchIcon = icon.replace(/-/g, '_');
 		var matchValues = {
 			fa_bluetooth: "293",
@@ -822,7 +822,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			fa_wpbeginner: "297",
 			fa_wpforms: "298",
 		}
-		
+
 		return matchValues[matchIcon];
 	}
 
@@ -830,7 +830,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 		if (ko.views.manager.currentView == undefined) {
 			return;
 		}
-		
+
 		try {
 			var CDN = '//maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css';
 			var scimoz = ko.views.manager.currentView.scimoz;
@@ -842,12 +842,12 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			alert('No file selected');
 		}
 	}
-	
+
 	insertFF = function() {
 		if (ko.views.manager.currentView == undefined) {
 			return;
 		}
-		
+
 		try {
 			var FF = 'font-family: \'FontAwesome\';';
 			var scimoz = ko.views.manager.currentView.scimoz;
@@ -859,13 +859,15 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			alert('No file selected');
 		}
 	}
-	
-	clearSearch = function(){
+
+	clearSearch = function() {
 		var input = document.getElementById('text1');
 		var font_wrapper = document.getElementById('font_fa');
 		var fa_buttoms = font_wrapper.getElementsByTagName('button');
-		
+
 		input.value = '';
+
+
 		for (var i = 0; i < fa_buttoms.length; i++) {
 			var childClasses = fa_buttoms[i].childNodes[0].classList;
 			if (childClasses.length > 1) {
@@ -874,38 +876,39 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 				}
 			}
 		}
-		
+
+
+
 		font_wrapper.classList.remove('insearch');
 	}
-	
+
 	searchIcon = function(e) {
-			
-			var font_wrapper = document.getElementById('font_fa');
-			var fa_buttoms = font_wrapper.getElementsByTagName('button');
-			var $val = e.target.value;
-			var searchValue = 'fa-' + $val;
-			
-			for (var i = 0; i < fa_buttoms.length; i++) {
-				var childClasses = fa_buttoms[i].childNodes[0].classList;
-				if (childClasses.length > 1) {
-					if (childClasses[1].indexOf(searchValue) !== -1) {
-						if (fa_buttoms[i].classList.contains('none')) {
-							fa_buttoms[i].classList.remove('none');
-						}
-					} else {
-						fa_buttoms[i].classList.add('none');
+
+		var font_wrapper = document.getElementById('font_fa');
+		var fa_buttoms = font_wrapper.getElementsByTagName('button');
+		var $val = e.target.value;
+		var searchValue = 'fa-' + $val;
+
+		for (var i = 0; i < fa_buttoms.length; i++) {
+			var childClasses = fa_buttoms[i].childNodes[0].classList;
+			if (childClasses.length > 1) {
+				if (childClasses[1].indexOf(searchValue) !== -1) {
+					if (fa_buttoms[i].classList.contains('none')) {
+						fa_buttoms[i].classList.remove('none');
 					}
+				} else {
+					fa_buttoms[i].classList.add('none');
 				}
-			}
-			
-			if ($val.length > 0) {
-				if (!font_wrapper.classList.contains('insearch')) {
-					font_wrapper.classList.add('insearch');
-				}
-			} else {
-				font_wrapper.classList.remove('insearch');
 			}
 		}
 
+		if ($val.length > 0) {
+			if (!font_wrapper.classList.contains('insearch')) {
+				font_wrapper.classList.add('insearch');
+			}
+		} else {
+			font_wrapper.classList.remove('insearch');
+		}
+	}
 
 }).apply(extensions.FontAwesome);

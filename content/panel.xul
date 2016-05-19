@@ -1,9 +1,6 @@
 <?xml version="1.0"?>
 <?xml-stylesheet href="chrome://komodo/skin/" type="text/css"?>
-<?xml-stylesheet href="chrome://komodo/skin/global/global.css" type="text/css"?>
-<?xml-stylesheet href="chrome://komodo/skin/toolbar.css" type="text/css"?>
-<?xml-stylesheet href="chrome://komodo/skin/platform.css" type="text/css"?>
-<?xml-stylesheet href="chrome://komodo/skin/bindings/sidebar.css" type="text/css"?>
+<?xml-stylesheet href="less://komodo/skin/global/global.less" type="text/css"?>
 <?xml-stylesheet href="chrome://FontAwesome/skin/FontAwesome.css" type="text/css"?>
 <?xml-stylesheet href="chrome://FontAwesome/skin/font-awesome.min.css" type="text/css"?>
 
@@ -64,7 +61,7 @@
 		<label>
 			Search icon
 		</label>
-		<textbox id="text1" type="autocomplete" autocompletesearch="simple-autocomplete" oninput="searchIcon(event)" onblur="clearSearch()" ontextentered="autoCompleteInsert(this);" showcommentcolumn="true"
+		<textbox id="text1" type="autocomplete" autocompletesearch="simple-autocomplete" oninput="searchIcon(event)" ontextentered="autoCompleteInsert(this);" showcommentcolumn="true"
          autocompletesearchparam='[{"value":"codiepie","comment":"fa-codiepie"},
          {"value":"credit-card-alt","comment":"fa-credit-card-alt"},
          {"value":"edge","comment":"fa-edge"},
