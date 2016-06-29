@@ -11,12 +11,6 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 		prefs = Components.classes["@mozilla.org/preferences-service;1"]
 		.getService(Components.interfaces.nsIPrefService).getBranch("extensions.FontAwesome.");
 
-	if (!('FontAwesome' in ko)) ko.extensions = {};
-	var myExt = "FontAwesome@babobski.com";
-	if (!(myExt in ko.extensions)) ko.extensions[myExt] = {};
-	if (!('myapp' in ko.extensions[myExt])) ko.extensions[myExt].myapp = {};
-	var FontAwesomeData = ko.extensions[myExt].myapp;
-
 	FontAwesome_insert = function(icon) {
 		if (ko.views.manager.currentView == undefined) {
 			return;
