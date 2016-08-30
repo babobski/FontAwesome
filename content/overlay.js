@@ -3,7 +3,7 @@
  */
 if (typeof(extensions) === 'undefined') extensions = {};
 if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
-	version: '2.1'
+	version: '2.2'
 };
 
 (function() {
