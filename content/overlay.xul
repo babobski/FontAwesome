@@ -5,11 +5,12 @@
 
 
 	<ko-pane id="workspace_right_area">
-    <browser type="ko-widget" id="FontAwesomeViewbox" label="Font Awesome"
-             position="10" insertbefore="codebrowserviewbox"
-             tab_oncommand=""
-             tab_onfocus=""
+	<browser type="ko-widget" id="FontAwesomeViewbox" label="Font Awesome"
+			 position="10" insertbefore="codebrowserviewbox"
+			 tab_oncommand=""
+			 tab_onfocus=""
 			 icon="koicon://ko-svg/chrome/icomoon/skin/font.svg"
-	         src="chrome://FontAwesome/content/panel.xul"/>
-  </ko-pane>
+			 src="chrome://FontAwesome/content/panel.xul"/>
+	</ko-pane>
 </overlay>
+

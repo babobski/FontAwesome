@@ -4,15 +4,15 @@
 <?xml-stylesheet href="chrome://FontAwesome/skin/FontAwesome.css" type="text/css"?>
 
 <prefwindow id="FontAwesome-prefs"
-     title="FontAwesome Preferences"
+	 title="FontAwesome Preferences"
 	 xmlns:html="http://www.w3.org/1999/xhtml"
-     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+	 xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
 	
 	<prefpane id="FontAwesome-pane" label="FontAwesome Preferences">
 		<preferences>
 			<preference id="pref_typeInsert" name="extensions.FontAwesome.typeInsert" type="string"/>
 		</preferences>
-	  
+		
 		<label value="How to insert the font awesome icon."/>
 		<menulist id="insert" preference="pref_typeInsert">
 			<menupopup>
@@ -25,3 +25,4 @@
 	</prefpane>
 
 </prefwindow>
+

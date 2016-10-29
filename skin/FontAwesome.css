@@ -17,6 +17,7 @@
 .font-fa h2 {
 	font-size: 14px;
 	margin-top: 20px;
+	padding-bottom: 5px;
 	font-family: 'Ariel', 'Helvetica', sans-serif;
 }
 
@@ -47,7 +48,7 @@
 }
 
 .font-fa p {
-	padding: 0 3px 0 0;
+	padding: 0 3px 5px 0;
 }
 
 .font-fa span {
@@ -100,13 +101,13 @@
 
 prefwindow,
 prefwindow:root {
-  -moz-binding: url("chrome://global/content/bindings/preferences.xml#prefwindow");
+	-moz-binding: url("chrome://global/content/bindings/preferences.xml#prefwindow");
 }
 .pref-window:not(dialog):not(#prefWindow):not(#prefProjectsWindow) > vbox,
 .pref-window:not(dialog):not(#prefWindow):not(#prefProjectsWindow) > hbox,
 .pref-window:not(dialog):not(#prefWindow):not(#prefProjectsWindow) > box {
-  padding: 10px;
+	padding: 10px;
 }
 prefwindow > prefpane {
-  padding: 10px;
+	padding: 10px;
 }

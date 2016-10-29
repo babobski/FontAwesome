@@ -23,7 +23,7 @@
 - the Initial Developer. All Rights Reserved.
 -
 - Contributor(s):
--   Bob de Haas, <html:info@babobski.nl> (Original Author)
+-	 Bob de Haas, <html:info@babobski.nl> (Original Author)
 -
 - Alternatively, the contents of this file may be used under the terms of
 - either the GNU General Public License Version 2 or later (the "GPL"), or
@@ -62,787 +62,787 @@
 			Search icon
 		</label>
 		<textbox id="text1" type="autocomplete" autocompletesearch="simple-autocomplete" oninput="searchIcon(event)" ontextentered="autoCompleteInsert(this);" showcommentcolumn="true"
-         autocompletesearchparam='[{"value":"codiepie","comment":"fa-codiepie"},
-         {"value":"credit-card-alt","comment":"fa-credit-card-alt"},
-         {"value":"edge","comment":"fa-edge"},
-         {"value":"fort-awesome","comment":"fa-fort-awesome"},
-         {"value":"hashtag","comment":"fa-hashtag"},
-         {"value":"mixcloud","comment":"fa-mixcloud"},
-         {"value":"modx","comment":"fa-modx"},
-         {"value":"pause-circle","comment":"fa-pause-circle"},
-         {"value":"pause-circle-o","comment":"fa-pause-circle-o"},
-         {"value":"percent","comment":"fa-percent"},
-         {"value":"product-hunt","comment":"fa-product-hunt"},
-         {"value":"reddit-alien","comment":"fa-reddit-alien"},
-         {"value":"scribd","comment":"fa-scribd"},
-         {"value":"shopping-bag","comment":"fa-shopping-bag"},
-         {"value":"shopping-basket","comment":"fa-shopping-basket"},
-         {"value":"stop-circle","comment":"fa-stop-circle"},
-         {"value":"stop-circle-o","comment":"fa-stop-circle-o"},
-         {"value":"usb","comment":"fa-usb"},
-         {"value":"adjust","comment":"fa-adjust"},
-         {"value":"anchor","comment":"fa-anchor"},
-         {"value":"archive","comment":"fa-archive"},
-         {"value":"asterisk","comment":"fa-asterisk"},
-         {"value":"at","comment":"fa-at"},
-         {"value":"balance-scale","comment":"fa-balance-scale"},
-         {"value":"ban","comment":"fa-ban"},
-         {"value":"bank","comment":"fa-bank"},
-         {"value":"barcode","comment":"fa-barcode"},
-         {"value":"bars","comment":"fa-bars"},
-         {"value":"battery-0","comment":"fa-battery-0"},
-         {"value":"battery-1","comment":"fa-battery-1"},
-         {"value":"battery-2","comment":"fa-battery-2"},
-         {"value":"battery-3","comment":"fa-battery-3"},
-         {"value":"battery-4","comment":"fa-battery-4"},
-         {"value":"battery-empty","comment":"fa-battery-empty"},
-         {"value":"battery-full","comment":"fa-battery-full"},
-         {"value":"battery-half","comment":"fa-battery-half"},
-         {"value":"battery-quarter","comment":"fa-battery-quarter"},
-         {"value":"battery-three-quarters","comment":"fa-battery-three-quarters"},
-         {"value":"bed","comment":"fa-bed"},
-         {"value":"beer","comment":"fa-beer"},
-         {"value":"bell","comment":"fa-bell"},
-         {"value":"bell-o","comment":"fa-bell-o"},
-         {"value":"bell-slash","comment":"fa-bell-slash"},
-         {"value":"bell-slash-o","comment":"fa-bell-slash-o"},
-         {"value":"binoculars","comment":"fa-binoculars"},
-         {"value":"birthday-cake","comment":"fa-birthday-cake"},
-         {"value":"bluetooth","comment":"fa-bluetooth"},
-          {"value":"bolt","comment":"fa-bolt"},
-         {"value":"bomb","comment":"fa-bomb"},
-         {"value":"book","comment":"fa-book"},
-         {"value":"bookmark","comment":"fa-bookmark"},
-         {"value":"bookmark-o","comment":"fa-bookmark-o"},
-         {"value":"briefcase","comment":"fa-briefcase"},
-         {"value":"bug","comment":"fa-bug"},
-         {"value":"building","comment":"fa-building"},
-         {"value":"building-o","comment":"fa-building-o"},
-         {"value":"bullhorn","comment":"fa-bullhorn"},
-         {"value":"bullseye","comment":"fa-bullseye"},
-         {"value":"calculator","comment":"fa-calculator"},
-         {"value":"calendar","comment":"fa-calendar"},
-         {"value":"calendar-check-o","comment":"fa-calendar-check-o"},
-         {"value":"calendar-minus-o","comment":"fa-calendar-minus-o"},
-         {"value":"calendar-o","comment":"fa-calendar-o"},
-         {"value":"calendar-plus-o","comment":"fa-calendar-plus-o"},
-         {"value":"calendar-times-o","comment":"fa-calendar-times-o"},
-         {"value":"camera","comment":"fa-camera"},
-         {"value":"camera-retro","comment":"fa-camera-retro"},
-         {"value":"cart-arrow-down","comment":"fa-cart-arrow-down"},
-         {"value":"cart-plus","comment":"fa-cart-plus"},
-         {"value":"cc","comment":"fa-cc"},
-         {"value":"certificate","comment":"fa-certificate"},
-         {"value":"check","comment":"fa-check"},
-         {"value":"check-circle","comment":"fa-check-circle"},
-         {"value":"check-circle-o","comment":"fa-check-circle-o"},
-         {"value":"child","comment":"fa-child"},
-         {"value":"circle-thin","comment":"fa-circle-thin"},
-         {"value":"clock-o","comment":"fa-clock-o"},
-         {"value":"clone","comment":"fa-clone"},
-         {"value":"close","comment":"fa-close"},
-         {"value":"cloud","comment":"fa-cloud"},
-         {"value":"cloud-download","comment":"fa-cloud-download"},
-         {"value":"cloud-upload","comment":"fa-cloud-upload"},
-         {"value":"code","comment":"fa-code"},
-         {"value":"code-fork","comment":"fa-code-fork"},
-         {"value":"coffee","comment":"fa-coffee"},
-         {"value":"cogs","comment":"fa-cogs"},
-         {"value":"comment","comment":"fa-comment"},
-         {"value":"comment-o","comment":"fa-comment-o"},
-         {"value":"commenting","comment":"fa-commenting"},
-         {"value":"commenting-o","comment":"fa-commenting-o"},
-         {"value":"comments","comment":"fa-comments"},
-         {"value":"comments-o","comment":"fa-comments-o"},
-         {"value":"compass","comment":"fa-compass"},
-         {"value":"copyright","comment":"fa-copyright"},
-         {"value":"creative-commons","comment":"fa-creative-commons"},
-         {"value":"crop","comment":"fa-crop"},
-         {"value":"crosshairs","comment":"fa-crosshairs"},
-         {"value":"cube","comment":"fa-cube"},
-         {"value":"cubes","comment":"fa-cubes"},
-         {"value":"cutlery","comment":"fa-cutlery"},
-         {"value":"dashboard","comment":"fa-dashboard"},
-         {"value":"database","comment":"fa-database"},
-         {"value":"desktop","comment":"fa-desktop"},
-         {"value":"diamond","comment":"fa-diamond"},
-         {"value":"dot-circle-o","comment":"fa-dot-circle-o"},
-         {"value":"download","comment":"fa-download"},
-         {"value":"edit","comment":"fa-edit"},
-         {"value":"ellipsis-h","comment":"fa-ellipsis-h"},
-         {"value":"ellipsis-v","comment":"fa-ellipsis-v"},
-         {"value":"envelope","comment":"fa-envelope"},
-         {"value":"envelope-o","comment":"fa-envelope-o"},
-         {"value":"envelope-square","comment":"fa-envelope-square"},
-         {"value":"eraser","comment":"fa-eraser"},
-         {"value":"exchange","comment":"fa-exchange"},
-         {"value":"exclamation","comment":"fa-exclamation"},
-         {"value":"exclamation-circle","comment":"fa-exclamation-circle"},
-         {"value":"exclamation-triangle","comment":"fa-exclamation-triangle"},
-         {"value":"external-link","comment":"fa-external-link"},
-         {"value":"external-link-square","comment":"fa-external-link-square"},
-         {"value":"eye","comment":"fa-eye"},
-         {"value":"eye-slash","comment":"fa-eye-slash"},
-         {"value":"eyedropper","comment":"fa-eyedropper"},
-         {"value":"fax","comment":"fa-fax"},
-         {"value":"feed","comment":"fa-feed"},
-         {"value":"female","comment":"fa-female"},
-         {"value":"fighter-jet","comment":"fa-fighter-jet"},
-         {"value":"file-archive-o","comment":"fa-file-archive-o"},
-         {"value":"file-audio-o","comment":"fa-file-audio-o"},
-         {"value":"file-code-o","comment":"fa-file-code-o"},
-         {"value":"file-excel-o","comment":"fa-file-excel-o"},
-         {"value":"file-image-o","comment":"fa-file-image-o"},
-         {"value":"file-movie-o","comment":"fa-file-movie-o"},
-         {"value":"file-pdf-o","comment":"fa-file-pdf-o"},
-         {"value":"file-photo-o","comment":"fa-file-photo-o"},
-         {"value":"file-picture-o","comment":"fa-file-picture-o"},
-         {"value":"file-powerpoint-o","comment":"fa-file-powerpoint-o"},
-         {"value":"file-sound-o","comment":"fa-file-sound-o"},
-         {"value":"file-video-o","comment":"fa-file-video-o"},
-         {"value":"file-word-o","comment":"fa-file-word-o"},
-         {"value":"file-zip-o","comment":"fa-file-zip-o"},
-         {"value":"film","comment":"fa-film"},
-         {"value":"filter","comment":"fa-filter"},
-         {"value":"fire","comment":"fa-fire"},
-         {"value":"fire-extinguisher","comment":"fa-fire-extinguisher"},
-         {"value":"flag","comment":"fa-flag"},
-         {"value":"flag-checkered","comment":"fa-flag-checkered"},
-         {"value":"flag-o","comment":"fa-flag-o"},
-         {"value":"flash","comment":"fa-flash"},
-         {"value":"flask","comment":"fa-flask"},
-         {"value":"folder","comment":"fa-folder"},
-         {"value":"folder-o","comment":"fa-folder-o"},
-         {"value":"folder-open","comment":"fa-folder-open"},
-         {"value":"folder-open-o","comment":"fa-folder-open-o"},
-         {"value":"frown-o","comment":"fa-frown-o"},
-         {"value":"futbol-o","comment":"fa-futbol-o"},
-         {"value":"gamepad","comment":"fa-gamepad"},
-         {"value":"gavel","comment":"fa-gavel"},
-         {"value":"gear","comment":"fa-gear"},
-         {"value":"gears","comment":"fa-gears"},
-         {"value":"gift","comment":"fa-gift"},
-         {"value":"glass","comment":"fa-glass"},
-         {"value":"globe","comment":"fa-globe"},
-         {"value":"graduation-cap","comment":"fa-graduation-cap"},
-         {"value":"group","comment":"fa-group"},
-         {"value":"hand-grab-o","comment":"fa-hand-grab-o"},
-         {"value":"hand-lizard-o","comment":"fa-hand-lizard-o"},
-         {"value":"hand-paper-o","comment":"fa-hand-paper-o"},
-         {"value":"hand-peace-o","comment":"fa-hand-peace-o"},
-         {"value":"hand-pointer-o","comment":"fa-hand-pointer-o"},
-         {"value":"hand-rock-o","comment":"fa-hand-rock-o"},
-         {"value":"hand-scissors-o","comment":"fa-hand-scissors-o"},
-         {"value":"hand-spock-o","comment":"fa-hand-spock-o"},
-         {"value":"hand-stop-o","comment":"fa-hand-stop-o"},
-         {"value":"hdd-o","comment":"fa-hdd-o"},
-         {"value":"headphones","comment":"fa-headphones"},
-         {"value":"heart","comment":"fa-heart"},
-         {"value":"heart-o","comment":"fa-heart-o"},
-         {"value":"heartbeat","comment":"fa-heartbeat"},
-         {"value":"history","comment":"fa-history"},
-         {"value":"home","comment":"fa-home"},
-         {"value":"hotel","comment":"fa-hotel"},
-         {"value":"hourglass","comment":"fa-hourglass"},
-         {"value":"hourglass-1","comment":"fa-hourglass-1"},
-         {"value":"hourglass-2","comment":"fa-hourglass-2"},
-         {"value":"hourglass-3","comment":"fa-hourglass-3"},
-         {"value":"hourglass-end","comment":"fa-hourglass-end"},
-         {"value":"hourglass-half","comment":"fa-hourglass-half"},
-         {"value":"hourglass-o","comment":"fa-hourglass-o"},
-         {"value":"hourglass-start","comment":"fa-hourglass-start"},
-         {"value":"i-cursor","comment":"fa-i-cursor"},
-         {"value":"image","comment":"fa-image"},
-         {"value":"inbox","comment":"fa-inbox"},
-         {"value":"industry","comment":"fa-industry"},
-         {"value":"info","comment":"fa-info"},
-         {"value":"info-circle","comment":"fa-info-circle"},
-         {"value":"institution","comment":"fa-institution"},
-         {"value":"key","comment":"fa-key"},
-         {"value":"keyboard-o","comment":"fa-keyboard-o"},
-         {"value":"language","comment":"fa-language"},
-         {"value":"laptop","comment":"fa-laptop"},
-         {"value":"leaf","comment":"fa-leaf"},
-         {"value":"legal","comment":"fa-legal"},
-         {"value":"lemon-o","comment":"fa-lemon-o"},
-         {"value":"level-down","comment":"fa-level-down"},
-         {"value":"level-up","comment":"fa-level-up"},
-         {"value":"life-bouy","comment":"fa-life-bouy"},
-         {"value":"life-buoy","comment":"fa-life-buoy"},
-         {"value":"life-ring","comment":"fa-life-ring"},
-         {"value":"life-saver","comment":"fa-life-saver"},
-         {"value":"lightbulb-o","comment":"fa-lightbulb-o"},
-         {"value":"line-chart","comment":"fa-line-chart"},
-         {"value":"location-arrow","comment":"fa-location-arrow"},
-         {"value":"lock","comment":"fa-lock"},
-         {"value":"magic","comment":"fa-magic"},
-         {"value":"magnet","comment":"fa-magnet"},
-         {"value":"mail-forward","comment":"fa-mail-forward"},
-         {"value":"mail-reply","comment":"fa-mail-reply"},
-         {"value":"mail-reply-all","comment":"fa-mail-reply-all"},
-         {"value":"male","comment":"fa-male"},
-         {"value":"map","comment":"fa-map"},
-         {"value":"map-marker","comment":"fa-map-marker"},
-         {"value":"map-o","comment":"fa-map-o"},
-         {"value":"map-pin","comment":"fa-map-pin"},
-         {"value":"map-signs","comment":"fa-map-signs"},
-         {"value":"meh-o","comment":"fa-meh-o"},
-         {"value":"microphone","comment":"fa-microphone"},
-         {"value":"microphone-slash","comment":"fa-microphone-slash"},
-         {"value":"minus","comment":"fa-minus"},
-         {"value":"minus-circle","comment":"fa-minus-circle"},
-         {"value":"minus-square","comment":"fa-minus-square"},
-         {"value":"minus-square-o","comment":"fa-minus-square-o"},
-         {"value":"mobile","comment":"fa-mobile"},
-         {"value":"mobile-phone","comment":"fa-mobile-phone"},
-         {"value":"money","comment":"fa-money"},
-         {"value":"moon-o","comment":"fa-moon-o"},
-         {"value":"mortar-board","comment":"fa-mortar-board"},
-         {"value":"motorcycle","comment":"fa-motorcycle"},
-         {"value":"mouse-pointer","comment":"fa-mouse-pointer"},
-         {"value":"music","comment":"fa-music"},
-         {"value":"navicon","comment":"fa-navicon"},
-         {"value":"newspaper-o","comment":"fa-newspaper-o"},
-         {"value":"object-group","comment":"fa-object-group"},
-         {"value":"object-ungroup","comment":"fa-object-ungroup"},
-         {"value":"paint-brush","comment":"fa-paint-brush"},
-         {"value":"paper-plane","comment":"fa-paper-plane"},
-         {"value":"paper-plane-o","comment":"fa-paper-plane-o"},
-         {"value":"paw","comment":"fa-paw"},
-         {"value":"pencil","comment":"fa-pencil"},
-         {"value":"pencil-square","comment":"fa-pencil-square"},
-         {"value":"pencil-square-o","comment":"fa-pencil-square-o"},
-         {"value":"phone","comment":"fa-phone"},
-         {"value":"phone-square","comment":"fa-phone-square"},
-         {"value":"photo","comment":"fa-photo"},
-         {"value":"picture-o","comment":"fa-picture-o"},
-         {"value":"pie-chart","comment":"fa-pie-chart"},
-         {"value":"plane","comment":"fa-plane"},
-         {"value":"plug","comment":"fa-plug"},
-         {"value":"plus","comment":"fa-plus"},
-         {"value":"plus-circle","comment":"fa-plus-circle"},
-         {"value":"plus-square","comment":"fa-plus-square"},
-         {"value":"plus-square-o","comment":"fa-plus-square-o"},
-         {"value":"power-off","comment":"fa-power-off"},
-         {"value":"print","comment":"fa-print"},
-         {"value":"puzzle-piece","comment":"fa-puzzle-piece"},
-         {"value":"qrcode","comment":"fa-qrcode"},
-         {"value":"question","comment":"fa-question"},
-         {"value":"question-circle","comment":"fa-question-circle"},
-         {"value":"quote-left","comment":"fa-quote-left"},
-         {"value":"quote-right","comment":"fa-quote-right"},
-         {"value":"random","comment":"fa-random"},
-         {"value":"recycle","comment":"fa-recycle"},
-         {"value":"refresh","comment":"fa-refresh"},
-         {"value":"registered","comment":"fa-registered"},
-         {"value":"remove","comment":"fa-remove"},
-         {"value":"reorder","comment":"fa-reorder"},
-         {"value":"reply","comment":"fa-reply"},
-         {"value":"reply-all","comment":"fa-reply-all"},
-         {"value":"retweet","comment":"fa-retweet"},
-         {"value":"road","comment":"fa-road"},
-         {"value":"rocket","comment":"fa-rocket"},
-         {"value":"rss","comment":"fa-rss"},
-         {"value":"rss-square","comment":"fa-rss-square"},
-         {"value":"search","comment":"fa-search"},
-         {"value":"search-minus","comment":"fa-search-minus"},
-         {"value":"search-plus","comment":"fa-search-plus"},
-         {"value":"send","comment":"fa-send"},
-         {"value":"send-o","comment":"fa-send-o"},
-         {"value":"server","comment":"fa-server"},
-         {"value":"share","comment":"fa-share"},
-         {"value":"share-alt","comment":"fa-share-alt"},
-         {"value":"share-alt-square","comment":"fa-share-alt-square"},
-         {"value":"share-square","comment":"fa-share-square"},
-         {"value":"share-square-o","comment":"fa-share-square-o"},
-         {"value":"shield","comment":"fa-shield"},
-         {"value":"ship","comment":"fa-ship"},
-         {"value":"shopping-cart","comment":"fa-shopping-cart"},
-         {"value":"sign-in","comment":"fa-sign-in"},
-         {"value":"sign-out","comment":"fa-sign-out"},
-         {"value":"signal","comment":"fa-signal"},
-         {"value":"sitemap","comment":"fa-sitemap"},
-         {"value":"sliders","comment":"fa-sliders"},
-         {"value":"smile-o","comment":"fa-smile-o"},
-         {"value":"soccer-ball-o","comment":"fa-soccer-ball-o"},
-         {"value":"sort","comment":"fa-sort"},
-         {"value":"sort-alpha-asc","comment":"fa-sort-alpha-asc"},
-         {"value":"sort-alpha-desc","comment":"fa-sort-alpha-desc"},
-         {"value":"sort-amount-asc","comment":"fa-sort-amount-asc"},
-         {"value":"sort-amount-desc","comment":"fa-sort-amount-desc"},
-         {"value":"sort-asc","comment":"fa-sort-asc"},
-         {"value":"sort-desc","comment":"fa-sort-desc"},
-         {"value":"sort-down","comment":"fa-sort-down"},
-         {"value":"sort-numeric-asc","comment":"fa-sort-numeric-asc"},
-         {"value":"sort-numeric-desc","comment":"fa-sort-numeric-desc"},
-         {"value":"sort-up","comment":"fa-sort-up"},
-         {"value":"space-shuttle","comment":"fa-space-shuttle"},
-         {"value":"spinner","comment":"fa-spinner"},
-         {"value":"spoon","comment":"fa-spoon"},
-         {"value":"square","comment":"fa-square"},
-         {"value":"square-o","comment":"fa-square-o"},
-         {"value":"star","comment":"fa-star"},
-         {"value":"star-half","comment":"fa-star-half"},
-         {"value":"star-half-empty","comment":"fa-star-half-empty"},
-         {"value":"star-half-full","comment":"fa-star-half-full"},
-         {"value":"star-half-o","comment":"fa-star-half-o"},
-         {"value":"star-o","comment":"fa-star-o"},
-         {"value":"sticky-note","comment":"fa-sticky-note"},
-         {"value":"sticky-note-o","comment":"fa-sticky-note-o"},
-         {"value":"street-view","comment":"fa-street-view"},
-         {"value":"suitcase","comment":"fa-suitcase"},
-         {"value":"sun-o","comment":"fa-sun-o"},
-         {"value":"support","comment":"fa-support"},
-         {"value":"tablet","comment":"fa-tablet"},
-         {"value":"tachometer","comment":"fa-tachometer"},
-         {"value":"tag","comment":"fa-tag"},
-         {"value":"tags","comment":"fa-tags"},
-         {"value":"tasks","comment":"fa-tasks"},
-         {"value":"taxi","comment":"fa-taxi"},
-         {"value":"television","comment":"fa-television"},
-         {"value":"terminal","comment":"fa-terminal"},
-         {"value":"thumb-tack","comment":"fa-thumb-tack"},
-         {"value":"thumbs-down","comment":"fa-thumbs-down"},
-         {"value":"thumbs-o-down","comment":"fa-thumbs-o-down"},
-         {"value":"thumbs-o-up","comment":"fa-thumbs-o-up"},
-         {"value":"thumbs-up","comment":"fa-thumbs-up"},
-         {"value":"ticket","comment":"fa-ticket"},
-         {"value":"times","comment":"fa-times"},
-         {"value":"times-circle","comment":"fa-times-circle"},
-         {"value":"times-circle-o","comment":"fa-times-circle-o"},
-         {"value":"tint","comment":"fa-tint"},
-         {"value":"toggle-down","comment":"fa-toggle-down"},
-         {"value":"toggle-left","comment":"fa-toggle-left"},
-         {"value":"toggle-off","comment":"fa-toggle-off"},
-         {"value":"toggle-on","comment":"fa-toggle-on"},
-         {"value":"toggle-right","comment":"fa-toggle-right"},
-         {"value":"toggle-up","comment":"fa-toggle-up"},
-         {"value":"trademark","comment":"fa-trademark"},
-         {"value":"trash","comment":"fa-trash"},
-         {"value":"trash-o","comment":"fa-trash-o"},
-         {"value":"tree","comment":"fa-tree"},
-         {"value":"trophy","comment":"fa-trophy"},
-         {"value":"truck","comment":"fa-truck"},
-         {"value":"tty","comment":"fa-tty"},
-         {"value":"tv","comment":"fa-tv"},
-         {"value":"umbrella","comment":"fa-umbrella"},
-         {"value":"university","comment":"fa-university"},
-         {"value":"unlock","comment":"fa-unlock"},
-         {"value":"unlock-alt","comment":"fa-unlock-alt"},
-         {"value":"unsorted","comment":"fa-unsorted"},
-         {"value":"upload","comment":"fa-upload"},
-         {"value":"user","comment":"fa-user"},
-         {"value":"user-plus","comment":"fa-user-plus"},
-         {"value":"user-secret","comment":"fa-user-secret"},
-         {"value":"user-times","comment":"fa-user-times"},
-         {"value":"users","comment":"fa-users"},
-         {"value":"video-camera","comment":"fa-video-camera"},
-         {"value":"volume-down","comment":"fa-volume-down"},
-         {"value":"volume-off","comment":"fa-volume-off"},
-         {"value":"volume-up","comment":"fa-volume-up"},
-         {"value":"warning","comment":"fa-warning"},
-         {"value":"wheelchair","comment":"fa-wheelchair"},
-         {"value":"wifi","comment":"fa-wifi"},
-         {"value":"wrench","comment":"fa-wrench"},
-         {"value":"hand-grab-o","comment":"fa-hand-grab-o"},
-         {"value":"hand-lizard-o","comment":"fa-hand-lizard-o"},
-         {"value":"hand-o-down","comment":"fa-hand-o-down"},
-         {"value":"hand-o-left","comment":"fa-hand-o-left"},
-         {"value":"hand-o-right","comment":"fa-hand-o-right"},
-         {"value":"hand-o-up","comment":"fa-hand-o-up"},
-         {"value":"hand-paper-o","comment":"fa-hand-paper-o"},
-         {"value":"hand-peace-o","comment":"fa-hand-peace-o"},
-         {"value":"hand-pointer-o","comment":"fa-hand-pointer-o"},
-         {"value":"hand-rock-o","comment":"fa-hand-rock-o"},
-         {"value":"hand-scissors-o","comment":"fa-hand-scissors-o"},
-         {"value":"hand-spock-o","comment":"fa-hand-spock-o"},
-         {"value":"hand-stop-o","comment":"fa-hand-stop-o"},
-         {"value":"thumbs-down","comment":"fa-thumbs-down"},
-         {"value":"thumbs-o-down","comment":"fa-thumbs-o-down"},
-         {"value":"thumbs-o-up","comment":"fa-thumbs-o-up"},
-         {"value":"thumbs-up","comment":"fa-thumbs-up"},
-         {"value":"ambulance","comment":"fa-ambulance"},
-         {"value":"automobile","comment":"fa-automobile"},
-         {"value":"bicycle","comment":"fa-bicycle"},
-         {"value":"bus","comment":"fa-bus"},
-         {"value":"cab","comment":"fa-cab"},
-         {"value":"car","comment":"fa-car"},
-         {"value":"fighter-jet","comment":"fa-fighter-jet"},
-         {"value":"motorcycle","comment":"fa-motorcycle"},
-         {"value":"plane","comment":"fa-plane"},
-         {"value":"rocket","comment":"fa-rocket"},
-         {"value":"ship","comment":"fa-ship"},
-         {"value":"space-shuttle","comment":"fa-space-shuttle"},
-         {"value":"subway","comment":"fa-subway"},
-         {"value":"taxi","comment":"fa-taxi"},
-         {"value":"train","comment":"fa-train"},
-         {"value":"truck","comment":"fa-truck"},
-         {"value":"wheelchair","comment":"fa-wheelchair"},
-         {"value":"genderless","comment":"fa-genderless"},
-         {"value":"intersex","comment":"fa-intersex"},
-         {"value":"mars","comment":"fa-mars"},
-         {"value":"mars-double","comment":"fa-mars-double"},
-         {"value":"mars-stroke","comment":"fa-mars-stroke"},
-         {"value":"mars-stroke-h","comment":"fa-mars-stroke-h"},
-         {"value":"mars-stroke-v","comment":"fa-mars-stroke-v"},
-         {"value":"mercury","comment":"fa-mercury"},
-         {"value":"neuter","comment":"fa-neuter"},
-         {"value":"transgender","comment":"fa-transgender"},
-         {"value":"transgender-alt","comment":"fa-transgender-alt"},
-         {"value":"venus","comment":"fa-venus"},
-         {"value":"venus-double","comment":"fa-venus-double"},
-         {"value":"venus-mars","comment":"fa-venus-mars"},
-         {"value":"file","comment":"fa-file"},
-         {"value":"file-archive-o","comment":"fa-file-archive-o"},
-         {"value":"file-audio-o","comment":"fa-file-audio-o"},
-         {"value":"file-code-o","comment":"fa-file-code-o"},
-         {"value":"file-excel-o","comment":"fa-file-excel-o"},
-         {"value":"file-image-o","comment":"fa-file-image-o"},
-         {"value":"file-movie-o","comment":"fa-file-movie-o"},
-         {"value":"file-o","comment":"fa-file-o"},
-         {"value":"file-pdf-o","comment":"fa-file-pdf-o"},
-         {"value":"file-photo-o","comment":"fa-file-photo-o"},
-         {"value":"file-picture-o","comment":"fa-file-picture-o"},
-         {"value":"file-powerpoint-o","comment":"fa-file-powerpoint-o"},
-         {"value":"file-sound-o","comment":"fa-file-sound-o"},
-          {"value":"file-text","comment":"fa-file-text"},
-         {"value":"file-text-o","comment":"fa-file-text-o"},
-         {"value":"file-video-o","comment":"fa-file-video-o"},
-         {"value":"file-word-o","comment":"fa-file-word-o"},
-         {"value":"file-zip-o","comment":"fa-file-zip-o"},
-         {"value":"circle-o-notch","comment":"fa-circle-o-notch"},
-         {"value":"cog","comment":"fa-cog"},
-         {"value":"gear","comment":"fa-gear"},
-         {"value":"refresh","comment":"fa-refresh"},
-         {"value":"spinner","comment":"fa-spinner"},
-         {"value":"check-square","comment":"fa-check-square"},
-         {"value":"check-square-o","comment":"fa-check-square-o"},
-         {"value":"circle","comment":"fa-circle"},
-         {"value":"circle-o","comment":"fa-circle-o"},
-         {"value":"dot-circle-o","comment":"fa-dot-circle-o"},
-         {"value":"minus-square","comment":"fa-minus-square"},
-         {"value":"minus-square-o","comment":"fa-minus-square-o"},
-         {"value":"plus-square","comment":"fa-plus-square"},
-         {"value":"plus-square-o","comment":"fa-plus-square-o"},
-         {"value":"square","comment":"fa-square"},
-         {"value":"square-o","comment":"fa-square-o"},
-         {"value":"cc-amex","comment":"fa-cc-amex"},
-         {"value":"cc-diners-club","comment":"fa-cc-diners-club"},
-         {"value":"cc-discover","comment":"fa-cc-discover"},
-         {"value":"cc-jcb","comment":"fa-cc-jcb"},
-         {"value":"cc-mastercard","comment":"fa-cc-mastercard"},
-         {"value":"cc-paypal","comment":"fa-cc-paypal"},
-         {"value":"cc-stripe","comment":"fa-cc-stripe"},
-         {"value":"cc-visa","comment":"fa-cc-visa"},
-         {"value":"credit-card","comment":"fa-credit-card"},
-         {"value":"google-wallet","comment":"fa-google-wallet"},
-         {"value":"paypal","comment":"fa-paypal"},
-         {"value":"area-chart","comment":"fa-area-chart"},
-         {"value":"bar-chart","comment":"fa-bar-chart"},
-         {"value":"bar-chart-o","comment":"fa-bar-chart-o"},
-         {"value":"line-chart","comment":"fa-line-chart"},
-         {"value":"pie-chart","comment":"fa-pie-chart"},
-         {"value":"bitcoin","comment":"fa-bitcoin"},
-         {"value":"btc","comment":"fa-btc"},
-         {"value":"cny","comment":"fa-cny"},
-         {"value":"dollar","comment":"fa-dollar"},
-         {"value":"eur","comment":"fa-eur"},
-         {"value":"euro","comment":"fa-euro"},
-         {"value":"gbp","comment":"fa-gbp"},
-         {"value":"gg","comment":"fa-gg"},
-         {"value":"gg-circle","comment":"fa-gg-circle"},
-         {"value":"ils","comment":"fa-ils"},
-         {"value":"inr","comment":"fa-inr"},
-         {"value":"jpy","comment":"fa-jpy"},
-         {"value":"krw","comment":"fa-krw"},
-         {"value":"money","comment":"fa-money"},
-         {"value":"rmb","comment":"fa-rmb"},
-         {"value":"rouble","comment":"fa-rouble"},
-         {"value":"rub","comment":"fa-rub"},
-         {"value":"ruble","comment":"fa-ruble"},
-         {"value":"rupee","comment":"fa-rupee"},
-         {"value":"shekel","comment":"fa-shekel"},
-         {"value":"sheqel","comment":"fa-sheqel"},
-         {"value":"try","comment":"fa-try"},
-         {"value":"turkish-lira","comment":"fa-turkish-lira"},
-         {"value":"usd","comment":"fa-usd"},
-         {"value":"won","comment":"fa-won"},
-         {"value":"yen","comment":"fa-yen"},
-         {"value":"align-center","comment":"fa-align-center"},
-         {"value":"align-justify","comment":"fa-align-justify"},
-         {"value":"align-left","comment":"fa-align-left"},
-         {"value":"align-right","comment":"fa-align-right"},
-         {"value":"bold","comment":"fa-bold"},
-         {"value":"chain","comment":"fa-chain"},
-         {"value":"chain-broken","comment":"fa-chain-broken"},
-         {"value":"clipboard","comment":"fa-clipboard"},
-         {"value":"columns","comment":"fa-columns"},
-         {"value":"copy","comment":"fa-copy"},
-         {"value":"cut","comment":"fa-cut"},
-         {"value":"dedent","comment":"fa-dedent"},
-         {"value":"eraser","comment":"fa-eraser"},
-         {"value":"file","comment":"fa-file"},
-         {"value":"file-o","comment":"fa-file-o"},
-         {"value":"file-text","comment":"fa-file-text"},
-         {"value":"file-text-o","comment":"fa-file-text-o"},
-         {"value":"files-o","comment":"fa-files-o"},
-         {"value":"floppy-o","comment":"fa-floppy-o"},
-         {"value":"font","comment":"fa-font"},
-         {"value":"header","comment":"fa-header"},
-         {"value":"indent","comment":"fa-indent"},
-         {"value":"italic","comment":"fa-italic"},
-         {"value":"link","comment":"fa-link"},
-         {"value":"list","comment":"fa-list"},
-         {"value":"list-alt","comment":"fa-list-alt"},
-         {"value":"list-ol","comment":"fa-list-ol"},
-         {"value":"list-ul","comment":"fa-list-ul"},
-         {"value":"outdent","comment":"fa-outdent"},
-         {"value":"paperclip","comment":"fa-paperclip"},
-         {"value":"paragraph","comment":"fa-paragraph"},
-         {"value":"paste","comment":"fa-paste"},
-         {"value":"repeat","comment":"fa-repeat"},
-         {"value":"rotate-left","comment":"fa-rotate-left"},
-         {"value":"rotate-right","comment":"fa-rotate-right"},
-         {"value":"save","comment":"fa-save"},
-         {"value":"scissors","comment":"fa-scissors"},
-         {"value":"strikethrough","comment":"fa-strikethrough"},
-         {"value":"subscript","comment":"fa-subscript"},
-         {"value":"superscript","comment":"fa-superscript"},
-         {"value":"table","comment":"fa-table"},
-         {"value":"text-height","comment":"fa-text-height"},
-         {"value":"text-width","comment":"fa-text-width"},
-         {"value":"th","comment":"fa-th"},
-         {"value":"th-large","comment":"fa-th-large"},
-         {"value":"th-list","comment":"fa-th-list"},
-         {"value":"underline","comment":"fa-underline"},
-         {"value":"undo","comment":"fa-undo"},
-         {"value":"unlink","comment":"fa-unlink"},
-         {"value":"angle-double-down","comment":"fa-angle-double-down"},
-         {"value":"angle-double-left","comment":"fa-angle-double-left"},
-         {"value":"angle-double-right","comment":"fa-angle-double-right"},
-         {"value":"angle-double-up","comment":"fa-angle-double-up"},
-         {"value":"angle-down","comment":"fa-angle-down"},
-         {"value":"angle-left","comment":"fa-angle-left"},
-         {"value":"angle-right","comment":"fa-angle-right"},
-         {"value":"angle-up","comment":"fa-angle-up"},
-         {"value":"arrow-circle-down","comment":"fa-arrow-circle-down"},
-         {"value":"arrow-circle-left","comment":"fa-arrow-circle-left"},
-         {"value":"arrow-circle-o-down","comment":"fa-arrow-circle-o-down"},
-         {"value":"arrow-circle-o-left","comment":"fa-arrow-circle-o-left"},
-         {"value":"arrow-circle-o-right","comment":"fa-arrow-circle-o-right"},
-         {"value":"arrow-circle-o-up","comment":"fa-arrow-circle-o-up"},
-         {"value":"arrow-circle-right","comment":"fa-arrow-circle-right"},
-         {"value":"arrow-circle-up","comment":"fa-arrow-circle-up"},
-         {"value":"arrow-down","comment":"fa-arrow-down"},
-         {"value":"arrow-left","comment":"fa-arrow-left"},
-         {"value":"arrow-right","comment":"fa-arrow-right"},
-         {"value":"arrow-up","comment":"fa-arrow-up"},
-         {"value":"arrows","comment":"fa-arrows"},
-         {"value":"arrows-alt","comment":"fa-arrows-alt"},
-         {"value":"arrows-h","comment":"fa-arrows-h"},
-         {"value":"arrows-v","comment":"fa-arrows-v"},
-         {"value":"caret-down","comment":"fa-caret-down"},
-         {"value":"caret-left","comment":"fa-caret-left"},
-         {"value":"caret-right","comment":"fa-caret-right"},
-         {"value":"caret-square-o-down","comment":"fa-caret-square-o-down"},
-         {"value":"caret-square-o-left","comment":"fa-caret-square-o-left"},
-         {"value":"caret-square-o-right","comment":"fa-caret-square-o-right"},
-         {"value":"caret-square-o-up","comment":"fa-caret-square-o-up"},
-         {"value":"caret-up","comment":"fa-caret-up"},
-         {"value":"chevron-circle-down","comment":"fa-chevron-circle-down"},
-         {"value":"chevron-circle-left","comment":"fa-chevron-circle-left"},
-         {"value":"chevron-circle-right","comment":"fa-chevron-circle-right"},
-         {"value":"chevron-circle-up","comment":"fa-chevron-circle-up"},
-         {"value":"chevron-down","comment":"fa-chevron-down"},
-         {"value":"chevron-left","comment":"fa-chevron-left"},
-         {"value":"chevron-right","comment":"fa-chevron-right"},
-         {"value":"chevron-up","comment":"fa-chevron-up"},
-         {"value":"exchange","comment":"fa-exchange"},
-         {"value":"hand-o-down","comment":"fa-hand-o-down"},
-         {"value":"hand-o-left","comment":"fa-hand-o-left"},
-         {"value":"hand-o-right","comment":"fa-hand-o-right"},
-         {"value":"hand-o-up","comment":"fa-hand-o-up"},
-         {"value":"long-arrow-down","comment":"fa-long-arrow-down"},
-         {"value":"long-arrow-left","comment":"fa-long-arrow-left"},
-         {"value":"long-arrow-right","comment":"fa-long-arrow-right"},
-         {"value":"long-arrow-up","comment":"fa-long-arrow-up"},
-         {"value":"toggle-down","comment":"fa-toggle-down"},
-         {"value":"toggle-left","comment":"fa-toggle-left"},
-         {"value":"toggle-right","comment":"fa-toggle-right"},
-         {"value":"toggle-up","comment":"fa-toggle-up"},
-         {"value":"arrows-alt","comment":"fa-arrows-alt"},
-         {"value":"backward","comment":"fa-backward"},
-         {"value":"compress","comment":"fa-compress"},
-         {"value":"eject","comment":"fa-eject"},
-         {"value":"expand","comment":"fa-expand"},
-         {"value":"fast-backward","comment":"fa-fast-backward"},
-         {"value":"fast-forward","comment":"fa-fast-forward"},
-         {"value":"forward","comment":"fa-forward"},
-         {"value":"pause","comment":"fa-pause"},
-         {"value":"play","comment":"fa-play"},
-         {"value":"play-circle","comment":"fa-play-circle"},
-         {"value":"play-circle-o","comment":"fa-play-circle-o"},
-         {"value":"random","comment":"fa-random"},
-         {"value":"step-backward","comment":"fa-step-backward"},
-         {"value":"step-forward","comment":"fa-step-forward"},
-         {"value":"stop","comment":"fa-stop"},
-         {"value":"youtube-play","comment":"fa-youtube-play"},
-         {"value":"500px","comment":"fa-500px"},
-         {"value":"adn","comment":"fa-adn"},
-         {"value":"amazon","comment":"fa-amazon"},
-         {"value":"android","comment":"fa-android"},
-         {"value":"angellist","comment":"fa-angellist"},
-         {"value":"apple","comment":"fa-apple"},
-         {"value":"behance","comment":"fa-behance"},
-         {"value":"behance-square","comment":"fa-behance-square"},
-         {"value":"bitbucket","comment":"fa-bitbucket"},
-         {"value":"bitbucket-square","comment":"fa-bitbucket-square"},
-         {"value":"bitcoin","comment":"fa-bitcoin"},
-         {"value":"black-tie","comment":"fa-black-tie"},
-          {"value":"bluetooth-b","comment":"fa-bluetooth-b"},
-         {"value":"btc","comment":"fa-btc"},
-         {"value":"buysellads","comment":"fa-buysellads"},
-         {"value":"cc-amex","comment":"fa-cc-amex"},
-         {"value":"cc-diners-club","comment":"fa-cc-diners-club"},
-         {"value":"cc-discover","comment":"fa-cc-discover"},
-         {"value":"cc-jcb","comment":"fa-cc-jcb"},
-         {"value":"cc-mastercard","comment":"fa-cc-mastercard"},
-         {"value":"cc-paypal","comment":"fa-cc-paypal"},
-         {"value":"cc-stripe","comment":"fa-cc-stripe"},
-         {"value":"cc-visa","comment":"fa-cc-visa"},
-         {"value":"chrome","comment":"fa-chrome"},
-         {"value":"codepen","comment":"fa-codepen"},
-         {"value":"connectdevelop","comment":"fa-connectdevelop"},
-         {"value":"contao","comment":"fa-contao"},
-         {"value":"css3","comment":"fa-css3"},
-         {"value":"dashcube","comment":"fa-dashcube"},
-         {"value":"delicious","comment":"fa-delicious"},
-         {"value":"deviantart","comment":"fa-deviantart"},
-         {"value":"digg","comment":"fa-digg"},
-         {"value":"dribbble","comment":"fa-dribbble"},
-         {"value":"dropbox","comment":"fa-dropbox"},
-         {"value":"drupal","comment":"fa-drupal"},
-         {"value":"empire","comment":"fa-empire"},
-         {"value":"expeditedssl","comment":"fa-expeditedssl"},
-         {"value":"facebook","comment":"fa-facebook"},
-         {"value":"facebook-f","comment":"fa-facebook-f"},
-         {"value":"facebook-official","comment":"fa-facebook-official"},
-         {"value":"facebook-square","comment":"fa-facebook-square"},
-         {"value":"firefox","comment":"fa-firefox"},
-         {"value":"flickr","comment":"fa-flickr"},
-         {"value":"fonticons","comment":"fa-fonticons"},
-         {"value":"forumbee","comment":"fa-forumbee"},
-         {"value":"foursquare","comment":"fa-foursquare"},
-         {"value":"ge","comment":"fa-ge"},
-         {"value":"get-pocket","comment":"fa-get-pocket"},
-         {"value":"gg","comment":"fa-gg"},
-         {"value":"gg-circle","comment":"fa-gg-circle"},
-         {"value":"git","comment":"fa-git"},
-         {"value":"git-square","comment":"fa-git-square"},
-         {"value":"github","comment":"fa-github"},
-         {"value":"github-alt","comment":"fa-github-alt"},
-         {"value":"github-square","comment":"fa-github-square"},
-         {"value":"gittip","comment":"fa-gittip"},
-         {"value":"google","comment":"fa-google"},
-         {"value":"google-plus","comment":"fa-google-plus"},
-         {"value":"google-plus-square","comment":"fa-google-plus-square"},
-         {"value":"google-wallet","comment":"fa-google-wallet"},
-         {"value":"gratipay","comment":"fa-gratipay"},
-         {"value":"hacker-news","comment":"fa-hacker-news"},
-         {"value":"houzz","comment":"fa-houzz"},
-         {"value":"html5","comment":"fa-html5"},
-         {"value":"instagram","comment":"fa-instagram"},
-         {"value":"internet-explorer","comment":"fa-internet-explorer"},
-         {"value":"ioxhost","comment":"fa-ioxhost"},
-         {"value":"joomla","comment":"fa-joomla"},
-         {"value":"jsfiddle","comment":"fa-jsfiddle"},
-         {"value":"lastfm","comment":"fa-lastfm"},
-         {"value":"lastfm-square","comment":"fa-lastfm-square"},
-         {"value":"leanpub","comment":"fa-leanpub"},
-         {"value":"linkedin","comment":"fa-linkedin"},
-         {"value":"linkedin-square","comment":"fa-linkedin-square"},
-         {"value":"linux","comment":"fa-linux"},
-         {"value":"maxcdn","comment":"fa-maxcdn"},
-         {"value":"meanpath","comment":"fa-meanpath"},
-         {"value":"medium","comment":"fa-medium"},
-         {"value":"odnoklassniki","comment":"fa-odnoklassniki"},
-         {"value":"odnoklassniki-square","comment":"fa-odnoklassniki-square"},
-         {"value":"opencart","comment":"fa-opencart"},
-         {"value":"openid","comment":"fa-openid"},
-         {"value":"opera","comment":"fa-opera"},
-         {"value":"optin-monster","comment":"fa-optin-monster"},
-         {"value":"pagelines","comment":"fa-pagelines"},
-         {"value":"paypal","comment":"fa-paypal"},
-         {"value":"pied-piper","comment":"fa-pied-piper"},
-         {"value":"pied-piper-alt","comment":"fa-pied-piper-alt"},
-         {"value":"pinterest","comment":"fa-pinterest"},
-         {"value":"pinterest-p","comment":"fa-pinterest-p"},
-         {"value":"pinterest-square","comment":"fa-pinterest-square"},
-         {"value":"qq","comment":"fa-qq"},
-         {"value":"ra","comment":"fa-ra"},
-         {"value":"rebel","comment":"fa-rebel"},
-         {"value":"reddit","comment":"fa-reddit"},
-         {"value":"reddit-square","comment":"fa-reddit-square"},
-         {"value":"renren","comment":"fa-renren"},
-         {"value":"safari","comment":"fa-safari"},
-         {"value":"sellsy","comment":"fa-sellsy"},
-         {"value":"share-alt","comment":"fa-share-alt"},
-         {"value":"share-alt-square","comment":"fa-share-alt-square"},
-         {"value":"shirtsinbulk","comment":"fa-shirtsinbulk"},
-         {"value":"simplybuilt","comment":"fa-simplybuilt"},
-         {"value":"skyatlas","comment":"fa-skyatlas"},
-         {"value":"skype","comment":"fa-skype"},
-         {"value":"slack","comment":"fa-slack"},
-         {"value":"slideshare","comment":"fa-slideshare"},
-         {"value":"soundcloud","comment":"fa-soundcloud"},
-         {"value":"spotify","comment":"fa-spotify"},
-         {"value":"stack-exchange","comment":"fa-stack-exchange"},
-         {"value":"stack-overflow","comment":"fa-stack-overflow"},
-         {"value":"steam","comment":"fa-steam"},
-         {"value":"steam-square","comment":"fa-steam-square"},
-         {"value":"stumbleupon","comment":"fa-stumbleupon"},
-         {"value":"stumbleupon-circle","comment":"fa-stumbleupon-circle"},
-         {"value":"tencent-weibo","comment":"fa-tencent-weibo"},
-         {"value":"trello","comment":"fa-trello"},
-         {"value":"tripadvisor","comment":"fa-tripadvisor"},
-         {"value":"tumblr","comment":"fa-tumblr"},
-         {"value":"tumblr-square","comment":"fa-tumblr-square"},
-         {"value":"twitch","comment":"fa-twitch"},
-         {"value":"twitter","comment":"fa-twitter"},
-         {"value":"twitter-square","comment":"fa-twitter-square"},
-         {"value":"viacoin","comment":"fa-viacoin"},
-         {"value":"vimeo","comment":"fa-vimeo"},
-         {"value":"vimeo-square","comment":"fa-vimeo-square"},
-         {"value":"vine","comment":"fa-vine"},
-         {"value":"vk","comment":"fa-vk"},
-         {"value":"wechat","comment":"fa-wechat"},
-         {"value":"weibo","comment":"fa-weibo"},
-         {"value":"weixin","comment":"fa-weixin"},
-         {"value":"whatsapp","comment":"fa-whatsapp"},
-         {"value":"wikipedia-w","comment":"fa-wikipedia-w"},
-         {"value":"windows","comment":"fa-windows"},
-         {"value":"wordpress","comment":"fa-wordpress"},
-         {"value":"xing","comment":"fa-xing"},
-         {"value":"xing-square","comment":"fa-xing-square"},
-         {"value":"y-combinator","comment":"fa-y-combinator"},
-         {"value":"y-combinator-square","comment":"fa-y-combinator-square"},
-         {"value":"yahoo","comment":"fa-yahoo"},
-         {"value":"yc","comment":"fa-yc"},
-         {"value":"yc-square","comment":"fa-yc-square"},
-         {"value":"yelp","comment":"fa-yelp"},
-         {"value":"youtube","comment":"fa-youtube"},
-         {"value":"youtube-play","comment":"fa-youtube-play"},
-         {"value":"youtube-square","comment":"fa-youtube-square"},
-         {"value":"ambulance","comment":"fa-ambulance"},
-         {"value":"h-square","comment":"fa-h-square"},
-         {"value":"heart","comment":"fa-heart"},
-         {"value":"heart-o","comment":"fa-heart-o"},
-         {"value":"heartbeat","comment":"fa-heartbeat"},
-         {"value":"hospital-o","comment":"fa-hospital-o"},
-         {"value":"medkit","comment":"fa-medkit"},
-         {"value":"plus-square","comment":"fa-plus-square"},
-         {"value":"stethoscope","comment":"fa-stethoscope"},
-         {"value":"user-md","comment":"fa-user-md"},
+		 autocompletesearchparam='[{"value":"codiepie","comment":"fa-codiepie"},
+		 {"value":"credit-card-alt","comment":"fa-credit-card-alt"},
+		 {"value":"edge","comment":"fa-edge"},
+		 {"value":"fort-awesome","comment":"fa-fort-awesome"},
+		 {"value":"hashtag","comment":"fa-hashtag"},
+		 {"value":"mixcloud","comment":"fa-mixcloud"},
+		 {"value":"modx","comment":"fa-modx"},
+		 {"value":"pause-circle","comment":"fa-pause-circle"},
+		 {"value":"pause-circle-o","comment":"fa-pause-circle-o"},
+		 {"value":"percent","comment":"fa-percent"},
+		 {"value":"product-hunt","comment":"fa-product-hunt"},
+		 {"value":"reddit-alien","comment":"fa-reddit-alien"},
+		 {"value":"scribd","comment":"fa-scribd"},
+		 {"value":"shopping-bag","comment":"fa-shopping-bag"},
+		 {"value":"shopping-basket","comment":"fa-shopping-basket"},
+		 {"value":"stop-circle","comment":"fa-stop-circle"},
+		 {"value":"stop-circle-o","comment":"fa-stop-circle-o"},
+		 {"value":"usb","comment":"fa-usb"},
+		 {"value":"adjust","comment":"fa-adjust"},
+		 {"value":"anchor","comment":"fa-anchor"},
+		 {"value":"archive","comment":"fa-archive"},
+		 {"value":"asterisk","comment":"fa-asterisk"},
+		 {"value":"at","comment":"fa-at"},
+		 {"value":"balance-scale","comment":"fa-balance-scale"},
+		 {"value":"ban","comment":"fa-ban"},
+		 {"value":"bank","comment":"fa-bank"},
+		 {"value":"barcode","comment":"fa-barcode"},
+		 {"value":"bars","comment":"fa-bars"},
+		 {"value":"battery-0","comment":"fa-battery-0"},
+		 {"value":"battery-1","comment":"fa-battery-1"},
+		 {"value":"battery-2","comment":"fa-battery-2"},
+		 {"value":"battery-3","comment":"fa-battery-3"},
+		 {"value":"battery-4","comment":"fa-battery-4"},
+		 {"value":"battery-empty","comment":"fa-battery-empty"},
+		 {"value":"battery-full","comment":"fa-battery-full"},
+		 {"value":"battery-half","comment":"fa-battery-half"},
+		 {"value":"battery-quarter","comment":"fa-battery-quarter"},
+		 {"value":"battery-three-quarters","comment":"fa-battery-three-quarters"},
+		 {"value":"bed","comment":"fa-bed"},
+		 {"value":"beer","comment":"fa-beer"},
+		 {"value":"bell","comment":"fa-bell"},
+		 {"value":"bell-o","comment":"fa-bell-o"},
+		 {"value":"bell-slash","comment":"fa-bell-slash"},
+		 {"value":"bell-slash-o","comment":"fa-bell-slash-o"},
+		 {"value":"binoculars","comment":"fa-binoculars"},
+		 {"value":"birthday-cake","comment":"fa-birthday-cake"},
+		 {"value":"bluetooth","comment":"fa-bluetooth"},
+		 {"value":"bolt","comment":"fa-bolt"},
+		 {"value":"bomb","comment":"fa-bomb"},
+		 {"value":"book","comment":"fa-book"},
+		 {"value":"bookmark","comment":"fa-bookmark"},
+		 {"value":"bookmark-o","comment":"fa-bookmark-o"},
+		 {"value":"briefcase","comment":"fa-briefcase"},
+		 {"value":"bug","comment":"fa-bug"},
+		 {"value":"building","comment":"fa-building"},
+		 {"value":"building-o","comment":"fa-building-o"},
+		 {"value":"bullhorn","comment":"fa-bullhorn"},
+		 {"value":"bullseye","comment":"fa-bullseye"},
+		 {"value":"calculator","comment":"fa-calculator"},
+		 {"value":"calendar","comment":"fa-calendar"},
+		 {"value":"calendar-check-o","comment":"fa-calendar-check-o"},
+		 {"value":"calendar-minus-o","comment":"fa-calendar-minus-o"},
+		 {"value":"calendar-o","comment":"fa-calendar-o"},
+		 {"value":"calendar-plus-o","comment":"fa-calendar-plus-o"},
+		 {"value":"calendar-times-o","comment":"fa-calendar-times-o"},
+		 {"value":"camera","comment":"fa-camera"},
+		 {"value":"camera-retro","comment":"fa-camera-retro"},
+		 {"value":"cart-arrow-down","comment":"fa-cart-arrow-down"},
+		 {"value":"cart-plus","comment":"fa-cart-plus"},
+		 {"value":"cc","comment":"fa-cc"},
+		 {"value":"certificate","comment":"fa-certificate"},
+		 {"value":"check","comment":"fa-check"},
+		 {"value":"check-circle","comment":"fa-check-circle"},
+		 {"value":"check-circle-o","comment":"fa-check-circle-o"},
+		 {"value":"child","comment":"fa-child"},
+		 {"value":"circle-thin","comment":"fa-circle-thin"},
+		 {"value":"clock-o","comment":"fa-clock-o"},
+		 {"value":"clone","comment":"fa-clone"},
+		 {"value":"close","comment":"fa-close"},
+		 {"value":"cloud","comment":"fa-cloud"},
+		 {"value":"cloud-download","comment":"fa-cloud-download"},
+		 {"value":"cloud-upload","comment":"fa-cloud-upload"},
+		 {"value":"code","comment":"fa-code"},
+		 {"value":"code-fork","comment":"fa-code-fork"},
+		 {"value":"coffee","comment":"fa-coffee"},
+		 {"value":"cogs","comment":"fa-cogs"},
+		 {"value":"comment","comment":"fa-comment"},
+		 {"value":"comment-o","comment":"fa-comment-o"},
+		 {"value":"commenting","comment":"fa-commenting"},
+		 {"value":"commenting-o","comment":"fa-commenting-o"},
+		 {"value":"comments","comment":"fa-comments"},
+		 {"value":"comments-o","comment":"fa-comments-o"},
+		 {"value":"compass","comment":"fa-compass"},
+		 {"value":"copyright","comment":"fa-copyright"},
+		 {"value":"creative-commons","comment":"fa-creative-commons"},
+		 {"value":"crop","comment":"fa-crop"},
+		 {"value":"crosshairs","comment":"fa-crosshairs"},
+		 {"value":"cube","comment":"fa-cube"},
+		 {"value":"cubes","comment":"fa-cubes"},
+		 {"value":"cutlery","comment":"fa-cutlery"},
+		 {"value":"dashboard","comment":"fa-dashboard"},
+		 {"value":"database","comment":"fa-database"},
+		 {"value":"desktop","comment":"fa-desktop"},
+		 {"value":"diamond","comment":"fa-diamond"},
+		 {"value":"dot-circle-o","comment":"fa-dot-circle-o"},
+		 {"value":"download","comment":"fa-download"},
+		 {"value":"edit","comment":"fa-edit"},
+		 {"value":"ellipsis-h","comment":"fa-ellipsis-h"},
+		 {"value":"ellipsis-v","comment":"fa-ellipsis-v"},
+		 {"value":"envelope","comment":"fa-envelope"},
+		 {"value":"envelope-o","comment":"fa-envelope-o"},
+		 {"value":"envelope-square","comment":"fa-envelope-square"},
+		 {"value":"eraser","comment":"fa-eraser"},
+		 {"value":"exchange","comment":"fa-exchange"},
+		 {"value":"exclamation","comment":"fa-exclamation"},
+		 {"value":"exclamation-circle","comment":"fa-exclamation-circle"},
+		 {"value":"exclamation-triangle","comment":"fa-exclamation-triangle"},
+		 {"value":"external-link","comment":"fa-external-link"},
+		 {"value":"external-link-square","comment":"fa-external-link-square"},
+		 {"value":"eye","comment":"fa-eye"},
+		 {"value":"eye-slash","comment":"fa-eye-slash"},
+		 {"value":"eyedropper","comment":"fa-eyedropper"},
+		 {"value":"fax","comment":"fa-fax"},
+		 {"value":"feed","comment":"fa-feed"},
+		 {"value":"female","comment":"fa-female"},
+		 {"value":"fighter-jet","comment":"fa-fighter-jet"},
+		 {"value":"file-archive-o","comment":"fa-file-archive-o"},
+		 {"value":"file-audio-o","comment":"fa-file-audio-o"},
+		 {"value":"file-code-o","comment":"fa-file-code-o"},
+		 {"value":"file-excel-o","comment":"fa-file-excel-o"},
+		 {"value":"file-image-o","comment":"fa-file-image-o"},
+		 {"value":"file-movie-o","comment":"fa-file-movie-o"},
+		 {"value":"file-pdf-o","comment":"fa-file-pdf-o"},
+		 {"value":"file-photo-o","comment":"fa-file-photo-o"},
+		 {"value":"file-picture-o","comment":"fa-file-picture-o"},
+		 {"value":"file-powerpoint-o","comment":"fa-file-powerpoint-o"},
+		 {"value":"file-sound-o","comment":"fa-file-sound-o"},
+		 {"value":"file-video-o","comment":"fa-file-video-o"},
+		 {"value":"file-word-o","comment":"fa-file-word-o"},
+		 {"value":"file-zip-o","comment":"fa-file-zip-o"},
+		 {"value":"film","comment":"fa-film"},
+		 {"value":"filter","comment":"fa-filter"},
+		 {"value":"fire","comment":"fa-fire"},
+		 {"value":"fire-extinguisher","comment":"fa-fire-extinguisher"},
+		 {"value":"flag","comment":"fa-flag"},
+		 {"value":"flag-checkered","comment":"fa-flag-checkered"},
+		 {"value":"flag-o","comment":"fa-flag-o"},
+		 {"value":"flash","comment":"fa-flash"},
+		 {"value":"flask","comment":"fa-flask"},
+		 {"value":"folder","comment":"fa-folder"},
+		 {"value":"folder-o","comment":"fa-folder-o"},
+		 {"value":"folder-open","comment":"fa-folder-open"},
+		 {"value":"folder-open-o","comment":"fa-folder-open-o"},
+		 {"value":"frown-o","comment":"fa-frown-o"},
+		 {"value":"futbol-o","comment":"fa-futbol-o"},
+		 {"value":"gamepad","comment":"fa-gamepad"},
+		 {"value":"gavel","comment":"fa-gavel"},
+		 {"value":"gear","comment":"fa-gear"},
+		 {"value":"gears","comment":"fa-gears"},
+		 {"value":"gift","comment":"fa-gift"},
+		 {"value":"glass","comment":"fa-glass"},
+		 {"value":"globe","comment":"fa-globe"},
+		 {"value":"graduation-cap","comment":"fa-graduation-cap"},
+		 {"value":"group","comment":"fa-group"},
+		 {"value":"hand-grab-o","comment":"fa-hand-grab-o"},
+		 {"value":"hand-lizard-o","comment":"fa-hand-lizard-o"},
+		 {"value":"hand-paper-o","comment":"fa-hand-paper-o"},
+		 {"value":"hand-peace-o","comment":"fa-hand-peace-o"},
+		 {"value":"hand-pointer-o","comment":"fa-hand-pointer-o"},
+		 {"value":"hand-rock-o","comment":"fa-hand-rock-o"},
+		 {"value":"hand-scissors-o","comment":"fa-hand-scissors-o"},
+		 {"value":"hand-spock-o","comment":"fa-hand-spock-o"},
+		 {"value":"hand-stop-o","comment":"fa-hand-stop-o"},
+		 {"value":"hdd-o","comment":"fa-hdd-o"},
+		 {"value":"headphones","comment":"fa-headphones"},
+		 {"value":"heart","comment":"fa-heart"},
+		 {"value":"heart-o","comment":"fa-heart-o"},
+		 {"value":"heartbeat","comment":"fa-heartbeat"},
+		 {"value":"history","comment":"fa-history"},
+		 {"value":"home","comment":"fa-home"},
+		 {"value":"hotel","comment":"fa-hotel"},
+		 {"value":"hourglass","comment":"fa-hourglass"},
+		 {"value":"hourglass-1","comment":"fa-hourglass-1"},
+		 {"value":"hourglass-2","comment":"fa-hourglass-2"},
+		 {"value":"hourglass-3","comment":"fa-hourglass-3"},
+		 {"value":"hourglass-end","comment":"fa-hourglass-end"},
+		 {"value":"hourglass-half","comment":"fa-hourglass-half"},
+		 {"value":"hourglass-o","comment":"fa-hourglass-o"},
+		 {"value":"hourglass-start","comment":"fa-hourglass-start"},
+		 {"value":"i-cursor","comment":"fa-i-cursor"},
+		 {"value":"image","comment":"fa-image"},
+		 {"value":"inbox","comment":"fa-inbox"},
+		 {"value":"industry","comment":"fa-industry"},
+		 {"value":"info","comment":"fa-info"},
+		 {"value":"info-circle","comment":"fa-info-circle"},
+		 {"value":"institution","comment":"fa-institution"},
+		 {"value":"key","comment":"fa-key"},
+		 {"value":"keyboard-o","comment":"fa-keyboard-o"},
+		 {"value":"language","comment":"fa-language"},
+		 {"value":"laptop","comment":"fa-laptop"},
+		 {"value":"leaf","comment":"fa-leaf"},
+		 {"value":"legal","comment":"fa-legal"},
+		 {"value":"lemon-o","comment":"fa-lemon-o"},
+		 {"value":"level-down","comment":"fa-level-down"},
+		 {"value":"level-up","comment":"fa-level-up"},
+		 {"value":"life-bouy","comment":"fa-life-bouy"},
+		 {"value":"life-buoy","comment":"fa-life-buoy"},
+		 {"value":"life-ring","comment":"fa-life-ring"},
+		 {"value":"life-saver","comment":"fa-life-saver"},
+		 {"value":"lightbulb-o","comment":"fa-lightbulb-o"},
+		 {"value":"line-chart","comment":"fa-line-chart"},
+		 {"value":"location-arrow","comment":"fa-location-arrow"},
+		 {"value":"lock","comment":"fa-lock"},
+		 {"value":"magic","comment":"fa-magic"},
+		 {"value":"magnet","comment":"fa-magnet"},
+		 {"value":"mail-forward","comment":"fa-mail-forward"},
+		 {"value":"mail-reply","comment":"fa-mail-reply"},
+		 {"value":"mail-reply-all","comment":"fa-mail-reply-all"},
+		 {"value":"male","comment":"fa-male"},
+		 {"value":"map","comment":"fa-map"},
+		 {"value":"map-marker","comment":"fa-map-marker"},
+		 {"value":"map-o","comment":"fa-map-o"},
+		 {"value":"map-pin","comment":"fa-map-pin"},
+		 {"value":"map-signs","comment":"fa-map-signs"},
+		 {"value":"meh-o","comment":"fa-meh-o"},
+		 {"value":"microphone","comment":"fa-microphone"},
+		 {"value":"microphone-slash","comment":"fa-microphone-slash"},
+		 {"value":"minus","comment":"fa-minus"},
+		 {"value":"minus-circle","comment":"fa-minus-circle"},
+		 {"value":"minus-square","comment":"fa-minus-square"},
+		 {"value":"minus-square-o","comment":"fa-minus-square-o"},
+		 {"value":"mobile","comment":"fa-mobile"},
+		 {"value":"mobile-phone","comment":"fa-mobile-phone"},
+		 {"value":"money","comment":"fa-money"},
+		 {"value":"moon-o","comment":"fa-moon-o"},
+		 {"value":"mortar-board","comment":"fa-mortar-board"},
+		 {"value":"motorcycle","comment":"fa-motorcycle"},
+		 {"value":"mouse-pointer","comment":"fa-mouse-pointer"},
+		 {"value":"music","comment":"fa-music"},
+		 {"value":"navicon","comment":"fa-navicon"},
+		 {"value":"newspaper-o","comment":"fa-newspaper-o"},
+		 {"value":"object-group","comment":"fa-object-group"},
+		 {"value":"object-ungroup","comment":"fa-object-ungroup"},
+		 {"value":"paint-brush","comment":"fa-paint-brush"},
+		 {"value":"paper-plane","comment":"fa-paper-plane"},
+		 {"value":"paper-plane-o","comment":"fa-paper-plane-o"},
+		 {"value":"paw","comment":"fa-paw"},
+		 {"value":"pencil","comment":"fa-pencil"},
+		 {"value":"pencil-square","comment":"fa-pencil-square"},
+		 {"value":"pencil-square-o","comment":"fa-pencil-square-o"},
+		 {"value":"phone","comment":"fa-phone"},
+		 {"value":"phone-square","comment":"fa-phone-square"},
+		 {"value":"photo","comment":"fa-photo"},
+		 {"value":"picture-o","comment":"fa-picture-o"},
+		 {"value":"pie-chart","comment":"fa-pie-chart"},
+		 {"value":"plane","comment":"fa-plane"},
+		 {"value":"plug","comment":"fa-plug"},
+		 {"value":"plus","comment":"fa-plus"},
+		 {"value":"plus-circle","comment":"fa-plus-circle"},
+		 {"value":"plus-square","comment":"fa-plus-square"},
+		 {"value":"plus-square-o","comment":"fa-plus-square-o"},
+		 {"value":"power-off","comment":"fa-power-off"},
+		 {"value":"print","comment":"fa-print"},
+		 {"value":"puzzle-piece","comment":"fa-puzzle-piece"},
+		 {"value":"qrcode","comment":"fa-qrcode"},
+		 {"value":"question","comment":"fa-question"},
+		 {"value":"question-circle","comment":"fa-question-circle"},
+		 {"value":"quote-left","comment":"fa-quote-left"},
+		 {"value":"quote-right","comment":"fa-quote-right"},
+		 {"value":"random","comment":"fa-random"},
+		 {"value":"recycle","comment":"fa-recycle"},
+		 {"value":"refresh","comment":"fa-refresh"},
+		 {"value":"registered","comment":"fa-registered"},
+		 {"value":"remove","comment":"fa-remove"},
+		 {"value":"reorder","comment":"fa-reorder"},
+		 {"value":"reply","comment":"fa-reply"},
+		 {"value":"reply-all","comment":"fa-reply-all"},
+		 {"value":"retweet","comment":"fa-retweet"},
+		 {"value":"road","comment":"fa-road"},
+		 {"value":"rocket","comment":"fa-rocket"},
+		 {"value":"rss","comment":"fa-rss"},
+		 {"value":"rss-square","comment":"fa-rss-square"},
+		 {"value":"search","comment":"fa-search"},
+		 {"value":"search-minus","comment":"fa-search-minus"},
+		 {"value":"search-plus","comment":"fa-search-plus"},
+		 {"value":"send","comment":"fa-send"},
+		 {"value":"send-o","comment":"fa-send-o"},
+		 {"value":"server","comment":"fa-server"},
+		 {"value":"share","comment":"fa-share"},
+		 {"value":"share-alt","comment":"fa-share-alt"},
+		 {"value":"share-alt-square","comment":"fa-share-alt-square"},
+		 {"value":"share-square","comment":"fa-share-square"},
+		 {"value":"share-square-o","comment":"fa-share-square-o"},
+		 {"value":"shield","comment":"fa-shield"},
+		 {"value":"ship","comment":"fa-ship"},
+		 {"value":"shopping-cart","comment":"fa-shopping-cart"},
+		 {"value":"sign-in","comment":"fa-sign-in"},
+		 {"value":"sign-out","comment":"fa-sign-out"},
+		 {"value":"signal","comment":"fa-signal"},
+		 {"value":"sitemap","comment":"fa-sitemap"},
+		 {"value":"sliders","comment":"fa-sliders"},
+		 {"value":"smile-o","comment":"fa-smile-o"},
+		 {"value":"soccer-ball-o","comment":"fa-soccer-ball-o"},
+		 {"value":"sort","comment":"fa-sort"},
+		 {"value":"sort-alpha-asc","comment":"fa-sort-alpha-asc"},
+		 {"value":"sort-alpha-desc","comment":"fa-sort-alpha-desc"},
+		 {"value":"sort-amount-asc","comment":"fa-sort-amount-asc"},
+		 {"value":"sort-amount-desc","comment":"fa-sort-amount-desc"},
+		 {"value":"sort-asc","comment":"fa-sort-asc"},
+		 {"value":"sort-desc","comment":"fa-sort-desc"},
+		 {"value":"sort-down","comment":"fa-sort-down"},
+		 {"value":"sort-numeric-asc","comment":"fa-sort-numeric-asc"},
+		 {"value":"sort-numeric-desc","comment":"fa-sort-numeric-desc"},
+		 {"value":"sort-up","comment":"fa-sort-up"},
+		 {"value":"space-shuttle","comment":"fa-space-shuttle"},
+		 {"value":"spinner","comment":"fa-spinner"},
+		 {"value":"spoon","comment":"fa-spoon"},
+		 {"value":"square","comment":"fa-square"},
+		 {"value":"square-o","comment":"fa-square-o"},
+		 {"value":"star","comment":"fa-star"},
+		 {"value":"star-half","comment":"fa-star-half"},
+		 {"value":"star-half-empty","comment":"fa-star-half-empty"},
+		 {"value":"star-half-full","comment":"fa-star-half-full"},
+		 {"value":"star-half-o","comment":"fa-star-half-o"},
+		 {"value":"star-o","comment":"fa-star-o"},
+		 {"value":"sticky-note","comment":"fa-sticky-note"},
+		 {"value":"sticky-note-o","comment":"fa-sticky-note-o"},
+		 {"value":"street-view","comment":"fa-street-view"},
+		 {"value":"suitcase","comment":"fa-suitcase"},
+		 {"value":"sun-o","comment":"fa-sun-o"},
+		 {"value":"support","comment":"fa-support"},
+		 {"value":"tablet","comment":"fa-tablet"},
+		 {"value":"tachometer","comment":"fa-tachometer"},
+		 {"value":"tag","comment":"fa-tag"},
+		 {"value":"tags","comment":"fa-tags"},
+		 {"value":"tasks","comment":"fa-tasks"},
+		 {"value":"taxi","comment":"fa-taxi"},
+		 {"value":"television","comment":"fa-television"},
+		 {"value":"terminal","comment":"fa-terminal"},
+		 {"value":"thumb-tack","comment":"fa-thumb-tack"},
+		 {"value":"thumbs-down","comment":"fa-thumbs-down"},
+		 {"value":"thumbs-o-down","comment":"fa-thumbs-o-down"},
+		 {"value":"thumbs-o-up","comment":"fa-thumbs-o-up"},
+		 {"value":"thumbs-up","comment":"fa-thumbs-up"},
+		 {"value":"ticket","comment":"fa-ticket"},
+		 {"value":"times","comment":"fa-times"},
+		 {"value":"times-circle","comment":"fa-times-circle"},
+		 {"value":"times-circle-o","comment":"fa-times-circle-o"},
+		 {"value":"tint","comment":"fa-tint"},
+		 {"value":"toggle-down","comment":"fa-toggle-down"},
+		 {"value":"toggle-left","comment":"fa-toggle-left"},
+		 {"value":"toggle-off","comment":"fa-toggle-off"},
+		 {"value":"toggle-on","comment":"fa-toggle-on"},
+		 {"value":"toggle-right","comment":"fa-toggle-right"},
+		 {"value":"toggle-up","comment":"fa-toggle-up"},
+		 {"value":"trademark","comment":"fa-trademark"},
+		 {"value":"trash","comment":"fa-trash"},
+		 {"value":"trash-o","comment":"fa-trash-o"},
+		 {"value":"tree","comment":"fa-tree"},
+		 {"value":"trophy","comment":"fa-trophy"},
+		 {"value":"truck","comment":"fa-truck"},
+		 {"value":"tty","comment":"fa-tty"},
+		 {"value":"tv","comment":"fa-tv"},
+		 {"value":"umbrella","comment":"fa-umbrella"},
+		 {"value":"university","comment":"fa-university"},
+		 {"value":"unlock","comment":"fa-unlock"},
+		 {"value":"unlock-alt","comment":"fa-unlock-alt"},
+		 {"value":"unsorted","comment":"fa-unsorted"},
+		 {"value":"upload","comment":"fa-upload"},
+		 {"value":"user","comment":"fa-user"},
+		 {"value":"user-plus","comment":"fa-user-plus"},
+		 {"value":"user-secret","comment":"fa-user-secret"},
+		 {"value":"user-times","comment":"fa-user-times"},
+		 {"value":"users","comment":"fa-users"},
+		 {"value":"video-camera","comment":"fa-video-camera"},
+		 {"value":"volume-down","comment":"fa-volume-down"},
+		 {"value":"volume-off","comment":"fa-volume-off"},
+		 {"value":"volume-up","comment":"fa-volume-up"},
+		 {"value":"warning","comment":"fa-warning"},
+		 {"value":"wheelchair","comment":"fa-wheelchair"},
+		 {"value":"wifi","comment":"fa-wifi"},
+		 {"value":"wrench","comment":"fa-wrench"},
+		 {"value":"hand-grab-o","comment":"fa-hand-grab-o"},
+		 {"value":"hand-lizard-o","comment":"fa-hand-lizard-o"},
+		 {"value":"hand-o-down","comment":"fa-hand-o-down"},
+		 {"value":"hand-o-left","comment":"fa-hand-o-left"},
+		 {"value":"hand-o-right","comment":"fa-hand-o-right"},
+		 {"value":"hand-o-up","comment":"fa-hand-o-up"},
+		 {"value":"hand-paper-o","comment":"fa-hand-paper-o"},
+		 {"value":"hand-peace-o","comment":"fa-hand-peace-o"},
+		 {"value":"hand-pointer-o","comment":"fa-hand-pointer-o"},
+		 {"value":"hand-rock-o","comment":"fa-hand-rock-o"},
+		 {"value":"hand-scissors-o","comment":"fa-hand-scissors-o"},
+		 {"value":"hand-spock-o","comment":"fa-hand-spock-o"},
+		 {"value":"hand-stop-o","comment":"fa-hand-stop-o"},
+		 {"value":"thumbs-down","comment":"fa-thumbs-down"},
+		 {"value":"thumbs-o-down","comment":"fa-thumbs-o-down"},
+		 {"value":"thumbs-o-up","comment":"fa-thumbs-o-up"},
+		 {"value":"thumbs-up","comment":"fa-thumbs-up"},
+		 {"value":"ambulance","comment":"fa-ambulance"},
+		 {"value":"automobile","comment":"fa-automobile"},
+		 {"value":"bicycle","comment":"fa-bicycle"},
+		 {"value":"bus","comment":"fa-bus"},
+		 {"value":"cab","comment":"fa-cab"},
+		 {"value":"car","comment":"fa-car"},
+		 {"value":"fighter-jet","comment":"fa-fighter-jet"},
+		 {"value":"motorcycle","comment":"fa-motorcycle"},
+		 {"value":"plane","comment":"fa-plane"},
+		 {"value":"rocket","comment":"fa-rocket"},
+		 {"value":"ship","comment":"fa-ship"},
+		 {"value":"space-shuttle","comment":"fa-space-shuttle"},
+		 {"value":"subway","comment":"fa-subway"},
+		 {"value":"taxi","comment":"fa-taxi"},
+		 {"value":"train","comment":"fa-train"},
+		 {"value":"truck","comment":"fa-truck"},
+		 {"value":"wheelchair","comment":"fa-wheelchair"},
+		 {"value":"genderless","comment":"fa-genderless"},
+		 {"value":"intersex","comment":"fa-intersex"},
+		 {"value":"mars","comment":"fa-mars"},
+		 {"value":"mars-double","comment":"fa-mars-double"},
+		 {"value":"mars-stroke","comment":"fa-mars-stroke"},
+		 {"value":"mars-stroke-h","comment":"fa-mars-stroke-h"},
+		 {"value":"mars-stroke-v","comment":"fa-mars-stroke-v"},
+		 {"value":"mercury","comment":"fa-mercury"},
+		 {"value":"neuter","comment":"fa-neuter"},
+		 {"value":"transgender","comment":"fa-transgender"},
+		 {"value":"transgender-alt","comment":"fa-transgender-alt"},
+		 {"value":"venus","comment":"fa-venus"},
+		 {"value":"venus-double","comment":"fa-venus-double"},
+		 {"value":"venus-mars","comment":"fa-venus-mars"},
+		 {"value":"file","comment":"fa-file"},
+		 {"value":"file-archive-o","comment":"fa-file-archive-o"},
+		 {"value":"file-audio-o","comment":"fa-file-audio-o"},
+		 {"value":"file-code-o","comment":"fa-file-code-o"},
+		 {"value":"file-excel-o","comment":"fa-file-excel-o"},
+		 {"value":"file-image-o","comment":"fa-file-image-o"},
+		 {"value":"file-movie-o","comment":"fa-file-movie-o"},
+		 {"value":"file-o","comment":"fa-file-o"},
+		 {"value":"file-pdf-o","comment":"fa-file-pdf-o"},
+		 {"value":"file-photo-o","comment":"fa-file-photo-o"},
+		 {"value":"file-picture-o","comment":"fa-file-picture-o"},
+		 {"value":"file-powerpoint-o","comment":"fa-file-powerpoint-o"},
+		 {"value":"file-sound-o","comment":"fa-file-sound-o"},
+			{"value":"file-text","comment":"fa-file-text"},
+		 {"value":"file-text-o","comment":"fa-file-text-o"},
+		 {"value":"file-video-o","comment":"fa-file-video-o"},
+		 {"value":"file-word-o","comment":"fa-file-word-o"},
+		 {"value":"file-zip-o","comment":"fa-file-zip-o"},
+		 {"value":"circle-o-notch","comment":"fa-circle-o-notch"},
+		 {"value":"cog","comment":"fa-cog"},
+		 {"value":"gear","comment":"fa-gear"},
+		 {"value":"refresh","comment":"fa-refresh"},
+		 {"value":"spinner","comment":"fa-spinner"},
+		 {"value":"check-square","comment":"fa-check-square"},
+		 {"value":"check-square-o","comment":"fa-check-square-o"},
+		 {"value":"circle","comment":"fa-circle"},
+		 {"value":"circle-o","comment":"fa-circle-o"},
+		 {"value":"dot-circle-o","comment":"fa-dot-circle-o"},
+		 {"value":"minus-square","comment":"fa-minus-square"},
+		 {"value":"minus-square-o","comment":"fa-minus-square-o"},
+		 {"value":"plus-square","comment":"fa-plus-square"},
+		 {"value":"plus-square-o","comment":"fa-plus-square-o"},
+		 {"value":"square","comment":"fa-square"},
+		 {"value":"square-o","comment":"fa-square-o"},
+		 {"value":"cc-amex","comment":"fa-cc-amex"},
+		 {"value":"cc-diners-club","comment":"fa-cc-diners-club"},
+		 {"value":"cc-discover","comment":"fa-cc-discover"},
+		 {"value":"cc-jcb","comment":"fa-cc-jcb"},
+		 {"value":"cc-mastercard","comment":"fa-cc-mastercard"},
+		 {"value":"cc-paypal","comment":"fa-cc-paypal"},
+		 {"value":"cc-stripe","comment":"fa-cc-stripe"},
+		 {"value":"cc-visa","comment":"fa-cc-visa"},
+		 {"value":"credit-card","comment":"fa-credit-card"},
+		 {"value":"google-wallet","comment":"fa-google-wallet"},
+		 {"value":"paypal","comment":"fa-paypal"},
+		 {"value":"area-chart","comment":"fa-area-chart"},
+		 {"value":"bar-chart","comment":"fa-bar-chart"},
+		 {"value":"bar-chart-o","comment":"fa-bar-chart-o"},
+		 {"value":"line-chart","comment":"fa-line-chart"},
+		 {"value":"pie-chart","comment":"fa-pie-chart"},
+		 {"value":"bitcoin","comment":"fa-bitcoin"},
+		 {"value":"btc","comment":"fa-btc"},
+		 {"value":"cny","comment":"fa-cny"},
+		 {"value":"dollar","comment":"fa-dollar"},
+		 {"value":"eur","comment":"fa-eur"},
+		 {"value":"euro","comment":"fa-euro"},
+		 {"value":"gbp","comment":"fa-gbp"},
+		 {"value":"gg","comment":"fa-gg"},
+		 {"value":"gg-circle","comment":"fa-gg-circle"},
+		 {"value":"ils","comment":"fa-ils"},
+		 {"value":"inr","comment":"fa-inr"},
+		 {"value":"jpy","comment":"fa-jpy"},
+		 {"value":"krw","comment":"fa-krw"},
+		 {"value":"money","comment":"fa-money"},
+		 {"value":"rmb","comment":"fa-rmb"},
+		 {"value":"rouble","comment":"fa-rouble"},
+		 {"value":"rub","comment":"fa-rub"},
+		 {"value":"ruble","comment":"fa-ruble"},
+		 {"value":"rupee","comment":"fa-rupee"},
+		 {"value":"shekel","comment":"fa-shekel"},
+		 {"value":"sheqel","comment":"fa-sheqel"},
+		 {"value":"try","comment":"fa-try"},
+		 {"value":"turkish-lira","comment":"fa-turkish-lira"},
+		 {"value":"usd","comment":"fa-usd"},
+		 {"value":"won","comment":"fa-won"},
+		 {"value":"yen","comment":"fa-yen"},
+		 {"value":"align-center","comment":"fa-align-center"},
+		 {"value":"align-justify","comment":"fa-align-justify"},
+		 {"value":"align-left","comment":"fa-align-left"},
+		 {"value":"align-right","comment":"fa-align-right"},
+		 {"value":"bold","comment":"fa-bold"},
+		 {"value":"chain","comment":"fa-chain"},
+		 {"value":"chain-broken","comment":"fa-chain-broken"},
+		 {"value":"clipboard","comment":"fa-clipboard"},
+		 {"value":"columns","comment":"fa-columns"},
+		 {"value":"copy","comment":"fa-copy"},
+		 {"value":"cut","comment":"fa-cut"},
+		 {"value":"dedent","comment":"fa-dedent"},
+		 {"value":"eraser","comment":"fa-eraser"},
+		 {"value":"file","comment":"fa-file"},
+		 {"value":"file-o","comment":"fa-file-o"},
+		 {"value":"file-text","comment":"fa-file-text"},
+		 {"value":"file-text-o","comment":"fa-file-text-o"},
+		 {"value":"files-o","comment":"fa-files-o"},
+		 {"value":"floppy-o","comment":"fa-floppy-o"},
+		 {"value":"font","comment":"fa-font"},
+		 {"value":"header","comment":"fa-header"},
+		 {"value":"indent","comment":"fa-indent"},
+		 {"value":"italic","comment":"fa-italic"},
+		 {"value":"link","comment":"fa-link"},
+		 {"value":"list","comment":"fa-list"},
+		 {"value":"list-alt","comment":"fa-list-alt"},
+		 {"value":"list-ol","comment":"fa-list-ol"},
+		 {"value":"list-ul","comment":"fa-list-ul"},
+		 {"value":"outdent","comment":"fa-outdent"},
+		 {"value":"paperclip","comment":"fa-paperclip"},
+		 {"value":"paragraph","comment":"fa-paragraph"},
+		 {"value":"paste","comment":"fa-paste"},
+		 {"value":"repeat","comment":"fa-repeat"},
+		 {"value":"rotate-left","comment":"fa-rotate-left"},
+		 {"value":"rotate-right","comment":"fa-rotate-right"},
+		 {"value":"save","comment":"fa-save"},
+		 {"value":"scissors","comment":"fa-scissors"},
+		 {"value":"strikethrough","comment":"fa-strikethrough"},
+		 {"value":"subscript","comment":"fa-subscript"},
+		 {"value":"superscript","comment":"fa-superscript"},
+		 {"value":"table","comment":"fa-table"},
+		 {"value":"text-height","comment":"fa-text-height"},
+		 {"value":"text-width","comment":"fa-text-width"},
+		 {"value":"th","comment":"fa-th"},
+		 {"value":"th-large","comment":"fa-th-large"},
+		 {"value":"th-list","comment":"fa-th-list"},
+		 {"value":"underline","comment":"fa-underline"},
+		 {"value":"undo","comment":"fa-undo"},
+		 {"value":"unlink","comment":"fa-unlink"},
+		 {"value":"angle-double-down","comment":"fa-angle-double-down"},
+		 {"value":"angle-double-left","comment":"fa-angle-double-left"},
+		 {"value":"angle-double-right","comment":"fa-angle-double-right"},
+		 {"value":"angle-double-up","comment":"fa-angle-double-up"},
+		 {"value":"angle-down","comment":"fa-angle-down"},
+		 {"value":"angle-left","comment":"fa-angle-left"},
+		 {"value":"angle-right","comment":"fa-angle-right"},
+		 {"value":"angle-up","comment":"fa-angle-up"},
+		 {"value":"arrow-circle-down","comment":"fa-arrow-circle-down"},
+		 {"value":"arrow-circle-left","comment":"fa-arrow-circle-left"},
+		 {"value":"arrow-circle-o-down","comment":"fa-arrow-circle-o-down"},
+		 {"value":"arrow-circle-o-left","comment":"fa-arrow-circle-o-left"},
+		 {"value":"arrow-circle-o-right","comment":"fa-arrow-circle-o-right"},
+		 {"value":"arrow-circle-o-up","comment":"fa-arrow-circle-o-up"},
+		 {"value":"arrow-circle-right","comment":"fa-arrow-circle-right"},
+		 {"value":"arrow-circle-up","comment":"fa-arrow-circle-up"},
+		 {"value":"arrow-down","comment":"fa-arrow-down"},
+		 {"value":"arrow-left","comment":"fa-arrow-left"},
+		 {"value":"arrow-right","comment":"fa-arrow-right"},
+		 {"value":"arrow-up","comment":"fa-arrow-up"},
+		 {"value":"arrows","comment":"fa-arrows"},
+		 {"value":"arrows-alt","comment":"fa-arrows-alt"},
+		 {"value":"arrows-h","comment":"fa-arrows-h"},
+		 {"value":"arrows-v","comment":"fa-arrows-v"},
+		 {"value":"caret-down","comment":"fa-caret-down"},
+		 {"value":"caret-left","comment":"fa-caret-left"},
+		 {"value":"caret-right","comment":"fa-caret-right"},
+		 {"value":"caret-square-o-down","comment":"fa-caret-square-o-down"},
+		 {"value":"caret-square-o-left","comment":"fa-caret-square-o-left"},
+		 {"value":"caret-square-o-right","comment":"fa-caret-square-o-right"},
+		 {"value":"caret-square-o-up","comment":"fa-caret-square-o-up"},
+		 {"value":"caret-up","comment":"fa-caret-up"},
+		 {"value":"chevron-circle-down","comment":"fa-chevron-circle-down"},
+		 {"value":"chevron-circle-left","comment":"fa-chevron-circle-left"},
+		 {"value":"chevron-circle-right","comment":"fa-chevron-circle-right"},
+		 {"value":"chevron-circle-up","comment":"fa-chevron-circle-up"},
+		 {"value":"chevron-down","comment":"fa-chevron-down"},
+		 {"value":"chevron-left","comment":"fa-chevron-left"},
+		 {"value":"chevron-right","comment":"fa-chevron-right"},
+		 {"value":"chevron-up","comment":"fa-chevron-up"},
+		 {"value":"exchange","comment":"fa-exchange"},
+		 {"value":"hand-o-down","comment":"fa-hand-o-down"},
+		 {"value":"hand-o-left","comment":"fa-hand-o-left"},
+		 {"value":"hand-o-right","comment":"fa-hand-o-right"},
+		 {"value":"hand-o-up","comment":"fa-hand-o-up"},
+		 {"value":"long-arrow-down","comment":"fa-long-arrow-down"},
+		 {"value":"long-arrow-left","comment":"fa-long-arrow-left"},
+		 {"value":"long-arrow-right","comment":"fa-long-arrow-right"},
+		 {"value":"long-arrow-up","comment":"fa-long-arrow-up"},
+		 {"value":"toggle-down","comment":"fa-toggle-down"},
+		 {"value":"toggle-left","comment":"fa-toggle-left"},
+		 {"value":"toggle-right","comment":"fa-toggle-right"},
+		 {"value":"toggle-up","comment":"fa-toggle-up"},
+		 {"value":"arrows-alt","comment":"fa-arrows-alt"},
+		 {"value":"backward","comment":"fa-backward"},
+		 {"value":"compress","comment":"fa-compress"},
+		 {"value":"eject","comment":"fa-eject"},
+		 {"value":"expand","comment":"fa-expand"},
+		 {"value":"fast-backward","comment":"fa-fast-backward"},
+		 {"value":"fast-forward","comment":"fa-fast-forward"},
+		 {"value":"forward","comment":"fa-forward"},
+		 {"value":"pause","comment":"fa-pause"},
+		 {"value":"play","comment":"fa-play"},
+		 {"value":"play-circle","comment":"fa-play-circle"},
+		 {"value":"play-circle-o","comment":"fa-play-circle-o"},
+		 {"value":"random","comment":"fa-random"},
+		 {"value":"step-backward","comment":"fa-step-backward"},
+		 {"value":"step-forward","comment":"fa-step-forward"},
+		 {"value":"stop","comment":"fa-stop"},
+		 {"value":"youtube-play","comment":"fa-youtube-play"},
+		 {"value":"500px","comment":"fa-500px"},
+		 {"value":"adn","comment":"fa-adn"},
+		 {"value":"amazon","comment":"fa-amazon"},
+		 {"value":"android","comment":"fa-android"},
+		 {"value":"angellist","comment":"fa-angellist"},
+		 {"value":"apple","comment":"fa-apple"},
+		 {"value":"behance","comment":"fa-behance"},
+		 {"value":"behance-square","comment":"fa-behance-square"},
+		 {"value":"bitbucket","comment":"fa-bitbucket"},
+		 {"value":"bitbucket-square","comment":"fa-bitbucket-square"},
+		 {"value":"bitcoin","comment":"fa-bitcoin"},
+		 {"value":"black-tie","comment":"fa-black-tie"},
+			{"value":"bluetooth-b","comment":"fa-bluetooth-b"},
+		 {"value":"btc","comment":"fa-btc"},
+		 {"value":"buysellads","comment":"fa-buysellads"},
+		 {"value":"cc-amex","comment":"fa-cc-amex"},
+		 {"value":"cc-diners-club","comment":"fa-cc-diners-club"},
+		 {"value":"cc-discover","comment":"fa-cc-discover"},
+		 {"value":"cc-jcb","comment":"fa-cc-jcb"},
+		 {"value":"cc-mastercard","comment":"fa-cc-mastercard"},
+		 {"value":"cc-paypal","comment":"fa-cc-paypal"},
+		 {"value":"cc-stripe","comment":"fa-cc-stripe"},
+		 {"value":"cc-visa","comment":"fa-cc-visa"},
+		 {"value":"chrome","comment":"fa-chrome"},
+		 {"value":"codepen","comment":"fa-codepen"},
+		 {"value":"connectdevelop","comment":"fa-connectdevelop"},
+		 {"value":"contao","comment":"fa-contao"},
+		 {"value":"css3","comment":"fa-css3"},
+		 {"value":"dashcube","comment":"fa-dashcube"},
+		 {"value":"delicious","comment":"fa-delicious"},
+		 {"value":"deviantart","comment":"fa-deviantart"},
+		 {"value":"digg","comment":"fa-digg"},
+		 {"value":"dribbble","comment":"fa-dribbble"},
+		 {"value":"dropbox","comment":"fa-dropbox"},
+		 {"value":"drupal","comment":"fa-drupal"},
+		 {"value":"empire","comment":"fa-empire"},
+		 {"value":"expeditedssl","comment":"fa-expeditedssl"},
+		 {"value":"facebook","comment":"fa-facebook"},
+		 {"value":"facebook-f","comment":"fa-facebook-f"},
+		 {"value":"facebook-official","comment":"fa-facebook-official"},
+		 {"value":"facebook-square","comment":"fa-facebook-square"},
+		 {"value":"firefox","comment":"fa-firefox"},
+		 {"value":"flickr","comment":"fa-flickr"},
+		 {"value":"fonticons","comment":"fa-fonticons"},
+		 {"value":"forumbee","comment":"fa-forumbee"},
+		 {"value":"foursquare","comment":"fa-foursquare"},
+		 {"value":"ge","comment":"fa-ge"},
+		 {"value":"get-pocket","comment":"fa-get-pocket"},
+		 {"value":"gg","comment":"fa-gg"},
+		 {"value":"gg-circle","comment":"fa-gg-circle"},
+		 {"value":"git","comment":"fa-git"},
+		 {"value":"git-square","comment":"fa-git-square"},
+		 {"value":"github","comment":"fa-github"},
+		 {"value":"github-alt","comment":"fa-github-alt"},
+		 {"value":"github-square","comment":"fa-github-square"},
+		 {"value":"gittip","comment":"fa-gittip"},
+		 {"value":"google","comment":"fa-google"},
+		 {"value":"google-plus","comment":"fa-google-plus"},
+		 {"value":"google-plus-square","comment":"fa-google-plus-square"},
+		 {"value":"google-wallet","comment":"fa-google-wallet"},
+		 {"value":"gratipay","comment":"fa-gratipay"},
+		 {"value":"hacker-news","comment":"fa-hacker-news"},
+		 {"value":"houzz","comment":"fa-houzz"},
+		 {"value":"html5","comment":"fa-html5"},
+		 {"value":"instagram","comment":"fa-instagram"},
+		 {"value":"internet-explorer","comment":"fa-internet-explorer"},
+		 {"value":"ioxhost","comment":"fa-ioxhost"},
+		 {"value":"joomla","comment":"fa-joomla"},
+		 {"value":"jsfiddle","comment":"fa-jsfiddle"},
+		 {"value":"lastfm","comment":"fa-lastfm"},
+		 {"value":"lastfm-square","comment":"fa-lastfm-square"},
+		 {"value":"leanpub","comment":"fa-leanpub"},
+		 {"value":"linkedin","comment":"fa-linkedin"},
+		 {"value":"linkedin-square","comment":"fa-linkedin-square"},
+		 {"value":"linux","comment":"fa-linux"},
+		 {"value":"maxcdn","comment":"fa-maxcdn"},
+		 {"value":"meanpath","comment":"fa-meanpath"},
+		 {"value":"medium","comment":"fa-medium"},
+		 {"value":"odnoklassniki","comment":"fa-odnoklassniki"},
+		 {"value":"odnoklassniki-square","comment":"fa-odnoklassniki-square"},
+		 {"value":"opencart","comment":"fa-opencart"},
+		 {"value":"openid","comment":"fa-openid"},
+		 {"value":"opera","comment":"fa-opera"},
+		 {"value":"optin-monster","comment":"fa-optin-monster"},
+		 {"value":"pagelines","comment":"fa-pagelines"},
+		 {"value":"paypal","comment":"fa-paypal"},
+		 {"value":"pied-piper","comment":"fa-pied-piper"},
+		 {"value":"pied-piper-alt","comment":"fa-pied-piper-alt"},
+		 {"value":"pinterest","comment":"fa-pinterest"},
+		 {"value":"pinterest-p","comment":"fa-pinterest-p"},
+		 {"value":"pinterest-square","comment":"fa-pinterest-square"},
+		 {"value":"qq","comment":"fa-qq"},
+		 {"value":"ra","comment":"fa-ra"},
+		 {"value":"rebel","comment":"fa-rebel"},
+		 {"value":"reddit","comment":"fa-reddit"},
+		 {"value":"reddit-square","comment":"fa-reddit-square"},
+		 {"value":"renren","comment":"fa-renren"},
+		 {"value":"safari","comment":"fa-safari"},
+		 {"value":"sellsy","comment":"fa-sellsy"},
+		 {"value":"share-alt","comment":"fa-share-alt"},
+		 {"value":"share-alt-square","comment":"fa-share-alt-square"},
+		 {"value":"shirtsinbulk","comment":"fa-shirtsinbulk"},
+		 {"value":"simplybuilt","comment":"fa-simplybuilt"},
+		 {"value":"skyatlas","comment":"fa-skyatlas"},
+		 {"value":"skype","comment":"fa-skype"},
+		 {"value":"slack","comment":"fa-slack"},
+		 {"value":"slideshare","comment":"fa-slideshare"},
+		 {"value":"soundcloud","comment":"fa-soundcloud"},
+		 {"value":"spotify","comment":"fa-spotify"},
+		 {"value":"stack-exchange","comment":"fa-stack-exchange"},
+		 {"value":"stack-overflow","comment":"fa-stack-overflow"},
+		 {"value":"steam","comment":"fa-steam"},
+		 {"value":"steam-square","comment":"fa-steam-square"},
+		 {"value":"stumbleupon","comment":"fa-stumbleupon"},
+		 {"value":"stumbleupon-circle","comment":"fa-stumbleupon-circle"},
+		 {"value":"tencent-weibo","comment":"fa-tencent-weibo"},
+		 {"value":"trello","comment":"fa-trello"},
+		 {"value":"tripadvisor","comment":"fa-tripadvisor"},
+		 {"value":"tumblr","comment":"fa-tumblr"},
+		 {"value":"tumblr-square","comment":"fa-tumblr-square"},
+		 {"value":"twitch","comment":"fa-twitch"},
+		 {"value":"twitter","comment":"fa-twitter"},
+		 {"value":"twitter-square","comment":"fa-twitter-square"},
+		 {"value":"viacoin","comment":"fa-viacoin"},
+		 {"value":"vimeo","comment":"fa-vimeo"},
+		 {"value":"vimeo-square","comment":"fa-vimeo-square"},
+		 {"value":"vine","comment":"fa-vine"},
+		 {"value":"vk","comment":"fa-vk"},
+		 {"value":"wechat","comment":"fa-wechat"},
+		 {"value":"weibo","comment":"fa-weibo"},
+		 {"value":"weixin","comment":"fa-weixin"},
+		 {"value":"whatsapp","comment":"fa-whatsapp"},
+		 {"value":"wikipedia-w","comment":"fa-wikipedia-w"},
+		 {"value":"windows","comment":"fa-windows"},
+		 {"value":"wordpress","comment":"fa-wordpress"},
+		 {"value":"xing","comment":"fa-xing"},
+		 {"value":"xing-square","comment":"fa-xing-square"},
+		 {"value":"y-combinator","comment":"fa-y-combinator"},
+		 {"value":"y-combinator-square","comment":"fa-y-combinator-square"},
+		 {"value":"yahoo","comment":"fa-yahoo"},
+		 {"value":"yc","comment":"fa-yc"},
+		 {"value":"yc-square","comment":"fa-yc-square"},
+		 {"value":"yelp","comment":"fa-yelp"},
+		 {"value":"youtube","comment":"fa-youtube"},
+		 {"value":"youtube-play","comment":"fa-youtube-play"},
+		 {"value":"youtube-square","comment":"fa-youtube-square"},
+		 {"value":"ambulance","comment":"fa-ambulance"},
+		 {"value":"h-square","comment":"fa-h-square"},
+		 {"value":"heart","comment":"fa-heart"},
+		 {"value":"heart-o","comment":"fa-heart-o"},
+		 {"value":"heartbeat","comment":"fa-heartbeat"},
+		 {"value":"hospital-o","comment":"fa-hospital-o"},
+		 {"value":"medkit","comment":"fa-medkit"},
+		 {"value":"plus-square","comment":"fa-plus-square"},
+		 {"value":"stethoscope","comment":"fa-stethoscope"},
+		 {"value":"user-md","comment":"fa-user-md"},
 		 {"value":"american-sign-language-interpreting","comment":"fa-american-sign-language-interpreting"},
 		 {"value":"asl-interpreting","comment":"fa-asl-interpreting"},
 		 {"value":"assistive-listening-systems","comment":"fa-assistive-listening-systems"},
@@ -878,124 +878,248 @@
 		 {"value":"wpbeginner","comment":"fa-wpbeginner"},
 		 {"value":"wpforms","comment":"fa-wpforms"},
 		 {"value":"yoast","comment":"fa-yoast"},
-         {"value":"wheelchair","comment":"fa-wheelchair"}]' />
+		 {"value":"wheelchair","comment":"fa-wheelchair"}
+		 {"value":"address-book","comment":"fa-address-book"},
+		 {"value":"address-book-o","comment":"fa-address-book-o"},
+		 {"value":"address-card","comment":"fa-address-card"},
+		 {"value":"address-card-o","comment":"fa-address-card-o"},
+		 {"value":"bandcamp","comment":"fa-bandcamp"},
+		 {"value":"bath","comment":"fa-bath"},
+		 {"value":"bathtub","comment":"fa-bathtub"},
+		 {"value":"drivers-license","comment":"fa-drivers-license"},
+		 {"value":"drivers-license-o","comment":"fa-drivers-license-o"},
+		 {"value":"eercast","comment":"fa-eercast"},
+		 {"value":"envelope-open","comment":"fa-envelope-open"},
+		 {"value":"envelope-open-o","comment":"fa-envelope-open-o"},
+		 {"value":"etsy","comment":"fa-etsy"},
+		 {"value":"free-code-camp","comment":"fa-free-code-camp"},
+		 {"value":"grav","comment":"fa-grav"},
+		 {"value":"handshake-o","comment":"fa-handshake-o"},
+		 {"value":"id-badge","comment":"fa-id-badge"},
+		 {"value":"id-card","comment":"fa-id-card"},
+		 {"value":"id-card-o","comment":"fa-id-card-o"},
+		 {"value":"imdb","comment":"fa-imdb"},
+		 {"value":"linode","comment":"fa-linode"},
+		 {"value":"meetup","comment":"fa-meetup"},
+		 {"value":"microchip","comment":"fa-microchip"},
+		 {"value":"podcast","comment":"fa-podcast"},
+		 {"value":"quora","comment":"fa-quora"},
+		 {"value":"ravelry","comment":"fa-ravelry"},
+		 {"value":"s15","comment":"fa-s15"},
+		 {"value":"shower","comment":"fa-shower"},
+		 {"value":"snowflake-o","comment":"fa-snowflake-o"},
+		 {"value":"superpowers","comment":"fa-superpowers"},
+		 {"value":"telegram","comment":"fa-telegram"},
+		 {"value":"thermometer","comment":"fa-thermometer"},
+		 {"value":"thermometer-0","comment":"fa-thermometer-0"},
+		 {"value":"thermometer-1","comment":"fa-thermometer-1"},
+		 {"value":"thermometer-2","comment":"fa-thermometer-2"},
+		 {"value":"thermometer-3","comment":"fa-thermometer-3"},
+		 {"value":"thermometer-4","comment":"fa-thermometer-4"},
+		 {"value":"thermometer-empty","comment":"fa-thermometer-empty"},
+		 {"value":"thermometer-full","comment":"fa-thermometer-full"},
+		 {"value":"thermometer-half","comment":"fa-thermometer-half"},
+		 {"value":"thermometer-quarter","comment":"fa-thermometer-quarter"},
+		 {"value":"thermometer-three-quarters","comment":"fa-thermometer-three-quarters"},
+		 {"value":"times-rectangle","comment":"fa-times-rectangle"},
+		 {"value":"times-rectangle-o","comment":"fa-times-rectangle-o"},
+		 {"value":"user-circle","comment":"fa-user-circle"},
+		 {"value":"user-circle-o","comment":"fa-user-circle-o"},
+		 {"value":"user-o","comment":"fa-user-o"},
+		 {"value":"vcard","comment":"fa-vcard"},
+		 {"value":"vcard-o","comment":"fa-vcard-o"},
+		 {"value":"window-close","comment":"fa-window-close"},
+		 {"value":"window-close-o","comment":"fa-window-close-o"},
+		 {"value":"window-maximize","comment":"fa-window-maximize"},
+		 {"value":"window-minimize","comment":"fa-window-minimize"},
+		 {"value":"window-restore","comment":"fa-window-restore"},
+		 {"value":"wpexplorer","comment":"fa-wpexplorer"}]' />
 	</vbox>
 
 	<vbox id="FontAwesome-second-tabpanel-vbox" flex="1" align="left" class="toolbar-box">
 
 		<html:div class="font-fa" id="font_fa">
-			<html:h2 class="page-header">30 New Icons in 4.6</html:h2>
-			<button onclick="FontAwesome_insert('fa-american-sign-language-interpreting');" tooltiptext="fa fa-american-sign-language-interpreting" id="fa-american-sign-language-interpreting">
-				<html:span class="fa fa-american-sign-language-interpreting"></html:span>
+			<html:h2 class="page-header">41 New Icons in 4.7</html:h2>
+			<button onclick="FontAwesome_insert('fa-address-book');" tooltiptext="fa fa-address-book" id="fa-address-book">
+				<html:span class="fa fa-address-book"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-asl-interpreting');" tooltiptext="fa fa-asl-interpreting" id="fa-asl-interpreting">
-				<html:span class="fa fa-asl-interpreting"></html:span>
+			<button onclick="FontAwesome_insert('fa-address-book-o');" tooltiptext="fa fa-address-book-o" id="fa-address-book-o">
+				<html:span class="fa fa-address-book-o"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-assistive-listening-systems');" tooltiptext="fa fa-assistive-listening-systems" id="fa-assistive-listening-systems">
-				<html:span class="fa fa-assistive-listening-systems"></html:span>
+			<button onclick="FontAwesome_insert('fa-address-card');" tooltiptext="fa fa-address-card" id="fa-address-card">
+				<html:span class="fa fa-address-card"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-audio-description');" tooltiptext="fa fa-audio-description" id="fa-audio-description">
-				<html:span class="fa fa-audio-description"></html:span>
+			<button onclick="FontAwesome_insert('fa-address-card-o');" tooltiptext="fa fa-address-card-o" id="fa-address-card-o">
+				<html:span class="fa fa-address-card-o"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-blind');" tooltiptext="fa fa-blind" id="fa-blind">
-				<html:span class="fa fa-blind"></html:span>
+			<button onclick="FontAwesome_insert('fa-bandcamp');" tooltiptext="fa fa-bandcamp" id="fa-bandcamp">
+				<html:span class="fa fa-bandcamp"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-braille');" tooltiptext="fa fa-braille" id="fa-braille">
-				<html:span class="fa fa-braille"></html:span>
+			<button onclick="FontAwesome_insert('fa-bath');" tooltiptext="fa fa-bath" id="fa-bath">
+				<html:span class="fa fa-bath"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-deaf');" tooltiptext="fa fa-deaf" id="fa-deaf">
-				<html:span class="fa fa-deaf"></html:span>
+			<button onclick="FontAwesome_insert('fa-bathtub');" tooltiptext="fa fa-bathtub" id="fa-bathtub">
+				<html:span class="fa fa-bathtub"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-deafness');" tooltiptext="fa fa-deafness" id="fa-deafness">
-				<html:span class="fa fa-deafness"></html:span>
+			<button onclick="FontAwesome_insert('fa-drivers-license');" tooltiptext="fa fa-drivers-license" id="fa-drivers-license">
+				<html:span class="fa fa-drivers-license"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-envira');" tooltiptext="fa fa-envira" id="fa-envira">
-				<html:span class="fa fa-envira"></html:span>
+			<button onclick="FontAwesome_insert('fa-drivers-license-o');" tooltiptext="fa fa-drivers-license-o" id="fa-drivers-license-o">
+				<html:span class="fa fa-drivers-license-o"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-fa');" tooltiptext="fa fa-fa" id="fa-fa">
-				<html:span class="fa fa-fa"></html:span>
+			<button onclick="FontAwesome_insert('fa-eercast');" tooltiptext="fa fa-eercast" id="fa-eercast">
+				<html:span class="fa fa-eercast"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-first-order');" tooltiptext="fa fa-first-order" id="fa-first-order">
-				<html:span class="fa fa-first-order"></html:span>
+			<button onclick="FontAwesome_insert('fa-envelope-open');" tooltiptext="fa fa-envelope-open" id="fa-envelope-open">
+				<html:span class="fa fa-envelope-open"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-font-awesome');" tooltiptext="fa fa-font-awesome" id="fa-font-awesome">
-				<html:span class="fa fa-font-awesome"></html:span>
+			<button onclick="FontAwesome_insert('fa-envelope-open-o');" tooltiptext="fa fa-envelope-open-o" id="fa-envelope-open-o">
+				<html:span class="fa fa-envelope-open-o"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-gitlab');" tooltiptext="fa fa-gitlab" id="fa-gitlab">
-				<html:span class="fa fa-gitlab"></html:span>
+			<button onclick="FontAwesome_insert('fa-etsy');" tooltiptext="fa fa-etsy" id="fa-etsy">
+				<html:span class="fa fa-etsy"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-glide');" tooltiptext="fa fa-glide" id="fa-glide">
-				<html:span class="fa fa-glide"></html:span>
+			<button onclick="FontAwesome_insert('fa-free-code-camp');" tooltiptext="fa fa-free-code-camp" id="fa-free-code-camp">
+				<html:span class="fa fa-free-code-camp"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-glide-g');" tooltiptext="fa fa-glide-g" id="fa-glide-g">
-				<html:span class="fa fa-glide-g"></html:span>
+			<button onclick="FontAwesome_insert('fa-grav');" tooltiptext="fa fa-grav" id="fa-grav">
+				<html:span class="fa fa-grav"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-google-plus-circle');" tooltiptext="fa fa-google-plus-circle" id="fa-google-plus-circle">
-				<html:span class="fa fa-google-plus-circle"></html:span>
+			<button onclick="FontAwesome_insert('fa-handshake-o');" tooltiptext="fa fa-handshake-o" id="fa-handshake-o">
+				<html:span class="fa fa-handshake-o"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-google-plus-official');" tooltiptext="fa fa-google-plus-official" id="fa-google-plus-official">
-				<html:span class="fa fa-google-plus-official"></html:span>
+			<button onclick="FontAwesome_insert('fa-id-badge');" tooltiptext="fa fa-id-badge" id="fa-id-badge">
+				<html:span class="fa fa-id-badge"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-hard-of-hearing');" tooltiptext="fa fa-hard-of-hearing" id="fa-hard-of-hearing">
-				<html:span class="fa fa-hard-of-hearing"></html:span>
+			<button onclick="FontAwesome_insert('fa-id-card');" tooltiptext="fa fa-id-card" id="fa-id-card">
+				<html:span class="fa fa-id-card"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-instagram');" tooltiptext="fa fa-instagram" id="fa-instagram">
-				<html:span class="fa fa-instagram"></html:span>
+			<button onclick="FontAwesome_insert('fa-id-card-o');" tooltiptext="fa fa-id-card-o" id="fa-id-card-o">
+				<html:span class="fa fa-id-card-o"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-low-vision');" tooltiptext="fa fa-low-vision" id="fa-low-vision">
-				<html:span class="fa fa-low-vision"></html:span>
+			<button onclick="FontAwesome_insert('fa-imdb');" tooltiptext="fa fa-imdb" id="fa-imdb">
+				<html:span class="fa fa-imdb"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-pied-piper');" tooltiptext="fa fa-pied-piper" id="fa-pied-piper">
-				<html:span class="fa fa-pied-piper"></html:span>
+			<button onclick="FontAwesome_insert('fa-linode');" tooltiptext="fa fa-linode" id="fa-linode">
+				<html:span class="fa fa-linode"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-question-circle-o');" tooltiptext="fa fa-question-circle-o" id="fa-question-circle-o">
-				<html:span class="fa fa-question-circle-o"></html:span>
+			<button onclick="FontAwesome_insert('fa-meetup');" tooltiptext="fa fa-meetup" id="fa-meetup">
+				<html:span class="fa fa-meetup"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-sign-language');" tooltiptext="fa fa-sign-language" id="fa-sign-language">
-				<html:span class="fa fa-sign-language"></html:span>
+			<button onclick="FontAwesome_insert('fa-microchip');" tooltiptext="fa fa-microchip" id="fa-microchip">
+				<html:span class="fa fa-microchip"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-signing');" tooltiptext="fa fa-signing" id="fa-signing">
-				<html:span class="fa fa-signing"></html:span>
+			<button onclick="FontAwesome_insert('fa-podcast');" tooltiptext="fa fa-podcast" id="fa-podcast">
+				<html:span class="fa fa-podcast"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-snapchat');" tooltiptext="fa fa-snapchat" id="fa-snapchat">
-				<html:span class="fa fa-snapchat"></html:span>
+			<button onclick="FontAwesome_insert('fa-quora');" tooltiptext="fa fa-quora" id="fa-quora">
+				<html:span class="fa fa-quora"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-snapchat-ghost');" tooltiptext="fa fa-snapchat-ghost" id="fa-snapchat-ghost">
-				<html:span class="fa fa-snapchat-ghost"></html:span>
+			<button onclick="FontAwesome_insert('fa-ravelry');" tooltiptext="fa fa-ravelry" id="fa-ravelry">
+				<html:span class="fa fa-ravelry"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-snapchat-square');" tooltiptext="fa fa-snapchat-square" id="fa-snapchat-square">
-				<html:span class="fa fa-snapchat-square"></html:span>
+			<button onclick="FontAwesome_insert('fa-s15');" tooltiptext="fa fa-s15" id="fa-s15">
+				<html:span class="fa fa-s15"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-themeisle');" tooltiptext="fa fa-themeisle" id="fa-themeisle">
-				<html:span class="fa fa-themeisle"></html:span>
+			<button onclick="FontAwesome_insert('fa-shower');" tooltiptext="fa fa-shower" id="fa-shower">
+				<html:span class="fa fa-shower"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-universal-access');" tooltiptext="fa fa-universal-access" id="fa-universal-access">
-				<html:span class="fa fa-universal-access"></html:span>
+			<button onclick="FontAwesome_insert('fa-snowflake-o');" tooltiptext="fa fa-snowflake-o" id="fa-snowflake-o">
+				<html:span class="fa fa-snowflake-o"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-viadeo');" tooltiptext="fa fa-viadeo" id="fa-viadeo">
-				<html:span class="fa fa-viadeo"></html:span>
+			<button onclick="FontAwesome_insert('fa-superpowers');" tooltiptext="fa fa-superpowers" id="fa-superpowers">
+				<html:span class="fa fa-superpowers"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-viadeo-square');" tooltiptext="fa fa-viadeo-square" id="fa-viadeo-square">
-				<html:span class="fa fa-viadeo-square"></html:span>
+			<button onclick="FontAwesome_insert('fa-telegram');" tooltiptext="fa fa-telegram" id="fa-telegram">
+				<html:span class="fa fa-telegram"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-volume-control-phone');" tooltiptext="fa fa-volume-control-phone" id="fa-volume-control-phone">
-				<html:span class="fa fa-volume-control-phone"></html:span>
+			<button onclick="FontAwesome_insert('fa-thermometer');" tooltiptext="fa fa-thermometer" id="fa-thermometer">
+				<html:span class="fa fa-thermometer"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-wheelchair-alt');" tooltiptext="fa fa-wheelchair-alt" id="fa-wheelchair-alt">
-				<html:span class="fa fa-wheelchair-alt"></html:span>
+			<button onclick="FontAwesome_insert('fa-thermometer-0');" tooltiptext="fa fa-thermometer-0" id="fa-thermometer-0">
+				<html:span class="fa fa-thermometer-0"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-wpbeginner');" tooltiptext="fa fa-wpbeginner" id="fa-wpbeginner">
-				<html:span class="fa fa-wpbeginner"></html:span>
+			<button onclick="FontAwesome_insert('fa-thermometer-1');" tooltiptext="fa fa-thermometer-1" id="fa-thermometer-1">
+				<html:span class="fa fa-thermometer-1"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-wpforms');" tooltiptext="fa fa-wpforms" id="fa-wpforms">
-				<html:span class="fa fa-wpforms"></html:span>
+			<button onclick="FontAwesome_insert('fa-thermometer-2');" tooltiptext="fa fa-thermometer-2" id="fa-thermometer-2">
+				<html:span class="fa fa-thermometer-2"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('fa-yoast');" tooltiptext="fa fa-yoast" id="fa-yoast">
-				<html:span class="fa fa-yoast"></html:span>
+			<button onclick="FontAwesome_insert('fa-thermometer-3');" tooltiptext="fa fa-thermometer-3" id="fa-thermometer-3">
+				<html:span class="fa fa-thermometer-3"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-thermometer-4');" tooltiptext="fa fa-thermometer-4" id="fa-thermometer-4">
+				<html:span class="fa fa-thermometer-4"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-thermometer-empty');" tooltiptext="fa fa-thermometer-empty" id="fa-thermometer-empty">
+				<html:span class="fa fa-thermometer-empty"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-thermometer-full');" tooltiptext="fa fa-thermometer-full" id="fa-thermometer-full">
+				<html:span class="fa fa-thermometer-full"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-thermometer-half');" tooltiptext="fa fa-thermometer-half" id="fa-thermometer-half">
+				<html:span class="fa fa-thermometer-half"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-thermometer-quarter');" tooltiptext="fa fa-thermometer-quarter" id="fa-thermometer-quarter">
+				<html:span class="fa fa-thermometer-quarter"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-thermometer-three-quarters');" tooltiptext="fa fa-thermometer-three-quarters" id="fa-thermometer-three-quarters">
+				<html:span class="fa fa-thermometer-three-quarters"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-times-rectangle');" tooltiptext="fa fa-times-rectangle" id="fa-times-rectangle">
+				<html:span class="fa fa-times-rectangle"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-times-rectangle-o');" tooltiptext="fa fa-times-rectangle-o" id="fa-times-rectangle-o">
+				<html:span class="fa fa-times-rectangle-o"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-user-circle');" tooltiptext="fa fa-user-circle" id="fa-user-circle">
+				<html:span class="fa fa-user-circle"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-user-circle-o');" tooltiptext="fa fa-user-circle-o" id="fa-user-circle-o">
+				<html:span class="fa fa-user-circle-o"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-user-o');" tooltiptext="fa fa-user-o" id="fa-user-o">
+				<html:span class="fa fa-user-o"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-vcard');" tooltiptext="fa fa-vcard" id="fa-vcard">
+				<html:span class="fa fa-vcard"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-vcard-o');" tooltiptext="fa fa-vcard-o" id="fa-vcard-o">
+				<html:span class="fa fa-vcard-o"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-window-close');" tooltiptext="fa fa-window-close" id="fa-window-close">
+				<html:span class="fa fa-window-close"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-window-close-o');" tooltiptext="fa fa-window-close-o" id="fa-window-close-o">
+				<html:span class="fa fa-window-close-o"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-window-maximize');" tooltiptext="fa fa-window-maximize" id="fa-window-maximize">
+				<html:span class="fa fa-window-maximize"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-window-minimize');" tooltiptext="fa fa-window-minimize" id="fa-window-minimize">
+				<html:span class="fa fa-window-minimize"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-window-restore');" tooltiptext="fa fa-window-restore" id="fa-window-restore">
+				<html:span class="fa fa-window-restore"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-wpexplorer');" tooltiptext="fa fa-wpexplorer" id="fa-wpexplorer">
+				<html:span class="fa fa-wpexplorer"></html:span>
 			</button>
 		
 			
-            <html:h2 class="page-header">Web Application Icons</html:h2>
+			<html:h2 class="page-header">Web Application Icons</html:h2>
+			<button onclick="FontAwesome_insert('fa-address-book');" tooltiptext="fa fa-address-book" id="fa-address-book">
+				<html:span class="fa fa-address-book"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-address-book-o');" tooltiptext="fa fa-address-book-o" id="fa-address-book-o">
+				<html:span class="fa fa-address-book-o"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-address-card');" tooltiptext="fa fa-address-card" id="fa-address-card">
+				<html:span class="fa fa-address-card"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-address-card-o');" tooltiptext="fa fa-address-card-o" id="fa-address-card-o">
+				<html:span class="fa fa-address-card-o"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-adjust');" tooltiptext="fa fa-adjust" id="fa-adjust">
 				<html:span class="fa fa-adjust"></html:span>
 			</button>
@@ -1058,6 +1182,12 @@
 			</button>
 			<button onclick="FontAwesome_insert('fa-bars');" tooltiptext="fa fa-bars" id="fa-bars">
 				<html:span class="fa fa-bars"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-bath');" tooltiptext="fa fa-bath" id="fa-bath">
+				<html:span class="fa fa-bath"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-bathtub');" tooltiptext="fa fa-bathtub" id="fa-bathtub">
+				<html:span class="fa fa-bathtub"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-battery-0');" tooltiptext="fa fa-battery-0" id="fa-battery-0">
 				<html:span class="fa fa-battery-0"></html:span>
@@ -1353,6 +1483,12 @@
 			<button onclick="FontAwesome_insert('fa-download');" tooltiptext="fa fa-download" id="fa-download">
 				<html:span class="fa fa-download"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-drivers-license');" tooltiptext="fa fa-drivers-license" id="fa-drivers-license">
+				<html:span class="fa fa-drivers-license"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-drivers-license-o');" tooltiptext="fa fa-drivers-license-o" id="fa-drivers-license-o">
+				<html:span class="fa fa-drivers-license-o"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-edit');" tooltiptext="fa fa-edit" id="fa-edit">
 				<html:span class="fa fa-edit"></html:span>
 			</button>
@@ -1367,6 +1503,12 @@
 			</button>
 			<button onclick="FontAwesome_insert('fa-envelope-o');" tooltiptext="fa fa-envelope-o" id="fa-envelope-o">
 				<html:span class="fa fa-envelope-o"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-envelope-open');" tooltiptext="fa fa-envelope-open" id="fa-envelope-open">
+				<html:span class="fa fa-envelope-open"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-envelope-open-o');" tooltiptext="fa fa-envelope-open-o" id="fa-envelope-open-o">
+				<html:span class="fa fa-envelope-open-o"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-envelope-square');" tooltiptext="fa fa-envelope-square" id="fa-envelope-square">
 				<html:span class="fa fa-envelope-square"></html:span>
@@ -1533,7 +1675,7 @@
 			<button onclick="FontAwesome_insert('fa-hand-lizard-o');" tooltiptext="fa fa-hand-lizard-o" id="fa-hand-lizard-o">
 				<html:span class="fa fa-hand-lizard-o"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert(' fa-hand-paper-o');" tooltiptext="fa  fa-hand-paper-o" id=" fa-hand-paper-o">
+			<button onclick="FontAwesome_insert(' fa-hand-paper-o');" tooltiptext="fa	fa-hand-paper-o" id=" fa-hand-paper-o">
 				<html:span class="fa fa-hand-paper-o"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-hand-peace-o');" tooltiptext="fa fa-hand-peace-o" id="fa-hand-peace-o">
@@ -1554,10 +1696,13 @@
 			<button onclick="FontAwesome_insert('fa-hand-stop-o');" tooltiptext="fa fa-hand-stop-o" id="fa-hand-stop-o">
 				<html:span class="fa fa-hand-stop-o"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-handshake-o');" tooltiptext="fa fa-handshake-o" id="fa-handshake-o">
+				<html:span class="fa fa-handshake-o"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-hard-of-hearing');" tooltiptext="fa fa-hard-of-hearing" id="fa-hard-of-hearing">
 				<html:span class="fa fa-hard-of-hearing"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert(' fa-hashtag');" tooltiptext="fa  fa-hashtag" id=" fa-hashtag">
+			<button onclick="FontAwesome_insert(' fa-hashtag');" tooltiptext="fa	fa-hashtag" id=" fa-hashtag">
 				<html:span class="fa fa-hashtag"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-hdd-o');" tooltiptext="fa fa-hdd-o" id="fa-hdd-o">
@@ -1611,6 +1756,15 @@
 			<button onclick="FontAwesome_insert('fa-i-cursor');" tooltiptext="fa fa-i-cursor" id="fa-i-cursor">
 				<html:span class="fa fa-i-cursor"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-id-badge');" tooltiptext="fa fa-id-badge" id="fa-id-badge">
+				<html:span class="fa fa-id-badge"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-id-card');" tooltiptext="fa fa-id-card" id="fa-id-card">
+				<html:span class="fa fa-id-card"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-id-card-o');" tooltiptext="fa fa-id-card-o" id="fa-id-card-o">
+				<html:span class="fa fa-id-card-o"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-image');" tooltiptext="fa fa-image" id="fa-image">
 				<html:span class="fa fa-image"></html:span>
 			</button>
@@ -1620,7 +1774,7 @@
 			<button onclick="FontAwesome_insert('fa-industry');" tooltiptext="fa fa-industry" id="fa-industry">
 				<html:span class="fa fa-industry"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert(' fa-info');" tooltiptext="fa  fa-info" id=" fa-info">
+			<button onclick="FontAwesome_insert(' fa-info');" tooltiptext="fa	fa-info" id=" fa-info">
 				<html:span class="fa fa-info"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-info-circle');" tooltiptext="fa fa-info-circle" id="fa-info-circle">
@@ -1718,6 +1872,9 @@
 			</button>
 			<button onclick="FontAwesome_insert('fa-meh-o');" tooltiptext="fa fa-meh-o" id="fa-meh-o">
 				<html:span class="fa fa-meh-o"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-microchip');" tooltiptext="fa fa-microchip" id="fa-microchip">
+				<html:span class="fa fa-microchip"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-microphone');" tooltiptext="fa fa-microphone" id="fa-microphone">
 				<html:span class="fa fa-microphone"></html:span>
@@ -1827,6 +1984,9 @@
 			<button onclick="FontAwesome_insert('fa-plus-square');" tooltiptext="fa fa-plus-square" id="fa-plus-square">
 				<html:span class="fa fa-plus-square"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-podcast');" tooltiptext="fa fa-podcast" id="fa-podcast">
+				<html:span class="fa fa-podcast"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-plus-square-o');" tooltiptext="fa fa-plus-square-o" id="fa-plus-square-o">
 				<html:span class="fa fa-plus-square-o"></html:span>
 			</button>
@@ -1896,6 +2056,9 @@
 			<button onclick="FontAwesome_insert('fa-rss-square');" tooltiptext="fa fa-rss-square" id="fa-rss-square">
 				<html:span class="fa fa-rss-square"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-s15');" tooltiptext="fa fa-s15" id="fa-s15">
+				<html:span class="fa fa-s15"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-search');" tooltiptext="fa fa-search" id="fa-search">
 				<html:span class="fa fa-search"></html:span>
 			</button>
@@ -1944,6 +2107,9 @@
 			<button onclick="FontAwesome_insert('fa-shopping-cart');" tooltiptext="fa fa-shopping-cart" id="fa-shopping-cart">
 				<html:span class="fa fa-shopping-cart"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-shower');" tooltiptext="fa fa-shower" id="fa-shower">
+				<html:span class="fa fa-shower"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-sign-in');" tooltiptext="fa fa-sign-in" id="fa-sign-in">
 				<html:span class="fa fa-sign-in"></html:span>
 			</button>
@@ -1967,6 +2133,9 @@
 			</button>
 			<button onclick="FontAwesome_insert('fa-smile-o');" tooltiptext="fa fa-smile-o" id="fa-smile-o">
 				<html:span class="fa fa-smile-o"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-snowflake-o');" tooltiptext="fa fa-snowflake-o" id="fa-snowflake-o">
+				<html:span class="fa fa-snowflake-o"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-soccer-ball-o');" tooltiptext="fa fa-soccer-ball-o" id="fa-soccer-ball-o">
 				<html:span class="fa fa-soccer-ball-o"></html:span>
@@ -2079,6 +2248,39 @@
 			<button onclick="FontAwesome_insert('fa-terminal');" tooltiptext="fa fa-terminal" id="fa-terminal">
 				<html:span class="fa fa-terminal"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-thermometer');" tooltiptext="fa fa-thermometer" id="fa-thermometer">
+				<html:span class="fa fa-thermometer"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-thermometer-0');" tooltiptext="fa fa-thermometer-0" id="fa-thermometer-0">
+				<html:span class="fa fa-thermometer-0"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-thermometer-1');" tooltiptext="fa fa-thermometer-1" id="fa-thermometer-1">
+				<html:span class="fa fa-thermometer-1"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-thermometer-2');" tooltiptext="fa fa-thermometer-2" id="fa-thermometer-2">
+				<html:span class="fa fa-thermometer-2"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-thermometer-3');" tooltiptext="fa fa-thermometer-3" id="fa-thermometer-3">
+				<html:span class="fa fa-thermometer-3"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-thermometer-4');" tooltiptext="fa fa-thermometer-4" id="fa-thermometer-4">
+				<html:span class="fa fa-thermometer-4"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-thermometer-empty');" tooltiptext="fa fa-thermometer-empty" id="fa-thermometer-empty">
+				<html:span class="fa fa-thermometer-empty"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-thermometer-full');" tooltiptext="fa fa-thermometer-full" id="fa-thermometer-full">
+				<html:span class="fa fa-thermometer-full"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-thermometer-half');" tooltiptext="fa fa-thermometer-half" id="fa-thermometer-half">
+				<html:span class="fa fa-thermometer-half"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-thermometer-quarter');" tooltiptext="fa fa-thermometer-quarter" id="fa-thermometer-quarter">
+				<html:span class="fa fa-thermometer-quarter"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-thermometer-three-quarters');" tooltiptext="fa fa-thermometer-three-quarters" id="fa-thermometer-three-quarters">
+				<html:span class="fa fa-thermometer-three-quarters"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-thumb-tack');" tooltiptext="fa fa-thumb-tack" id="fa-thumb-tack">
 				<html:span class="fa fa-thumb-tack"></html:span>
 			</button>
@@ -2105,6 +2307,12 @@
 			</button>
 			<button onclick="FontAwesome_insert('fa-times-circle-o');" tooltiptext="fa fa-times-circle-o" id="fa-times-circle-o">
 				<html:span class="fa fa-times-circle-o"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-times-rectangle');" tooltiptext="fa fa-times-rectangle" id="fa-times-rectangle">
+				<html:span class="fa fa-times-rectangle"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-times-rectangle-o');" tooltiptext="fa fa-times-rectangle-o" id="fa-times-rectangle-o">
+				<html:span class="fa fa-times-rectangle-o"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-tint');" tooltiptext="fa fa-tint" id="fa-tint">
 				<html:span class="fa fa-tint"></html:span>
@@ -2175,9 +2383,19 @@
 			<button onclick="FontAwesome_insert('fa-user');" tooltiptext="fa fa-user" id="fa-user">
 				<html:span class="fa fa-user"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-user-circle');" tooltiptext="fa fa-user-circle" id="fa-user-circle">
+				<html:span class="fa fa-user-circle"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-user-circle-o');" tooltiptext="fa fa-user-circle-o" id="fa-user-circle-o">
+				<html:span class="fa fa-user-circle-o"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-user-o');" tooltiptext="fa fa-user-o" id="fa-user-o">
+				<html:span class="fa fa-user-o"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-user-plus');" tooltiptext="fa fa-user-plus" id="fa-user-plus">
 				<html:span class="fa fa-user-plus"></html:span>
 			</button>
+			
 			<button onclick="FontAwesome_insert('fa-user-secret');" tooltiptext="fa fa-user-secret" id="fa-user-secret">
 				<html:span class="fa fa-user-secret"></html:span>
 			</button>
@@ -2186,6 +2404,12 @@
 			</button>
 			<button onclick="FontAwesome_insert('fa-users');" tooltiptext="fa fa-users" id="fa-users">
 				<html:span class="fa fa-users"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-vcard');" tooltiptext="fa fa-vcard" id="fa-vcard">
+				<html:span class="fa fa-vcard"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-vcard-o');" tooltiptext="fa fa-vcard-o" id="fa-vcard-o">
+				<html:span class="fa fa-vcard-o"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-video-camera');" tooltiptext="fa fa-video-camera" id="fa-video-camera">
 				<html:span class="fa fa-video-camera"></html:span>
@@ -2213,6 +2437,21 @@
 			</button>
 			<button onclick="FontAwesome_insert('fa-wifi');" tooltiptext="fa fa-wifi" id="fa-wifi">
 				<html:span class="fa fa-wifi"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-window-close');" tooltiptext="fa fa-window-close" id="fa-window-close">
+				<html:span class="fa fa-window-close"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-window-close-o');" tooltiptext="fa fa-window-close-o" id="fa-window-close-o">
+				<html:span class="fa fa-window-close-o"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-window-maximize');" tooltiptext="fa fa-window-maximize" id="fa-window-maximize">
+				<html:span class="fa fa-window-maximize"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-window-minimize');" tooltiptext="fa fa-window-minimize" id="fa-window-minimize">
+				<html:span class="fa fa-window-minimize"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-window-restore');" tooltiptext="fa fa-window-restore" id="fa-window-restore">
+				<html:span class="fa fa-window-restore"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-wrench');" tooltiptext="fa fa-wrench" id="fa-wrench">
 				<html:span class="fa fa-wrench"></html:span>
@@ -2278,7 +2517,7 @@
 			</button>
 
 			
-            <html:h2 class="page-header">Hand Icons</html:h2>
+			<html:h2 class="page-header">Hand Icons</html:h2>
 			<button onclick="FontAwesome_insert('fa-hand-grab-o');" tooltiptext="fa fa-hand-grab-o" id="fa-hand-grab-o">
 				<html:span class="fa fa-hand-grab-o"></html:span>
 			</button>
@@ -2331,8 +2570,8 @@
 				<html:span class="fa fa-thumbs-up"></html:span>
 			</button>
 			
-            <html:h2 class="page-header">Transportation Icons</html:h2>
-            <button onclick="FontAwesome_insert('fa-ambulance');" tooltiptext="fa fa-ambulance" id="fa-ambulance">
+			<html:h2 class="page-header">Transportation Icons</html:h2>
+			<button onclick="FontAwesome_insert('fa-ambulance');" tooltiptext="fa fa-ambulance" id="fa-ambulance">
 				<html:span class="fa fa-ambulance"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-automobile');" tooltiptext="fa fa-automobile" id="fa-automobile">
@@ -2384,7 +2623,7 @@
 				<html:span class="fa fa-wheelchair"></html:span>
 			</button>
 			
-            <html:h2 class="page-header">Gender Icons</html:h2>
+			<html:h2 class="page-header">Gender Icons</html:h2>
 			<button onclick="FontAwesome_insert('fa-genderless');" tooltiptext="fa fa-genderless" id="fa-genderless">
 				<html:span class="fa fa-genderless"></html:span>
 			</button>
@@ -2428,7 +2667,7 @@
 				<html:span class="fa fa-venus-mars"></html:span>
 			</button>
 			
-            <html:h2 class="page-header">File Type Icons</html:h2>
+			<html:h2 class="page-header">File Type Icons</html:h2>
 			<button onclick="FontAwesome_insert('fa-file');" tooltiptext="fa fa-file" id="fa-file">
 				<html:span class="fa fa-file"></html:span>
 			</button>
@@ -2484,11 +2723,11 @@
 				<html:span class="fa fa-file-zip-o"></html:span>
 			</button>
 			
-            <html:h2 class="page-header">Spinner Icons</html:h2>
-            <html:p>
+			<html:h2 class="page-header">Spinner Icons</html:h2>
+			<html:p>
 				 These icons work great with the fa-spin class. Check out the spinning icons example. 
 			</html:p>
-            <button onclick="FontAwesome_insert('fa-circle-o-notch');" tooltiptext="fa fa-circle-o-notch" id="fa-circle-o-notch">
+			<button onclick="FontAwesome_insert('fa-circle-o-notch');" tooltiptext="fa fa-circle-o-notch" id="fa-circle-o-notch">
 				<html:span class="fa fa-circle-o-notch"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-cog');" tooltiptext="fa fa-cog" id="fa-cog">
@@ -2504,8 +2743,8 @@
 				<html:span class="fa fa-spinner"></html:span>
 			</button>
 			
-            <html:h2 class="page-header">Form Control Icons</html:h2>
-            <button onclick="FontAwesome_insert('fa-check-square');" tooltiptext="fa fa-check-square" id="fa-check-square">
+			<html:h2 class="page-header">Form Control Icons</html:h2>
+			<button onclick="FontAwesome_insert('fa-check-square');" tooltiptext="fa fa-check-square" id="fa-check-square">
 				<html:span class="fa fa-check-square"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-check-square-o');" tooltiptext="fa fa-check-square-o" id="fa-check-square-o">
@@ -2539,7 +2778,7 @@
 				<html:span class="fa fa-square-o"></html:span>
 			</button>
 			
-            <html:h2 class="page-header">Payment Icons</html:h2>
+			<html:h2 class="page-header">Payment Icons</html:h2>
 			<button onclick="FontAwesome_insert('fa-cc-amex');" tooltiptext="fa fa-cc-amex" id="fa-cc-amex">
 				<html:span class="fa fa-cc-amex"></html:span>
 			</button>
@@ -2577,8 +2816,8 @@
 				<html:span class="fa fa-paypal"></html:span>
 			</button>
 			
-            <html:h2 class="page-header">Chart Icons</html:h2>
-           	<button onclick="FontAwesome_insert('fa-area-chart');" tooltiptext="fa fa-area-chart" id="fa-area-chart">
+			<html:h2 class="page-header">Chart Icons</html:h2>
+			 	<button onclick="FontAwesome_insert('fa-area-chart');" tooltiptext="fa fa-area-chart" id="fa-area-chart">
 				<html:span class="fa fa-area-chart"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-bar-chart');" tooltiptext="fa fa-bar-chart" id="fa-bar-chart">
@@ -2594,7 +2833,7 @@
 				<html:span class="fa fa-pie-chart"></html:span>
 			</button>
 			
-            <html:h2 class="page-header">Currency Icons</html:h2>
+			<html:h2 class="page-header">Currency Icons</html:h2>
 			<button onclick="FontAwesome_insert('fa-bitcoin');" tooltiptext="fa fa-bitcoin" id="fa-bitcoin">
 				<html:span class="fa fa-bitcoin"></html:span>
 			</button>
@@ -2674,8 +2913,8 @@
 				<html:span class="fa fa-yen"></html:span>
 			</button>
 			
-            <html:h2 class="page-header">Text Editor Icons</html:h2>
-            <button onclick="FontAwesome_insert('fa-align-center');" tooltiptext="fa fa-align-center" id="fa-align-center">
+			<html:h2 class="page-header">Text Editor Icons</html:h2>
+			<button onclick="FontAwesome_insert('fa-align-center');" tooltiptext="fa fa-align-center" id="fa-align-center">
 				<html:span class="fa fa-align-center"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-align-justify');" tooltiptext="fa fa-align-justify" id="fa-align-justify">
@@ -2823,8 +3062,8 @@
 				<html:span class="fa fa-unlink"></html:span>
 			</button>
 			
-            <html:h2 class="page-header">Directional Icons</html:h2>
-            <button onclick="FontAwesome_insert('fa-angle-double-down');" tooltiptext="fa fa-angle-double-down" id="fa-angle-double-down">
+			<html:h2 class="page-header">Directional Icons</html:h2>
+			<button onclick="FontAwesome_insert('fa-angle-double-down');" tooltiptext="fa fa-angle-double-down" id="fa-angle-double-down">
 				<html:span class="fa fa-angle-double-down"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-angle-double-left');" tooltiptext="fa fa-angle-double-left" id="fa-angle-double-left">
@@ -2984,7 +3223,7 @@
 				<html:span class="fa fa-toggle-up"></html:span>
 			</button>
 			
-            <html:h2 class="page-header">Video Player Icons</html:h2>
+			<html:h2 class="page-header">Video Player Icons</html:h2>
 			<button onclick="FontAwesome_insert('fa-arrows-alt');" tooltiptext="fa fa-arrows-alt" id="fa-arrows-alt">
 				<html:span class="fa fa-arrows-alt"></html:span>
 			</button>
@@ -3049,8 +3288,8 @@
 				<html:span class="fa fa-youtube-play"></html:span>
 			</button>
 			
-            <html:h2 class="page-header">Brand Icons</html:h2>
-            <html:p>
+			<html:h2 class="page-header">Brand Icons</html:h2>
+			<html:p>
 				<html:strong>Warning!</html:strong> <html:br />
 				Apparently, Adblock Plus can remove Font Awesome brand icons with their "Remove Social Media Buttons" setting. We will not use hacks to force them to display. Please report an issue with Adblock Plus if you believe this to be an error. To work around this, you'll need to modify the social icon class names. 
 			</html:p>
@@ -3071,6 +3310,9 @@
 			</button>
 			<button onclick="FontAwesome_insert('fa-apple');" tooltiptext="fa fa-apple" id="fa-apple">
 				<html:span class="fa fa-apple"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-bandcamp');" tooltiptext="fa fa-bandcamp" id="fa-bandcamp">
+				<html:span class="fa fa-bandcamp"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-behance');" tooltiptext="fa fa-behance" id="fa-behance">
 				<html:span class="fa fa-behance"></html:span>
@@ -3171,11 +3413,17 @@
 			<button onclick="FontAwesome_insert('fa-edge');" tooltiptext="fa fa-edge" id="fa-edge">
 				<html:span class="fa fa-edge"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-eercast');" tooltiptext="fa fa-eercast" id="fa-eercast">
+				<html:span class="fa fa-eercast"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-empire');" tooltiptext="fa fa-empire" id="fa-empire">
 				<html:span class="fa fa-empire"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-envira');" tooltiptext="fa fa-envira" id="fa-envira">
 				<html:span class="fa fa-envira"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-etsy');" tooltiptext="fa fa-etsy" id="fa-etsy">
+				<html:span class="fa fa-etsy"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-expeditedssl');" tooltiptext="fa fa-expeditedssl" id="fa-expeditedssl">
 				<html:span class="fa fa-expeditedssl"></html:span>
@@ -3218,6 +3466,9 @@
 			</button>
 			<button onclick="FontAwesome_insert('fa-foursquare');" tooltiptext="fa fa-foursquare" id="fa-foursquare">
 				<html:span class="fa fa-foursquare"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-free-code-camp');" tooltiptext="fa fa-free-code-camp" id="fa-free-code-camp">
+				<html:span class="fa fa-free-code-camp"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-ge');" tooltiptext="fa fa-ge" id="fa-ge">
 				<html:span class="fa fa-ge"></html:span>
@@ -3279,6 +3530,9 @@
 			<button onclick="FontAwesome_insert('fa-gratipay');" tooltiptext="fa fa-gratipay" id="fa-gratipay">
 				<html:span class="fa fa-gratipay"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-grav');" tooltiptext="fa fa-grav" id="fa-grav">
+				<html:span class="fa fa-grav"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-hacker-news');" tooltiptext="fa fa-hacker-news" id="fa-hacker-news">
 				<html:span class="fa fa-hacker-news"></html:span>
 			</button>
@@ -3287,6 +3541,9 @@
 			</button>
 			<button onclick="FontAwesome_insert('fa-html5');" tooltiptext="fa fa-html5" id="fa-html5">
 				<html:span class="fa fa-html5"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-imdb');" tooltiptext="fa fa-imdb" id="fa-imdb">
+				<html:span class="fa fa-imdb"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-instagram');" tooltiptext="fa fa-instagram" id="fa-instagram">
 				<html:span class="fa fa-instagram"></html:span>
@@ -3321,6 +3578,9 @@
 			<button onclick="FontAwesome_insert('fa-linkedin-square');" tooltiptext="fa fa-linkedin-square" id="fa-linkedin-square">
 				<html:span class="fa fa-linkedin-square"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-linode');" tooltiptext="fa fa-linode" id="fa-linode">
+				<html:span class="fa fa-linode"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-linux');" tooltiptext="fa fa-linux" id="fa-linux">
 				<html:span class="fa fa-linux"></html:span>
 			</button>
@@ -3332,6 +3592,9 @@
 			</button>
 			<button onclick="FontAwesome_insert('fa-medium');" tooltiptext="fa fa-medium" id="fa-medium">
 				<html:span class="fa fa-medium"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-meetup');" tooltiptext="fa fa-meetup" id="fa-meetup">
+				<html:span class="fa fa-meetup"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-mixcloud');" tooltiptext="fa fa-mixcloud" id="fa-mixcloud">
 				<html:span class="fa fa-mixcloud"></html:span>
@@ -3384,8 +3647,14 @@
 			<button onclick="FontAwesome_insert('fa-qq');" tooltiptext="fa fa-qq" id="fa-qq">
 				<html:span class="fa fa-qq"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-quora');" tooltiptext="fa fa-quora" id="fa-quora">
+				<html:span class="fa fa-quora"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-ra');" tooltiptext="fa fa-ra" id="fa-ra">
 				<html:span class="fa fa-ra"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-ravelry');" tooltiptext="fa fa-ravelry" id="fa-ravelry">
+				<html:span class="fa fa-ravelry"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-rebel');" tooltiptext="fa fa-rebel" id="fa-rebel">
 				<html:span class="fa fa-rebel"></html:span>
@@ -3468,6 +3737,12 @@
 			<button onclick="FontAwesome_insert('fa-stumbleupon-circle');" tooltiptext="fa fa-stumbleupon-circle" id="fa-stumbleupon-circle">
 				<html:span class="fa fa-stumbleupon-circle"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-superpowers');" tooltiptext="fa fa-superpowers" id="fa-superpowers">
+				<html:span class="fa fa-superpowers"></html:span>
+			</button>
+			<button onclick="FontAwesome_insert('fa-telegram');" tooltiptext="fa fa-telegram" id="fa-telegram">
+				<html:span class="fa fa-telegram"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-tencent-weibo');" tooltiptext="fa fa-tencent-weibo" id="fa-tencent-weibo">
 				<html:span class="fa fa-tencent-weibo"></html:span>
 			</button>
@@ -3546,6 +3821,9 @@
 			<button onclick="FontAwesome_insert('fa-wpforms');" tooltiptext="fa fa-wpforms" id="fa-wpforms">
 				<html:span class="fa fa-wpforms"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-wpexplorer');" tooltiptext="fa fa-wpexplorer" id="fa-wpexplorer">
+				<html:span class="fa fa-wpexplorer"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-xing');" tooltiptext="fa fa-xing" id="fa-xing">
 				<html:span class="fa fa-xing"></html:span>
 			</button>
@@ -3582,12 +3860,12 @@
 			<button onclick="FontAwesome_insert('fa-youtube-square');" tooltiptext="fa fa-youtube-square" id="fa-youtube-square">
 				<html:span class="fa fa-youtube-square"></html:span>
 			</button>
-            <html:p>
-                All brand icons are trademarks of their respective owners.<html:br />
-                The use of these trademarks does not indicate endorsement of the trademark holder by Font Awesome, nor vice versa.
-            </html:p>
+			<html:p>
+				All brand icons are trademarks of their respective owners.<html:br />
+				The use of these trademarks does not indicate endorsement of the trademark holder by Font Awesome, nor vice versa.
+			</html:p>
 			
-            <html:h2 class="page-header">Medical Icons</html:h2>
+			<html:h2 class="page-header">Medical Icons</html:h2>
 			<button onclick="FontAwesome_insert('fa-ambulance');" tooltiptext="fa fa-ambulance" id="fa-ambulance">
 				<html:span class="fa fa-ambulance"></html:span>
 			</button>
@@ -3624,4 +3902,5 @@
 		</html:div>
 	</vbox>
 </page>
+
 
