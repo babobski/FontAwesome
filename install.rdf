@@ -5,7 +5,7 @@
 		<em:unpack>true</em:unpack>
 		<em:id>FontAwesome@babobski.com</em:id>
 		<em:name>FontAwesome</em:name>
-		<em:version>2.3</em:version>
+		<em:version>2.4</em:version>
 		<em:description>a FontAwsome side panel</em:description>
 		<em:creator>Bob de Haas</em:creator>
 		<em:iconURL>chrome://FontAwesome/content/FontAwesome-icon.png</em:iconURL>
