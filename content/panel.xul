@@ -1675,7 +1675,7 @@
 			<button onclick="FontAwesome_insert('fa-hand-lizard-o');" tooltiptext="fa fa-hand-lizard-o" id="fa-hand-lizard-o">
 				<html:span class="fa fa-hand-lizard-o"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert(' fa-hand-paper-o');" tooltiptext="fa	fa-hand-paper-o" id=" fa-hand-paper-o">
+			<button onclick="FontAwesome_insert('fa-hand-paper-o');" tooltiptext="fa fa-hand-paper-o" id="fa-hand-paper-o">
 				<html:span class="fa fa-hand-paper-o"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-hand-peace-o');" tooltiptext="fa fa-hand-peace-o" id="fa-hand-peace-o">
@@ -1702,7 +1702,7 @@
 			<button onclick="FontAwesome_insert('fa-hard-of-hearing');" tooltiptext="fa fa-hard-of-hearing" id="fa-hard-of-hearing">
 				<html:span class="fa fa-hard-of-hearing"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert(' fa-hashtag');" tooltiptext="fa	fa-hashtag" id=" fa-hashtag">
+			<button onclick="FontAwesome_insert('fa-hashtag');" tooltiptext="fa fa-hashtag" id="fa-hashtag">
 				<html:span class="fa fa-hashtag"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-hdd-o');" tooltiptext="fa fa-hdd-o" id="fa-hdd-o">
@@ -1774,7 +1774,7 @@
 			<button onclick="FontAwesome_insert('fa-industry');" tooltiptext="fa fa-industry" id="fa-industry">
 				<html:span class="fa fa-industry"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert(' fa-info');" tooltiptext="fa	fa-info" id=" fa-info">
+			<button onclick="FontAwesome_insert('fa-info');" tooltiptext="fa fa-info" id="fa-info">
 				<html:span class="fa fa-info"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-info-circle');" tooltiptext="fa fa-info-circle" id="fa-info-circle">
@@ -2341,7 +2341,7 @@
 			<button onclick="FontAwesome_insert('fa-trash');" tooltiptext="fa fa-trash" id="fa-trash">
 				<html:span class="fa fa-trash"></html:span>
 			</button>
-			<button onclick="FontAwesome_insert('trash-o');" tooltiptext="fa fa-trash-o" id="trash-o">
+			<button onclick="FontAwesome_insert('fa-trash-o');" tooltiptext="fa fa-trash-o" id="fa-trash-o">
 				<html:span class="fa fa-trash-o"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-tree');" tooltiptext="fa fa-tree" id="fa-tree">
@@ -3144,6 +3144,9 @@
 			<button onclick="FontAwesome_insert('fa-caret-right');" tooltiptext="fa fa-caret-right" id="fa-caret-right">
 				<html:span class="fa fa-caret-right"></html:span>
 			</button>
+			<button onclick="FontAwesome_insert('fa-caret-up');" tooltiptext="fa fa-caret-up" id="fa-caret-up">
+				<html:span class="fa fa-caret-up"></html:span>
+			</button>
 			<button onclick="FontAwesome_insert('fa-caret-square-o-down');" tooltiptext="fa fa-caret-square-o-down" id="fa-caret-square-o-down">
 				<html:span class="fa fa-caret-square-o-down"></html:span>
 			</button>
@@ -3155,9 +3158,6 @@
 			</button>
 			<button onclick="FontAwesome_insert('fa-caret-square-o-up');" tooltiptext="fa fa-caret-square-o-up" id="fa-caret-square-o-up">
 				<html:span class="fa fa-caret-square-o-up"></html:span>
-			</button>
-			<button onclick="FontAwesome_insert('fa-caret-up');" tooltiptext="fa fa-caret-up" id="fa-caret-up">
-				<html:span class="fa fa-caret-up"></html:span>
 			</button>
 			<button onclick="FontAwesome_insert('fa-chevron-circle-down');" tooltiptext="fa fa-chevron-circle-down" id="fa-chevron-circle-down">
 				<html:span class="fa fa-chevron-circle-down"></html:span>

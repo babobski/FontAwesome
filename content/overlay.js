@@ -3,7 +3,7 @@
  */
 if (typeof(extensions) === 'undefined') extensions = {};
 if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
-	version: '2.5'
+	version: '2.7'
 };
 
 (function() {
@@ -41,11 +41,11 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 		switch (type) {
 			case 'auto':
 				if (file) {
-					switch (file.ext) {
-						case '.css':
-						case '.sass':
-						case '.scss':
-						case '.less':
+					switch (d.subLanguage) {
+						case 'CSS':
+						case 'Less':
+						case 'SCSS':
+						case 'Sass':
 							result = self._buildInsert('css', icon, unicode);
 							break;
 						default:
@@ -204,7 +204,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			fa_creative_commons: "25e",
 			fa_credit_card: "09d",
 			fa_crop: "125",
-			fa_crosshairs: "0c4",
+			fa_crosshairs: "05b",
 			fa_cube: "1b2",
 			fa_cubes: "1b3",
 			fa_cutlery: "0f5",
@@ -332,7 +332,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			fa_map_o: "278",
 			fa_map_pin: "276",
 			fa_map_signs: "277",
-			fa_meh_o: "222",
+			fa_meh_o: "11a",
 			fa_microphone: "130",
 			fa_microphone_slash: "131",
 			fa_minus: "068",
@@ -345,6 +345,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			fa_moon_o: "186",
 			fa_mortar_board: "19d",
 			fa_motorcycle: "21c",
+			fa_mouse_pointer: "245",
 			fa_music: "001",
 			fa_navicon: "0c9",
 			fa_newspaper_o: "1ea",
@@ -418,7 +419,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			fa_sort_asc: "0de",
 			fa_sort_desc: "0dd",
 			fa_sort_down: "0dd",
-			fa_sort_numeric_asc: "197",
+			fa_sort_numeric_asc: "162",
 			fa_sort_numeric_desc: "163",
 			fa_sort_up: "0de",
 			fa_space_shuttle: "197",
@@ -464,29 +465,29 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			fa_toggle_up: "151",
 			fa_trademark: "25c",
 			fa_trash: "1f8",
-			trash_o: "014",
+			fa_trash_o: "014",
 			fa_tree: "1bb",
 			fa_trophy: "091",
 			fa_truck: "0d1",
-			fa_tty: "195",
-			fa_tv: "1e4",
-			fa_umbrella: "173",
+			fa_tty: "1e4",
+			fa_tv: "26c",
+			fa_umbrella: "0e9",
 			fa_university: "19c",
 			fa_unlock: "09c",
 			fa_unlock_alt: "13e",
 			fa_unsorted: "0dc",
 			fa_upload: "093",
-			fa_user: "287",
-			fa_user_plus: "155",
-			fa_user_secret: "007",
+			fa_user: "007",
+			fa_user_plus: "234",
+			fa_user_secret: "21b",
 			fa_user_times: "235",
 			fa_users: "0c0",
-			fa_video_camera: "221",
-			fa_volume_down: "226",
+			fa_video_camera: "03d",
+			fa_volume_down: "027",
 			fa_volume_off: "026",
 			fa_volume_up: "028",
 			fa_warning: "071",
-			fa_wheelchair: "1d7",
+			fa_wheelchair: "193",
 			fa_wifi: "1eb",
 			fa_wrench: "0ad",
 			fa_hand_o_down: "0a7",
@@ -771,6 +772,7 @@ if (typeof(extensions.FontAwesome) === 'undefined') extensions.FontAwesome = {
 			fa_yc: "23b",
 			fa_yc_square: "1d4",
 			fa_yelp: "1e9",
+			fa_yoast: "2b1",
 			fa_youtube: "167",
 			fa_youtube_square: "166",
 			fa_h_square: "0fd",
